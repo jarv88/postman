@@ -13,7 +13,7 @@
 					"item": [
 						{
 							"name": "getDepartments (obtiene uuid servicios)",
-							"_postman_id": "8d2936a8-5052-4aea-8500-b76d34143c7d",
+							"id": "8d2936a8-5052-4aea-8500-b76d34143c7d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -32,7 +32,7 @@
 						},
 						{
 							"name": "crear envío",
-							"_postman_id": "e01e7786-5221-4dba-9387-022b334a4c47",
+							"id": "e01e7786-5221-4dba-9387-022b334a4c47",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -60,7 +60,7 @@
 						},
 						{
 							"name": "Cancelar envío",
-							"_postman_id": "d1964737-8099-46f3-8b50-bf748d2dc659",
+							"id": "d1964737-8099-46f3-8b50-bf748d2dc659",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -88,7 +88,7 @@
 						},
 						{
 							"name": "Tracking",
-							"_postman_id": "ea03d8b8-e694-4506-9fd4-80b0d80ba9a6",
+							"id": "ea03d8b8-e694-4506-9fd4-80b0d80ba9a6",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -116,7 +116,7 @@
 						},
 						{
 							"name": "Status",
-							"_postman_id": "9e012d57-4437-4c58-ab98-322c0627016b",
+							"id": "9e012d57-4437-4c58-ab98-322c0627016b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -144,7 +144,7 @@
 						},
 						{
 							"name": "Etiqueta",
-							"_postman_id": "3c1aa25a-3cc7-4523-b5a9-e8baf0a3ba15",
+							"id": "3c1aa25a-3cc7-4523-b5a9-e8baf0a3ba15",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -171,8 +171,7 @@
 							"response": []
 						}
 					],
-					"_postman_id": "2b103de8-d06d-4766-bcc7-6a5080978374",
-					"_postman_isSubFolder": true
+					"id": "2b103de8-d06d-4766-bcc7-6a5080978374"
 				},
 				{
 					"name": "CL - Loginsa",
@@ -182,7 +181,7 @@
 							"item": [
 								{
 									"name": "Crear Envio",
-									"_postman_id": "2d1d54ed-3316-4205-a8b6-3567b7aa5f4d",
+									"id": "2d1d54ed-3316-4205-a8b6-3567b7aa5f4d",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -239,7 +238,7 @@
 								},
 								{
 									"name": "Etiquetas",
-									"_postman_id": "c67a0f63-2aa2-4310-bc4b-b7b95950ac05",
+									"id": "c67a0f63-2aa2-4310-bc4b-b7b95950ac05",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -283,7 +282,7 @@
 								},
 								{
 									"name": "Agrupar pedidos para retiro",
-									"_postman_id": "a055249f-2528-4d9b-b674-92f265bb0431",
+									"id": "a055249f-2528-4d9b-b674-92f265bb0431",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -344,7 +343,7 @@
 								},
 								{
 									"name": "Etiquetas bultos",
-									"_postman_id": "67bdfae3-a342-4fb0-9430-66d7403cc5fe",
+									"id": "67bdfae3-a342-4fb0-9430-66d7403cc5fe",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -388,7 +387,7 @@
 								},
 								{
 									"name": "Tracking",
-									"_postman_id": "3ebda775-dd8a-409d-bbe3-15de74d47912",
+									"id": "3ebda775-dd8a-409d-bbe3-15de74d47912",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -431,7 +430,7 @@
 								},
 								{
 									"name": "Eliminar",
-									"_postman_id": "9ea2917c-de16-4ddb-b7fd-1a4e899f4bd8",
+									"id": "9ea2917c-de16-4ddb-b7fd-1a4e899f4bd8",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -473,12 +472,11 @@
 									"response": []
 								}
 							],
-							"_postman_id": "b435f028-d6fd-4024-bed6-2b7c08fd9db9",
-							"_postman_isSubFolder": true
+							"id": "b435f028-d6fd-4024-bed6-2b7c08fd9db9"
 						},
 						{
 							"name": "Crear envío DEV",
-							"_postman_id": "82c11b79-c8fe-4729-a360-e771951be561",
+							"id": "82c11b79-c8fe-4729-a360-e771951be561",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -535,7 +533,7 @@
 						},
 						{
 							"name": "Tracking DEV",
-							"_postman_id": "9688fa1f-26bc-4103-bdba-c0ad40d64d6a",
+							"id": "9688fa1f-26bc-4103-bdba-c0ad40d64d6a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -578,7 +576,7 @@
 						},
 						{
 							"name": "Etiqueta DEV",
-							"_postman_id": "f48e1414-8536-4e82-903d-81f98bc911c2",
+							"id": "f48e1414-8536-4e82-903d-81f98bc911c2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -621,7 +619,7 @@
 						},
 						{
 							"name": "Eliminar DEV",
-							"_postman_id": "0a77b21f-27ed-4283-847e-8e0381a1ac48",
+							"id": "0a77b21f-27ed-4283-847e-8e0381a1ac48",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -663,15 +661,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "0345b007-f962-4640-95ad-7810090fef4c",
-					"_postman_isSubFolder": true
+					"id": "0345b007-f962-4640-95ad-7810090fef4c"
 				},
 				{
 					"name": "CL - Phero",
 					"item": [
 						{
 							"name": "Crear orden de envio",
-							"_postman_id": "fd0b1736-d774-4efc-8095-b1fcd5fce2e9",
+							"id": "fd0b1736-d774-4efc-8095-b1fcd5fce2e9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -707,10 +704,7 @@
 											"value": "4",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://sb.phero.app/api/quote"
 							},
@@ -718,7 +712,7 @@
 						},
 						{
 							"name": "Crear Direccion",
-							"_postman_id": "d5edab3b-e020-403c-9dbe-e084575c61bd",
+							"id": "d5edab3b-e020-403c-9dbe-e084575c61bd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -804,10 +798,7 @@
 											"value": "here:af:streetsection:Lmr0SUbmjhnme1dUddTN9D:EAIaAzExOA",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://sb.phero.app/api/address"
 							},
@@ -815,7 +806,7 @@
 						},
 						{
 							"name": "Crear detalle de envio",
-							"_postman_id": "1c0d7e13-d459-42f4-96d7-6e346ce18e71",
+							"id": "1c0d7e13-d459-42f4-96d7-6e346ce18e71",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -876,10 +867,7 @@
 											"value": "3",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://sb.phero.app/api/quote/100094/lines"
 							},
@@ -887,7 +875,7 @@
 						},
 						{
 							"name": "Get Envio",
-							"_postman_id": "dbbb7c06-d59a-47f1-be6f-f6dbd1c14355",
+							"id": "dbbb7c06-d59a-47f1-be6f-f6dbd1c14355",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -906,7 +894,7 @@
 						},
 						{
 							"name": "Get Here ID Address",
-							"_postman_id": "a93fdf70-fd0d-44f6-9e0d-a2a6c22e5a2e",
+							"id": "a93fdf70-fd0d-44f6-9e0d-a2a6c22e5a2e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -950,7 +938,7 @@
 						},
 						{
 							"name": "Obtener detalle de una orden",
-							"_postman_id": "33893ac8-6d16-498d-b9ea-74da9ecba6c1",
+							"id": "33893ac8-6d16-498d-b9ea-74da9ecba6c1",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -974,7 +962,7 @@
 						},
 						{
 							"name": "Load Tracking",
-							"_postman_id": "b829e277-3d36-40d2-8213-509d8170d3c1",
+							"id": "b829e277-3d36-40d2-8213-509d8170d3c1",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1017,7 +1005,7 @@
 						},
 						{
 							"name": "Tracking",
-							"_postman_id": "993a8072-2418-437a-9b18-d89303d3b7c2",
+							"id": "993a8072-2418-437a-9b18-d89303d3b7c2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1041,7 +1029,7 @@
 						},
 						{
 							"name": "Cerrar Orden Payments",
-							"_postman_id": "37db39a1-ec13-4337-8757-8ec85d65d68b",
+							"id": "37db39a1-ec13-4337-8757-8ec85d65d68b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1077,10 +1065,7 @@
 											"value": "7000",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://sb.phero.app/api/quote/100094/payments"
 							},
@@ -1088,7 +1073,7 @@
 						},
 						{
 							"name": "Obtener load ID paquete",
-							"_postman_id": "6a96dcb0-c340-49b0-b400-18c4deba131b",
+							"id": "6a96dcb0-c340-49b0-b400-18c4deba131b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1112,7 +1097,7 @@
 						},
 						{
 							"name": "Eliminar orden de envio",
-							"_postman_id": "641f4ba9-7295-4fbc-adb5-c5b05dd92623",
+							"id": "641f4ba9-7295-4fbc-adb5-c5b05dd92623",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1132,10 +1117,7 @@
 								],
 								"body": {
 									"mode": "formdata",
-									"formdata": [],
-									"options": {
-										"formdata": {}
-									}
+									"formdata": []
 								},
 								"url": "https://sb.phero.app/api/quote/100007"
 							},
@@ -1143,7 +1125,7 @@
 						},
 						{
 							"name": "Eliminar linea/paquete",
-							"_postman_id": "a5e7d266-ecd7-47ff-ae40-bff2fea9f2d6",
+							"id": "a5e7d266-ecd7-47ff-ae40-bff2fea9f2d6",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1166,15 +1148,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "d8e2ff7a-4778-478c-b4b2-789948824c76",
-					"_postman_isSubFolder": true
+					"id": "d8e2ff7a-4778-478c-b4b2-789948824c76"
 				},
 				{
 					"name": "CL - Spress",
 					"item": [
 						{
 							"name": "Get Token",
-							"_postman_id": "d3017396-10f1-411d-9e2b-4130158caafd",
+							"id": "d3017396-10f1-411d-9e2b-4130158caafd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1207,10 +1188,7 @@
 											"value": "ENV",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://mytrackpath.com/empresa_spress/api/get_token.php"
 							},
@@ -1218,7 +1196,7 @@
 						},
 						{
 							"name": "Crear Envio",
-							"_postman_id": "d6da00a3-5896-4291-aa1d-922d032641e5",
+							"id": "d6da00a3-5896-4291-aa1d-922d032641e5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1296,10 +1274,7 @@
 											"type": "text",
 											"disabled": true
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://mytrackpath.com/demo/api/add_orden.php"
 							},
@@ -1307,7 +1282,7 @@
 						},
 						{
 							"name": "Test Crear Envio",
-							"_postman_id": "07c345b1-fc37-4161-9d35-ab4d2591fb06",
+							"id": "07c345b1-fc37-4161-9d35-ab4d2591fb06",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1379,10 +1354,7 @@
 											"value": "{{comentario}}",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://mytrackpath.com/demo/api/add_orden.php"
 							},
@@ -1390,7 +1362,7 @@
 						},
 						{
 							"name": "Tracking",
-							"_postman_id": "f28610a7-5afc-4d3a-99ed-0ce329b205fb",
+							"id": "f28610a7-5afc-4d3a-99ed-0ce329b205fb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1415,25 +1387,21 @@
 											"value": "101382322",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://mytrackpath.com/empresa_spress/api/load_orden.php"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "6601fb0c-031f-451f-a9b4-e5a8c6839f4e",
-					"_postman_isSubFolder": true
+					"id": "6601fb0c-031f-451f-a9b4-e5a8c6839f4e"
 				},
 				{
 					"name": "CL - Transytec",
 					"item": [
 						{
 							"name": "Get Pedido",
-							"_postman_id": "391e9fb4-c216-4d94-b114-a0398cb7bb84",
+							"id": "391e9fb4-c216-4d94-b114-a0398cb7bb84",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1474,7 +1442,7 @@
 						},
 						{
 							"name": "Get Traking",
-							"_postman_id": "a35c0a8e-d771-4c3e-8127-f436e45fe65b",
+							"id": "a35c0a8e-d771-4c3e-8127-f436e45fe65b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1514,7 +1482,7 @@
 						},
 						{
 							"name": "POST Crear Pedido",
-							"_postman_id": "6b6580c7-7c78-445a-9765-f18dd82a47aa",
+							"id": "6b6580c7-7c78-445a-9765-f18dd82a47aa",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1563,7 +1531,7 @@
 						},
 						{
 							"name": "POST Cancelar Envios",
-							"_postman_id": "5be2ce33-8099-4a10-a647-62af58537079",
+							"id": "5be2ce33-8099-4a10-a647-62af58537079",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1608,7 +1576,7 @@
 						},
 						{
 							"name": "POST Cancelar Envios Copy",
-							"_postman_id": "38054e85-b9cf-435a-b25b-1073b672bd20",
+							"id": "38054e85-b9cf-435a-b25b-1073b672bd20",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1653,7 +1621,7 @@
 						},
 						{
 							"name": "POST Update Shipping",
-							"_postman_id": "8d42a4f8-cc51-4160-857e-044c2b35c334",
+							"id": "8d42a4f8-cc51-4160-857e-044c2b35c334",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1699,7 +1667,7 @@
 						},
 						{
 							"name": "POST Package Label",
-							"_postman_id": "798cef8e-ba0b-48e2-93a5-b9ef4dfd843f",
+							"id": "798cef8e-ba0b-48e2-93a5-b9ef4dfd843f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true,
 								"disabledSystemHeaders": {}
@@ -1753,7 +1721,7 @@
 						},
 						{
 							"name": "POST Package Box",
-							"_postman_id": "845d175f-4d50-4d8d-b50c-ce95e9fc1e0f",
+							"id": "845d175f-4d50-4d8d-b50c-ce95e9fc1e0f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1799,7 +1767,7 @@
 						},
 						{
 							"name": "POST Price Calculo de tarifas",
-							"_postman_id": "a4a6bf0b-e456-460a-8010-59ff8801f0aa",
+							"id": "a4a6bf0b-e456-460a-8010-59ff8801f0aa",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1845,11 +1813,10 @@
 							"response": []
 						}
 					],
-					"_postman_id": "44c81df5-e9b9-446e-a2f2-c437a0ed646f",
-					"_postman_isSubFolder": true
+					"id": "44c81df5-e9b9-446e-a2f2-c437a0ed646f"
 				}
 			],
-			"_postman_id": "28812ae6-62a4-4951-aa3b-d41b9dc99829"
+			"id": "28812ae6-62a4-4951-aa3b-d41b9dc99829"
 		},
 		{
 			"name": "COLOMBIA",
@@ -1859,7 +1826,7 @@
 					"item": [
 						{
 							"name": "Tracking",
-							"_postman_id": "f65f8146-07ac-4a18-82f9-6ae211994fb5",
+							"id": "f65f8146-07ac-4a18-82f9-6ae211994fb5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1884,10 +1851,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {
-										"raw": {}
-									}
+									"raw": ""
 								},
 								"url": {
 									"raw": "https://api-prod.moova.io/b2b/shippings/7031a7d0-61e9-11ed-8ed2-d7cf086b57c0?appId=e04a2a20-5546-11ed-b565-63415bcc3276",
@@ -1914,7 +1878,7 @@
 						},
 						{
 							"name": "Etiqueta",
-							"_postman_id": "aef2b930-742f-4da3-afe8-8e4ec1956a9f",
+							"id": "aef2b930-742f-4da3-afe8-8e4ec1956a9f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1939,10 +1903,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
-									"options": {
-										"raw": {}
-									}
+									"raw": ""
 								},
 								"url": {
 									"raw": "https://api-prod.moova.io/b2b/shippings/7cbf4780-6432-11ed-9f48-0d43bfa3dfaa/label?appId=e04a2a20-5546-11ed-b565-63415bcc3276",
@@ -1970,7 +1931,7 @@
 						},
 						{
 							"name": "Crear Envio Prod",
-							"_postman_id": "583fc17d-c186-4741-bba7-8f99909da48a",
+							"id": "583fc17d-c186-4741-bba7-8f99909da48a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -1992,10 +1953,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"scheduledDate\": \"2022-11-14 15:00:00\",\r\n    \"type\": \"regular\",\r\n    \"flow\": \"manual\",\r\n    \"from\": {\r\n        \"googlePlaceId\": \"\",\r\n        \"addressDescription\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\",\r\n        \"street\": \"Cra. 11B #99-25\",\r\n        \"number\": \"2678\",\r\n        \"floor\": \"6to\",\r\n        \"apartment\": \"C\",\r\n        \"city\": \"Bogota\",\r\n        \"state\": \"Bogota\",\r\n        \"postalCode\": \"\",\r\n        \"country\": \"COL\",\r\n        \"address\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\",\r\n        \"instructions\": \"No funciona el timbre. Llamar antes\",\r\n        \"contact\": {\r\n            \"firstName\": \"Juan\",\r\n            \"lastName\": \"Perez\",\r\n            \"email\": \"\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"to\": {\r\n        \"googlePlaceId\": \"\",\r\n        \"addressDescription\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\",\r\n        \"street\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75\",\r\n        \"number\": \"2678\",\r\n        \"floor\": \"6to\",\r\n        \"apartment\": \"C\",\r\n        \"city\": \"Bogota\",\r\n        \"state\": \"Bogota\",\r\n        \"postalCode\": \"1425\",\r\n        \"country\": \"COL\",\r\n        \"address\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\",\r\n        \"instructions\": \"No funciona el timbre. Llamar antes\",\r\n        \"contact\": {\r\n            \"firstName\": \"Juan\",\r\n            \"lastName\": \"Perez\",\r\n            \"email\": \"\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"internalCode\": \"\",\r\n    \"description\": \"\",\r\n    \"label\": \"\",\r\n    \"extra\": {},\r\n    \"settings\": [],\r\n    \"returnSettings\": [],\r\n    \"conf\": {\r\n        \"assurance\": false\r\n    },\r\n    \"items\": [\r\n        {\r\n            \"description\": \"T-Shirt\",\r\n            \"reference_code\": \"AB-1222\",\r\n            \"weight\": 1500,\r\n            \"length\": 40,\r\n            \"width\": 30,\r\n            \"height\": 50,\r\n            \"price\": 2350.99,\r\n            \"currency\": \"COP\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\r\n    \"scheduledDate\": \"2022-11-14 15:00:00\",\r\n    \"type\": \"regular\",\r\n    \"flow\": \"manual\",\r\n    \"from\": {\r\n        \"googlePlaceId\": \"\",\r\n        \"addressDescription\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\",\r\n        \"street\": \"Cra. 11B #99-25\",\r\n        \"number\": \"2678\",\r\n        \"floor\": \"6to\",\r\n        \"apartment\": \"C\",\r\n        \"city\": \"Bogota\",\r\n        \"state\": \"Bogota\",\r\n        \"postalCode\": \"\",\r\n        \"country\": \"COL\",\r\n        \"address\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\",\r\n        \"instructions\": \"No funciona el timbre. Llamar antes\",\r\n        \"contact\": {\r\n            \"firstName\": \"Juan\",\r\n            \"lastName\": \"Perez\",\r\n            \"email\": \"\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"to\": {\r\n        \"googlePlaceId\": \"\",\r\n        \"addressDescription\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\",\r\n        \"street\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75\",\r\n        \"number\": \"2678\",\r\n        \"floor\": \"6to\",\r\n        \"apartment\": \"C\",\r\n        \"city\": \"Bogota\",\r\n        \"state\": \"Bogota\",\r\n        \"postalCode\": \"1425\",\r\n        \"country\": \"COL\",\r\n        \"address\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\",\r\n        \"instructions\": \"No funciona el timbre. Llamar antes\",\r\n        \"contact\": {\r\n            \"firstName\": \"Juan\",\r\n            \"lastName\": \"Perez\",\r\n            \"email\": \"\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"internalCode\": \"\",\r\n    \"description\": \"\",\r\n    \"label\": \"\",\r\n    \"extra\": {},\r\n    \"settings\": [],\r\n    \"returnSettings\": [],\r\n    \"conf\": {\r\n        \"assurance\": false\r\n    },\r\n    \"items\": [\r\n        {\r\n            \"description\": \"T-Shirt\",\r\n            \"reference_code\": \"AB-1222\",\r\n            \"weight\": 1500,\r\n            \"length\": 40,\r\n            \"width\": 30,\r\n            \"height\": 50,\r\n            \"price\": 2350.99,\r\n            \"currency\": \"COP\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}"
 								},
 								"url": {
 									"raw": "https://api-prod.moova.io/b2b/shippings?appId=e04a2a20-5546-11ed-b565-63415bcc3276",
@@ -2021,7 +1979,7 @@
 						},
 						{
 							"name": "Cancelar Prod",
-							"_postman_id": "62d9b7e3-3e3e-4c96-84ed-dfb23dad0f05",
+							"id": "62d9b7e3-3e3e-4c96-84ed-dfb23dad0f05",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2049,10 +2007,7 @@
 											"value": "Cancelar",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": {
 									"raw": "https://api-prod.moova.io/b2b/shippings/28f224f0-6434-11ed-a217-43090d3a74f6/CANCEL?appId=e04a2a20-5546-11ed-b565-63415bcc3276",
@@ -2085,15 +2040,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "1160f6ec-d4b1-441f-bf0f-2fb6a8170704",
-					"_postman_isSubFolder": true
+					"id": "1160f6ec-d4b1-441f-bf0f-2fb6a8170704"
 				},
 				{
 					"name": "CO - 4-72 Estados novedad",
 					"item": [
 						{
 							"name": "Login obtener token",
-							"_postman_id": "32845396-c123-4c8c-b8ee-76079f075e97",
+							"id": "32845396-c123-4c8c-b8ee-76079f075e97",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2125,35 +2079,32 @@
 							"response": []
 						}
 					],
-					"_postman_id": "6908b993-8bff-44c5-9d05-05fb4baa283e",
-					"_postman_isSubFolder": true
+					"id": "6908b993-8bff-44c5-9d05-05fb4baa283e"
 				},
 				{
 					"name": "CO - Quick",
 					"item": [
 						{
 							"name": "New Request",
-							"_postman_id": "04d8a20c-ea41-4eb6-8293-e9f35da5500d",
+							"id": "04d8a20c-ea41-4eb6-8293-e9f35da5500d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
 								"method": "GET",
-								"header": [],
-								"url": null
+								"header": []
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "72d184d8-2df7-4d5a-b869-08bda9cc740b",
-					"_postman_isSubFolder": true
+					"id": "72d184d8-2df7-4d5a-b869-08bda9cc740b"
 				},
 				{
 					"name": "CO - BluLogistics",
 					"item": [
 						{
 							"name": "Crear envío",
-							"_postman_id": "33dbaee5-63b6-4484-a4cd-d83785c50852",
+							"id": "33dbaee5-63b6-4484-a4cd-d83785c50852",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2207,7 +2158,7 @@
 						},
 						{
 							"name": "Crear envío PROD",
-							"_postman_id": "c58b8649-f626-4da6-9082-6218394f9f51",
+							"id": "c58b8649-f626-4da6-9082-6218394f9f51",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2261,7 +2212,7 @@
 						},
 						{
 							"name": "Crear envío Test",
-							"_postman_id": "0d15ad99-4f43-463d-b1f2-703d87d66b64",
+							"id": "0d15ad99-4f43-463d-b1f2-703d87d66b64",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2311,7 +2262,7 @@
 						},
 						{
 							"name": "Cancelar Envio",
-							"_postman_id": "080ead72-0a5f-488e-86d0-c0791d5d01b2",
+							"id": "080ead72-0a5f-488e-86d0-c0791d5d01b2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2372,7 +2323,7 @@
 						},
 						{
 							"name": "Cancelar Envio Copy",
-							"_postman_id": "437d134f-d9ef-4c44-b741-6113ecabf1d6",
+							"id": "437d134f-d9ef-4c44-b741-6113ecabf1d6",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2433,7 +2384,7 @@
 						},
 						{
 							"name": "ConsultaDatosEtiqueta",
-							"_postman_id": "061ae320-a8fe-4112-86df-5a7ef2d4a71e",
+							"id": "061ae320-a8fe-4112-86df-5a7ef2d4a71e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2488,7 +2439,7 @@
 						},
 						{
 							"name": "ConsultaEtiqueta PDF",
-							"_postman_id": "5530e9e3-9b78-4b57-a7cf-59de4fb3bcbe",
+							"id": "5530e9e3-9b78-4b57-a7cf-59de4fb3bcbe",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2543,7 +2494,7 @@
 						},
 						{
 							"name": "ConsultaGuia (Traking)",
-							"_postman_id": "22295af1-be4c-4bac-af28-6f32e599422c",
+							"id": "22295af1-be4c-4bac-af28-6f32e599422c",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2598,7 +2549,7 @@
 						},
 						{
 							"name": "ConsultaUltimoEstadoGuia (Traking)",
-							"_postman_id": "92c41ccb-d51c-4021-840e-304ea3482f58",
+							"id": "92c41ccb-d51c-4021-840e-304ea3482f58",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2653,7 +2604,7 @@
 						},
 						{
 							"name": "SolicitarCiudades",
-							"_postman_id": "dbcddf6e-9753-4390-8389-38d0b391a534",
+							"id": "dbcddf6e-9753-4390-8389-38d0b391a534",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2707,15 +2658,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "452be597-e2cf-4185-ac00-128e266532f9",
-					"_postman_isSubFolder": true
+					"id": "452be597-e2cf-4185-ac00-128e266532f9"
 				},
 				{
 					"name": "CO - Servientrega",
 					"item": [
 						{
 							"name": "Crear envío",
-							"_postman_id": "f4d6f42e-7ae2-4a9a-aa15-acd9ffdd1a25",
+							"id": "f4d6f42e-7ae2-4a9a-aa15-acd9ffdd1a25",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2741,25 +2691,21 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<env:Envelope xmlns:env=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:ns1=\"http://tempuri.org/\">\n    <env:Header>\n        <ns1:AuthHeader>\n            <ns1:login>901507043</ns1:login>\n            <ns1:pwd>Tb8Hb+NLWsc=</ns1:pwd>\n            <ns1:Id_CodFacturacion>SER127755</ns1:Id_CodFacturacion>\n            <ns1:Nombre_Cargue>Development Colombia</ns1:Nombre_Cargue>\n        </ns1:AuthHeader>\n    </env:Header>\n    <env:Body>\n        <ns1:CargueMasivoExterno>\n            <ns1:envios>\n                <ns1:CargueMasivoExternoDTO>\n                    <ns1:objEnvios>\n                        <ns1:EnviosExterno>\n                            <ns1:Num_Guia>0</ns1:Num_Guia>\n                            <ns1:Num_Sobreporte>0</ns1:Num_Sobreporte>\n                            <ns1:Doc_Relacionado/>\n                            <ns1:Num_Piezas>1</ns1:Num_Piezas>\n                            <ns1:Des_TipoTrayecto>1</ns1:Des_TipoTrayecto>\n                            <ns1:Ide_Producto>2</ns1:Ide_Producto>\n                            <ns1:Des_FormaPago>2</ns1:Des_FormaPago>\n                            <ns1:Des_MedioTransporte>1</ns1:Des_MedioTransporte>\n                            <ns1:Num_PesoTotal>3</ns1:Num_PesoTotal>\n                            <ns1:Num_ValorDeclaradoTotal>132713.6</ns1:Num_ValorDeclaradoTotal>\n                            <ns1:Num_VolumenTotal>1</ns1:Num_VolumenTotal>\n                            <ns1:Num_BolsaSeguridad>0</ns1:Num_BolsaSeguridad>\n                            <ns1:Num_Precinto>0</ns1:Num_Precinto>\n                            <ns1:Des_TipoDuracionTrayecto>1</ns1:Des_TipoDuracionTrayecto>\n                            <ns1:Des_Telefono>3187954019</ns1:Des_Telefono>\n                            <ns1:Des_Ciudad>Medellin</ns1:Des_Ciudad>\n                            <ns1:Des_CiudadOrigen>Cucunuba</ns1:Des_CiudadOrigen>\n                            <ns1:Des_Direccion>Calle 103a  11b- 49     2- 604</ns1:Des_Direccion>\n                            <ns1:Nom_Contacto>Test</ns1:Nom_Contacto>\n                            <ns1:Des_VlrCampoPersonalizado1/>\n                            <ns1:Num_ValorLiquidado>0</ns1:Num_ValorLiquidado>\n                            <ns1:Des_DiceContener>Termo Liquido 500...</ns1:Des_DiceContener>\n                            <ns1:Des_TipoGuia>1</ns1:Des_TipoGuia>\n                            <ns1:Num_VlrSobreflete>0</ns1:Num_VlrSobreflete>\n                            <ns1:Num_VlrFlete>0</ns1:Num_VlrFlete>\n                            <ns1:Num_Descuento>0</ns1:Num_Descuento>\n                            <ns1:idePaisOrigen>1</ns1:idePaisOrigen>\n                            <ns1:idePaisDestino>1</ns1:idePaisDestino>\n                            <ns1:Des_IdArchivoOrigen>0</ns1:Des_IdArchivoOrigen>\n                            <ns1:Des_DireccionRemitente>Calle 1 #7 00</ns1:Des_DireccionRemitente>\n                            <ns1:Num_PesoFacturado>0</ns1:Num_PesoFacturado>\n                            <ns1:Est_CanalMayorista>false</ns1:Est_CanalMayorista>\n                            <ns1:Num_IdentiRemitente/>\n                            <ns1:Num_TelefonoRemitente>3196125066</ns1:Num_TelefonoRemitente>\n                            <ns1:Num_Alto>1</ns1:Num_Alto>\n                            <ns1:Num_Ancho>1</ns1:Num_Ancho>\n                            <ns1:Num_Largo>1</ns1:Num_Largo>\n                            <ns1:Des_DepartamentoDestino>Antioquia</ns1:Des_DepartamentoDestino>\n                            <ns1:Des_DepartamentoOrigen>Cundinamarca</ns1:Des_DepartamentoOrigen>\n                            <ns1:Gen_Cajaporte>false</ns1:Gen_Cajaporte>\n                            <ns1:Gen_Sobreporte>false</ns1:Gen_Sobreporte>\n                            <ns1:Nom_UnidadEmpaque>GENERICA</ns1:Nom_UnidadEmpaque>\n                            <ns1:Nom_RemitenteCanal/>\n                            <ns1:Des_UnidadLongitud>cm</ns1:Des_UnidadLongitud>\n                            <ns1:Des_UnidadPeso>kg</ns1:Des_UnidadPeso>\n                            <ns1:Num_ValorDeclaradoSobreTotal>0</ns1:Num_ValorDeclaradoSobreTotal>\n                            <ns1:Num_Factura>99788597</ns1:Num_Factura>\n                            <ns1:Des_CorreoElectronico>matesilvaherrera@yahoo.es</ns1:Des_CorreoElectronico>\n                            <ns1:Ide_Num_Identific_Dest>111111111</ns1:Ide_Num_Identific_Dest>\n                            <ns1:Tipo_Doc_Destinatario>NIT</ns1:Tipo_Doc_Destinatario>\n                            <ns1:Num_Recaudo>0</ns1:Num_Recaudo>\n                            <ns1:Recoleccion_Esporadica>1</ns1:Recoleccion_Esporadica>\n                        </ns1:EnviosExterno>\n                    </ns1:objEnvios>\n                </ns1:CargueMasivoExternoDTO>\n            </ns1:envios>\n            <ns1:arrayGuias/>\n        </ns1:CargueMasivoExterno>\n    </env:Body>\n</env:Envelope>",
-									"options": {
-										"raw": {}
-									}
+									"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<env:Envelope xmlns:env=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:ns1=\"http://tempuri.org/\">\n    <env:Header>\n        <ns1:AuthHeader>\n            <ns1:login>901507043</ns1:login>\n            <ns1:pwd>Tb8Hb+NLWsc=</ns1:pwd>\n            <ns1:Id_CodFacturacion>SER127755</ns1:Id_CodFacturacion>\n            <ns1:Nombre_Cargue>Development Colombia</ns1:Nombre_Cargue>\n        </ns1:AuthHeader>\n    </env:Header>\n    <env:Body>\n        <ns1:CargueMasivoExterno>\n            <ns1:envios>\n                <ns1:CargueMasivoExternoDTO>\n                    <ns1:objEnvios>\n                        <ns1:EnviosExterno>\n                            <ns1:Num_Guia>0</ns1:Num_Guia>\n                            <ns1:Num_Sobreporte>0</ns1:Num_Sobreporte>\n                            <ns1:Doc_Relacionado/>\n                            <ns1:Num_Piezas>1</ns1:Num_Piezas>\n                            <ns1:Des_TipoTrayecto>1</ns1:Des_TipoTrayecto>\n                            <ns1:Ide_Producto>2</ns1:Ide_Producto>\n                            <ns1:Des_FormaPago>2</ns1:Des_FormaPago>\n                            <ns1:Des_MedioTransporte>1</ns1:Des_MedioTransporte>\n                            <ns1:Num_PesoTotal>3</ns1:Num_PesoTotal>\n                            <ns1:Num_ValorDeclaradoTotal>132713.6</ns1:Num_ValorDeclaradoTotal>\n                            <ns1:Num_VolumenTotal>1</ns1:Num_VolumenTotal>\n                            <ns1:Num_BolsaSeguridad>0</ns1:Num_BolsaSeguridad>\n                            <ns1:Num_Precinto>0</ns1:Num_Precinto>\n                            <ns1:Des_TipoDuracionTrayecto>1</ns1:Des_TipoDuracionTrayecto>\n                            <ns1:Des_Telefono>3187954019</ns1:Des_Telefono>\n                            <ns1:Des_Ciudad>Medellin</ns1:Des_Ciudad>\n                            <ns1:Des_CiudadOrigen>Cucunuba</ns1:Des_CiudadOrigen>\n                            <ns1:Des_Direccion>Calle 103a  11b- 49     2- 604</ns1:Des_Direccion>\n                            <ns1:Nom_Contacto>Test</ns1:Nom_Contacto>\n                            <ns1:Des_VlrCampoPersonalizado1/>\n                            <ns1:Num_ValorLiquidado>0</ns1:Num_ValorLiquidado>\n                            <ns1:Des_DiceContener>Termo Liquido 500...</ns1:Des_DiceContener>\n                            <ns1:Des_TipoGuia>1</ns1:Des_TipoGuia>\n                            <ns1:Num_VlrSobreflete>0</ns1:Num_VlrSobreflete>\n                            <ns1:Num_VlrFlete>0</ns1:Num_VlrFlete>\n                            <ns1:Num_Descuento>0</ns1:Num_Descuento>\n                            <ns1:idePaisOrigen>1</ns1:idePaisOrigen>\n                            <ns1:idePaisDestino>1</ns1:idePaisDestino>\n                            <ns1:Des_IdArchivoOrigen>0</ns1:Des_IdArchivoOrigen>\n                            <ns1:Des_DireccionRemitente>Calle 1 #7 00</ns1:Des_DireccionRemitente>\n                            <ns1:Num_PesoFacturado>0</ns1:Num_PesoFacturado>\n                            <ns1:Est_CanalMayorista>false</ns1:Est_CanalMayorista>\n                            <ns1:Num_IdentiRemitente/>\n                            <ns1:Num_TelefonoRemitente>3196125066</ns1:Num_TelefonoRemitente>\n                            <ns1:Num_Alto>1</ns1:Num_Alto>\n                            <ns1:Num_Ancho>1</ns1:Num_Ancho>\n                            <ns1:Num_Largo>1</ns1:Num_Largo>\n                            <ns1:Des_DepartamentoDestino>Antioquia</ns1:Des_DepartamentoDestino>\n                            <ns1:Des_DepartamentoOrigen>Cundinamarca</ns1:Des_DepartamentoOrigen>\n                            <ns1:Gen_Cajaporte>false</ns1:Gen_Cajaporte>\n                            <ns1:Gen_Sobreporte>false</ns1:Gen_Sobreporte>\n                            <ns1:Nom_UnidadEmpaque>GENERICA</ns1:Nom_UnidadEmpaque>\n                            <ns1:Nom_RemitenteCanal/>\n                            <ns1:Des_UnidadLongitud>cm</ns1:Des_UnidadLongitud>\n                            <ns1:Des_UnidadPeso>kg</ns1:Des_UnidadPeso>\n                            <ns1:Num_ValorDeclaradoSobreTotal>0</ns1:Num_ValorDeclaradoSobreTotal>\n                            <ns1:Num_Factura>99788597</ns1:Num_Factura>\n                            <ns1:Des_CorreoElectronico>matesilvaherrera@yahoo.es</ns1:Des_CorreoElectronico>\n                            <ns1:Ide_Num_Identific_Dest>111111111</ns1:Ide_Num_Identific_Dest>\n                            <ns1:Tipo_Doc_Destinatario>NIT</ns1:Tipo_Doc_Destinatario>\n                            <ns1:Num_Recaudo>0</ns1:Num_Recaudo>\n                            <ns1:Recoleccion_Esporadica>1</ns1:Recoleccion_Esporadica>\n                        </ns1:EnviosExterno>\n                    </ns1:objEnvios>\n                </ns1:CargueMasivoExternoDTO>\n            </ns1:envios>\n            <ns1:arrayGuias/>\n        </ns1:CargueMasivoExterno>\n    </env:Body>\n</env:Envelope>"
 								},
 								"url": "http://web.servientrega.com:8081/generacionguias.asmx"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "60471389-f5c6-48f6-ac0c-cd07567e8077",
-					"_postman_isSubFolder": true
+					"id": "60471389-f5c6-48f6-ac0c-cd07567e8077"
 				},
 				{
 					"name": "CO - Fedex",
 					"item": [
 						{
 							"name": "RETIRO Crear",
-							"_postman_id": "474d35db-d8cd-4a36-9953-16b4cb77d2e6",
+							"id": "474d35db-d8cd-4a36-9953-16b4cb77d2e6",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2780,15 +2726,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "d3346fa4-afc4-4963-aef7-b274744720e4",
-					"_postman_isSubFolder": true
+					"id": "d3346fa4-afc4-4963-aef7-b274744720e4"
 				},
 				{
 					"name": "CO - Deprisa",
 					"item": [
 						{
 							"name": "RETIRO Crear",
-							"_postman_id": "9e86664a-a55e-4570-9f5c-8d3004b2339e",
+							"id": "9e86664a-a55e-4570-9f5c-8d3004b2339e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2809,11 +2754,10 @@
 							"response": []
 						}
 					],
-					"_postman_id": "9695535c-3f66-48a4-a78d-d0275075b492",
-					"_postman_isSubFolder": true
+					"id": "9695535c-3f66-48a4-a78d-d0275075b492"
 				}
 			],
-			"_postman_id": "76533bb7-c436-4d0d-a36c-cc74ecb79f5e"
+			"id": "76533bb7-c436-4d0d-a36c-cc74ecb79f5e"
 		},
 		{
 			"name": "MEXICO",
@@ -2823,7 +2767,7 @@
 					"item": [
 						{
 							"name": "Creación de Envío",
-							"_postman_id": "29eebeb8-8edb-41ff-a18e-7a5a74615b2b",
+							"id": "29eebeb8-8edb-41ff-a18e-7a5a74615b2b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2856,7 +2800,7 @@
 						},
 						{
 							"name": "Tracking",
-							"_postman_id": "81b462b8-278c-446c-803b-2074c3d2d657",
+							"id": "81b462b8-278c-446c-803b-2074c3d2d657",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2889,7 +2833,7 @@
 						},
 						{
 							"name": "Cancelar envio",
-							"_postman_id": "f575c957-980c-4d2c-b903-4d0122510e33",
+							"id": "f575c957-980c-4d2c-b903-4d0122510e33",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2922,7 +2866,7 @@
 						},
 						{
 							"name": "Etiqueta",
-							"_postman_id": "76894e83-0f48-453a-bdf8-c371d501985c",
+							"id": "76894e83-0f48-453a-bdf8-c371d501985c",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2955,7 +2899,7 @@
 						},
 						{
 							"name": "Retiros",
-							"_postman_id": "680a5211-9638-40f5-94e1-c3a5b8c64392",
+							"id": "680a5211-9638-40f5-94e1-c3a5b8c64392",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -2988,7 +2932,7 @@
 						},
 						{
 							"name": "Prueba de entrega",
-							"_postman_id": "62060caf-457a-4244-ab18-a9b4193d1a93",
+							"id": "62060caf-457a-4244-ab18-a9b4193d1a93",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3033,7 +2977,7 @@
 						},
 						{
 							"name": "Coberturas",
-							"_postman_id": "a3a0b7c9-e46a-4b7e-9592-e53964e34a68",
+							"id": "a3a0b7c9-e46a-4b7e-9592-e53964e34a68",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3065,15 +3009,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "b226bb4b-00cb-466c-bdcf-70ee9ce909b8",
-					"_postman_isSubFolder": true
+					"id": "b226bb4b-00cb-466c-bdcf-70ee9ce909b8"
 				},
 				{
 					"name": "MX - PaqueteExpress",
 					"item": [
 						{
 							"name": "Obtener Token",
-							"_postman_id": "89c307dd-a0f4-4384-9917-cde35c4d86ad",
+							"id": "89c307dd-a0f4-4384-9917-cde35c4d86ad",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3095,7 +3038,7 @@
 						},
 						{
 							"name": "Crear Envio",
-							"_postman_id": "68da7626-b29f-4852-8d45-a6f81d16f520",
+							"id": "68da7626-b29f-4852-8d45-a6f81d16f520",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3117,7 +3060,7 @@
 						},
 						{
 							"name": "Crear Envio Test",
-							"_postman_id": "fdfa3998-cca2-49cb-9db9-66638dc77ea0",
+							"id": "fdfa3998-cca2-49cb-9db9-66638dc77ea0",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3139,7 +3082,7 @@
 						},
 						{
 							"name": "Crear Retiro",
-							"_postman_id": "b6c64018-0240-4d15-9c58-a3c4ff255d14",
+							"id": "b6c64018-0240-4d15-9c58-a3c4ff255d14",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3161,7 +3104,7 @@
 						},
 						{
 							"name": "Etiqueta PDF",
-							"_postman_id": "79f5066e-a106-4dab-8495-6182ab3af95a",
+							"id": "79f5066e-a106-4dab-8495-6182ab3af95a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3193,7 +3136,7 @@
 						},
 						{
 							"name": "Tracking Ultimo evento",
-							"_postman_id": "cd0f0723-6ae1-4e70-8598-82de70234bb8",
+							"id": "cd0f0723-6ae1-4e70-8598-82de70234bb8",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3206,7 +3149,7 @@
 						},
 						{
 							"name": "Tracking todos los eventos",
-							"_postman_id": "2b61ea0f-6d3f-462e-9f3d-ea1c39db61e8",
+							"id": "2b61ea0f-6d3f-462e-9f3d-ea1c39db61e8",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3218,15 +3161,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "023cefc2-ec6b-4379-949f-e56c5274cde6",
-					"_postman_isSubFolder": true
+					"id": "023cefc2-ec6b-4379-949f-e56c5274cde6"
 				},
 				{
 					"name": "Mx - Karri",
 					"item": [
 						{
 							"name": "Crear envio 1",
-							"_postman_id": "c20c2f71-66c0-4393-9a3a-40e2e1ec8e28",
+							"id": "c20c2f71-66c0-4393-9a3a-40e2e1ec8e28",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3246,10 +3188,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"order_reference_id\": \"ORDERREFERENCE001\",\n    \"location_id\":28001,\n    \"contract\": 2101,\n    \"pickup_date\": \"2022-11-07\",\n    \"last_mile\": 1,\n    \"products\": [\n        {\n            \"product_reference_id\": \"BOXCODE001\",\n            \"identifier\": \"BOXCODE001\"\n        }\n    ],\n    \"receiver\": {\n        \"receiver_name\": \"Fabian Paredes\",\n        \"receiver_phone_number\": \"+56988572191\",\n        \"receiver_email\": \"fabian+karri@symlab.io\"\n    },\n    \"dropoff\": {\n        \"drop_address\": \"Av. Cuauhtémoc 220\",\n        \"drop_address_line_2\": \"Apartamento C\",\n        \"drop_comuna\": \"Dolores\",\n        \"drop_zipcode\": \"06720\",\n        \"drop_province\": \"Ciudad de México\",\n        \"drop_observations\": \"Golpear la puerta para dejar en recepción\",\n        \"drop_date\": \"2022-11-07\"\n    }\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n    \"order_reference_id\": \"ORDERREFERENCE001\",\n    \"location_id\":28001,\n    \"contract\": 2101,\n    \"pickup_date\": \"2022-11-07\",\n    \"last_mile\": 1,\n    \"products\": [\n        {\n            \"product_reference_id\": \"BOXCODE001\",\n            \"identifier\": \"BOXCODE001\"\n        }\n    ],\n    \"receiver\": {\n        \"receiver_name\": \"Fabian Paredes\",\n        \"receiver_phone_number\": \"+56988572191\",\n        \"receiver_email\": \"fabian+karri@symlab.io\"\n    },\n    \"dropoff\": {\n        \"drop_address\": \"Av. Cuauhtémoc 220\",\n        \"drop_address_line_2\": \"Apartamento C\",\n        \"drop_comuna\": \"Dolores\",\n        \"drop_zipcode\": \"06720\",\n        \"drop_province\": \"Ciudad de México\",\n        \"drop_observations\": \"Golpear la puerta para dejar en recepción\",\n        \"drop_date\": \"2022-11-07\"\n    }\n}"
 								},
 								"url": {
 									"raw": "https://carga-api-mx-gateway-9lj9juo1.uk.gateway.dev/order/reference?key=AIzaSyA-2akaQ9S0Y3ADSIRC-wxmM4kyn7RBqxI",
@@ -3282,7 +3221,7 @@
 						},
 						{
 							"name": "Crear envio 1 Copy",
-							"_postman_id": "780a2f0c-448e-4d72-b8d2-6fbf61e223ed",
+							"id": "780a2f0c-448e-4d72-b8d2-6fbf61e223ed",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3302,10 +3241,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"order_reference_id\": \"ORDERREFERENCE001\",\n    \"location_id\":28001,\n    \"contract\": 2101,\n    \"pickup_date\": \"2022-11-07\",\n    \"last_mile\": 1,\n    \"products\": [\n        {\n            \"product_reference_id\": \"BOXCODE001\",\n            \"identifier\": \"BOXCODE001\"\n        }\n    ],\n    \"receiver\": {\n        \"receiver_name\": \"Fabian Paredes\",\n        \"receiver_phone_number\": \"+56988572191\",\n        \"receiver_email\": \"fabian+karri@symlab.io\"\n    },\n    \"dropoff\": {\n        \"drop_address\": \"Av. Cuauhtémoc 220\",\n        \"drop_address_line_2\": \"Apartamento C\",\n        \"drop_comuna\": \"Dolores\",\n        \"drop_zipcode\": \"06720\",\n        \"drop_province\": \"Ciudad de México\",\n        \"drop_observations\": \"Golpear la puerta para dejar en recepción\",\n        \"drop_date\": \"2022-11-07\"\n    }\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n    \"order_reference_id\": \"ORDERREFERENCE001\",\n    \"location_id\":28001,\n    \"contract\": 2101,\n    \"pickup_date\": \"2022-11-07\",\n    \"last_mile\": 1,\n    \"products\": [\n        {\n            \"product_reference_id\": \"BOXCODE001\",\n            \"identifier\": \"BOXCODE001\"\n        }\n    ],\n    \"receiver\": {\n        \"receiver_name\": \"Fabian Paredes\",\n        \"receiver_phone_number\": \"+56988572191\",\n        \"receiver_email\": \"fabian+karri@symlab.io\"\n    },\n    \"dropoff\": {\n        \"drop_address\": \"Av. Cuauhtémoc 220\",\n        \"drop_address_line_2\": \"Apartamento C\",\n        \"drop_comuna\": \"Dolores\",\n        \"drop_zipcode\": \"06720\",\n        \"drop_province\": \"Ciudad de México\",\n        \"drop_observations\": \"Golpear la puerta para dejar en recepción\",\n        \"drop_date\": \"2022-11-07\"\n    }\n}"
 								},
 								"url": {
 									"raw": "https://carga-api-mx-gateway-9lj9juo1.uk.gateway.dev/order/reference?key=AIzaSyA-2akaQ9S0Y3ADSIRC-wxmM4kyn7RBqxI",
@@ -3338,7 +3274,7 @@
 						},
 						{
 							"name": "crear pickup",
-							"_postman_id": "b49abe6a-0723-42d5-a710-2c4cfa616d3e",
+							"id": "b49abe6a-0723-42d5-a710-2c4cfa616d3e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3352,10 +3288,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"order_reference_id\": \"874200451119\",\n  \"location_id\": 10034,\n  \"contract\": 123,\n  \"pickup_date\": \"2020-07-31\",\n  \"products\": [\n    {\n      \"product_reference_id\": \"0390050001423459280101\"\n    }\n  ],\n  \"sender\": {\n    \"sender_name\": \"Jane enviadora\",\n    \"sender_phone_number\": \"987654320\",\n    \"sender_rut\": \"6666666-7\",\n    \"sender_email\": \"jane@gmail.com\"\n  },\n  \"pickup\": {\n    \"pickup_address\": \"Seminario 531\",\n    \"pickup_address_line_2\": \"Depto 13\",\n    \"pickup_comuna\": \"Providencia\",\n    \"pickup_zipcode\": \"7501499\",\n    \"pickup_province\": \"Santiago\",\n    \"pickup_observations\": \"Presentarse en Recepción\"\n  }\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n  \"order_reference_id\": \"874200451119\",\n  \"location_id\": 10034,\n  \"contract\": 123,\n  \"pickup_date\": \"2020-07-31\",\n  \"products\": [\n    {\n      \"product_reference_id\": \"0390050001423459280101\"\n    }\n  ],\n  \"sender\": {\n    \"sender_name\": \"Jane enviadora\",\n    \"sender_phone_number\": \"987654320\",\n    \"sender_rut\": \"6666666-7\",\n    \"sender_email\": \"jane@gmail.com\"\n  },\n  \"pickup\": {\n    \"pickup_address\": \"Seminario 531\",\n    \"pickup_address_line_2\": \"Depto 13\",\n    \"pickup_comuna\": \"Providencia\",\n    \"pickup_zipcode\": \"7501499\",\n    \"pickup_province\": \"Santiago\",\n    \"pickup_observations\": \"Presentarse en Recepción\"\n  }\n}"
 								},
 								"url": {
 									"raw": "https://carga-api-mx-gateway-9lj9juo1.uk.gateway.dev/return?key=AIzaSyA-2akaQ9S0Y3ADSIRC-wxmM4kyn7RBqxI",
@@ -3381,7 +3314,7 @@
 						},
 						{
 							"name": "tracking by reference",
-							"_postman_id": "f74a76c3-6e78-4833-8a17-811c9c327a6b",
+							"id": "f74a76c3-6e78-4833-8a17-811c9c327a6b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3419,7 +3352,7 @@
 						},
 						{
 							"name": "cancelar envio",
-							"_postman_id": "f434af79-4d85-4b46-8eeb-40b9ad8673a1",
+							"id": "f434af79-4d85-4b46-8eeb-40b9ad8673a1",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3464,15 +3397,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "afb32a01-0023-4bac-b1d2-4764b1fad036",
-					"_postman_isSubFolder": true
+					"id": "afb32a01-0023-4bac-b1d2-4764b1fad036"
 				},
 				{
 					"name": "MX - UPS",
 					"item": [
 						{
 							"name": "Crear Envio",
-							"_postman_id": "17eb8d3e-cb00-4c59-9281-fde308a24f25",
+							"id": "17eb8d3e-cb00-4c59-9281-fde308a24f25",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3510,7 +3442,7 @@
 						},
 						{
 							"name": "Tests Crear Envio",
-							"_postman_id": "116aebb5-7f45-4a6c-b43a-e6692fe58dac",
+							"id": "116aebb5-7f45-4a6c-b43a-e6692fe58dac",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3548,7 +3480,7 @@
 						},
 						{
 							"name": "Cancelar Envio",
-							"_postman_id": "c81b8f23-af60-4599-bf61-a44717455dba",
+							"id": "c81b8f23-af60-4599-bf61-a44717455dba",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3586,7 +3518,7 @@
 						},
 						{
 							"name": "Tracking",
-							"_postman_id": "a8ffd0e3-a0e4-40ff-84d9-896f8b539495",
+							"id": "a8ffd0e3-a0e4-40ff-84d9-896f8b539495",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3624,7 +3556,7 @@
 						},
 						{
 							"name": "Crear Envio Multibulto",
-							"_postman_id": "66f683d2-858d-4ac8-aac8-4c4ba548cb82",
+							"id": "66f683d2-858d-4ac8-aac8-4c4ba548cb82",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3662,7 +3594,7 @@
 						},
 						{
 							"name": "Crear Retiro",
-							"_postman_id": "b34907cc-fb75-4251-ba49-571d11155e2c",
+							"id": "b34907cc-fb75-4251-ba49-571d11155e2c",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3699,8 +3631,7 @@
 							"response": []
 						}
 					],
-					"_postman_id": "665966b9-9d89-42f1-a389-4238afaccb16",
-					"_postman_isSubFolder": true
+					"id": "665966b9-9d89-42f1-a389-4238afaccb16"
 				},
 				{
 					"name": "MX - Fedex",
@@ -3719,7 +3650,7 @@
 									}
 								}
 							],
-							"_postman_id": "29190035-e89a-4495-80e6-2e4d2e691516",
+							"id": "29190035-e89a-4495-80e6-2e4d2e691516",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3745,10 +3676,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"labelResponseOptions\": \"URL_ONLY\",\n    \"requestedShipment\": {\n        \"shipper\": {\n            \"contact\": {\n                \"personName\": \"SHIPPER NAME\",\n                \"phoneNumber\": 1234567890,\n                \"companyName\": \"Shipper Company Name\"\n            },\n            \"address\": {\n                \"streetLines\": [\n                    \"SHIPPER STREET LINE 1\",\n                    \"SHIPPER STREET LINE 2\"\n                ],\n                \"city\": \"MEXICO CITY\",\n                \"stateOrProvinceCode\": \"DF\",\n                \"postalCode\": 15520,\n                \"countryCode\": \"MX\"\n            }\n        },\n        \"recipients\": [\n            {\n                \"contact\": {\n                    \"personName\": \"RECIPIENT NAME\",\n                    \"phoneNumber\": 1234567890,\n                    \"companyName\": \"Recipient Company Name\"\n                },\n                \"address\": {\n                    \"streetLines\": [\n                        \"RECIPIENT STREET LINE 1\",\n                        \"RECIPIENT STREET LINE 2\"\n                    ],\n                    \"city\": \"MEXICO CITY\",\n                    \"stateOrProvinceCode\": \"DF\",\n                    \"postalCode\": \"04230\",\n                    \"countryCode\": \"MX\"\n                }\n            }\n        ],\n        \"shipDatestamp\": \"2022-09-05\",\n        \"serviceType\": \"FEDEX_EXPRESS_SAVER\",\n        \"packagingType\": \"YOUR_PACKAGING\",\n        \"pickupType\": \"USE_SCHEDULED_PICKUP\",\n        \"blockInsightVisibility\": false,\n        \"shippingChargesPayment\": {\n            \"paymentType\": \"SENDER\"\n        },\n        \"labelSpecification\": {\n            \"imageType\": \"PDF\",\n            \"labelStockType\": \"PAPER_85X11_TOP_HALF_LABEL\"\n        },\n        \"requestedPackageLineItems\": [\n            {\n                \"groupPackageCount\": 1,\n                \"itemDescriptionForClearance\": \"description\",\n                \"declaredValue\": {\n                    \"amount\": 100,\n                    \"currency\": \"NMP\"\n                },\n                \"weight\": {\n                    \"units\": \"KG\",\n                    \"value\": 10\n                }\n            }\n        ]\n    },\n    \"accountNumber\": {\n        \"value\": \"740561073\"\n    }\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n    \"labelResponseOptions\": \"URL_ONLY\",\n    \"requestedShipment\": {\n        \"shipper\": {\n            \"contact\": {\n                \"personName\": \"SHIPPER NAME\",\n                \"phoneNumber\": 1234567890,\n                \"companyName\": \"Shipper Company Name\"\n            },\n            \"address\": {\n                \"streetLines\": [\n                    \"SHIPPER STREET LINE 1\",\n                    \"SHIPPER STREET LINE 2\"\n                ],\n                \"city\": \"MEXICO CITY\",\n                \"stateOrProvinceCode\": \"DF\",\n                \"postalCode\": 15520,\n                \"countryCode\": \"MX\"\n            }\n        },\n        \"recipients\": [\n            {\n                \"contact\": {\n                    \"personName\": \"RECIPIENT NAME\",\n                    \"phoneNumber\": 1234567890,\n                    \"companyName\": \"Recipient Company Name\"\n                },\n                \"address\": {\n                    \"streetLines\": [\n                        \"RECIPIENT STREET LINE 1\",\n                        \"RECIPIENT STREET LINE 2\"\n                    ],\n                    \"city\": \"MEXICO CITY\",\n                    \"stateOrProvinceCode\": \"DF\",\n                    \"postalCode\": \"04230\",\n                    \"countryCode\": \"MX\"\n                }\n            }\n        ],\n        \"shipDatestamp\": \"2022-09-05\",\n        \"serviceType\": \"FEDEX_EXPRESS_SAVER\",\n        \"packagingType\": \"YOUR_PACKAGING\",\n        \"pickupType\": \"USE_SCHEDULED_PICKUP\",\n        \"blockInsightVisibility\": false,\n        \"shippingChargesPayment\": {\n            \"paymentType\": \"SENDER\"\n        },\n        \"labelSpecification\": {\n            \"imageType\": \"PDF\",\n            \"labelStockType\": \"PAPER_85X11_TOP_HALF_LABEL\"\n        },\n        \"requestedPackageLineItems\": [\n            {\n                \"groupPackageCount\": 1,\n                \"itemDescriptionForClearance\": \"description\",\n                \"declaredValue\": {\n                    \"amount\": 100,\n                    \"currency\": \"NMP\"\n                },\n                \"weight\": {\n                    \"units\": \"KG\",\n                    \"value\": 10\n                }\n            }\n        ]\n    },\n    \"accountNumber\": {\n        \"value\": \"740561073\"\n    }\n}"
 								},
 								"url": "https://apis-sandbox.fedex.com/ship/v1/shipments"
 							},
@@ -3768,7 +3696,7 @@
 									}
 								}
 							],
-							"_postman_id": "9ab0fee7-fb91-4df3-a953-4b73daad61f4",
+							"id": "9ab0fee7-fb91-4df3-a953-4b73daad61f4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3794,10 +3722,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"labelResponseOptions\": \"URL_ONLY\",\n    \"requestedShipment\": {\n        \"shipper\": {\n            \"contact\": {\n                \"personName\": \"{{nombre}}\",\n                \"phoneNumber\": {{telefono}},\n                \"companyName\": \"Shipper Company Name\"\n            },\n            \"address\": {\n                \"streetLines\": [\n                    \"SHIPPER STREET LINE 1\",\n                    \"SHIPPER STREET LINE 2\"\n                ],\n                \"city\": \"MEXICO CITY\",\n                \"stateOrProvinceCode\": \"DF\",\n                \"postalCode\": 15520,\n                \"countryCode\": \"MX\"\n            }\n        },\n        \"recipients\": [\n            {\n                \"contact\": {\n                    \"personName\": \"RECIPIENT NAME\",\n                    \"phoneNumber\": 1234567890,\n                    \"companyName\": \"Recipient Company Name\"\n                },\n                \"address\": {\n                    \"streetLines\": [\n                        \"RECIPIENT STREET LINE 1\",\n                        \"RECIPIENT STREET LINE 2\"\n                    ],\n                    \"city\": \"MEXICO CITY\",\n                    \"stateOrProvinceCode\": \"DF\",\n                    \"postalCode\": \"04230\",\n                    \"countryCode\": \"MX\"\n                }\n            }\n        ],\n        \"shipDatestamp\": \"2022-09-05\",\n        \"serviceType\": \"FEDEX_EXPRESS_SAVER\",\n        \"packagingType\": \"YOUR_PACKAGING\",\n        \"pickupType\": \"USE_SCHEDULED_PICKUP\",\n        \"blockInsightVisibility\": false,\n        \"shippingChargesPayment\": {\n            \"paymentType\": \"SENDER\"\n        },\n        \"labelSpecification\": {\n            \"imageType\": \"PDF\",\n            \"labelStockType\": \"PAPER_85X11_TOP_HALF_LABEL\"\n        },\n        \"requestedPackageLineItems\": [\n            {\n                \"groupPackageCount\": 1,\n                \"itemDescriptionForClearance\": \"description\",\n                \"declaredValue\": {\n                    \"amount\": 100,\n                    \"currency\": \"NMP\"\n                },\n                \"weight\": {\n                    \"units\": \"KG\",\n                    \"value\": 10\n                }\n            }\n        ]\n    },\n    \"accountNumber\": {\n        \"value\": \"740561073\"\n    }\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n    \"labelResponseOptions\": \"URL_ONLY\",\n    \"requestedShipment\": {\n        \"shipper\": {\n            \"contact\": {\n                \"personName\": \"{{nombre}}\",\n                \"phoneNumber\": {{telefono}},\n                \"companyName\": \"Shipper Company Name\"\n            },\n            \"address\": {\n                \"streetLines\": [\n                    \"SHIPPER STREET LINE 1\",\n                    \"SHIPPER STREET LINE 2\"\n                ],\n                \"city\": \"MEXICO CITY\",\n                \"stateOrProvinceCode\": \"DF\",\n                \"postalCode\": 15520,\n                \"countryCode\": \"MX\"\n            }\n        },\n        \"recipients\": [\n            {\n                \"contact\": {\n                    \"personName\": \"RECIPIENT NAME\",\n                    \"phoneNumber\": 1234567890,\n                    \"companyName\": \"Recipient Company Name\"\n                },\n                \"address\": {\n                    \"streetLines\": [\n                        \"RECIPIENT STREET LINE 1\",\n                        \"RECIPIENT STREET LINE 2\"\n                    ],\n                    \"city\": \"MEXICO CITY\",\n                    \"stateOrProvinceCode\": \"DF\",\n                    \"postalCode\": \"04230\",\n                    \"countryCode\": \"MX\"\n                }\n            }\n        ],\n        \"shipDatestamp\": \"2022-09-05\",\n        \"serviceType\": \"FEDEX_EXPRESS_SAVER\",\n        \"packagingType\": \"YOUR_PACKAGING\",\n        \"pickupType\": \"USE_SCHEDULED_PICKUP\",\n        \"blockInsightVisibility\": false,\n        \"shippingChargesPayment\": {\n            \"paymentType\": \"SENDER\"\n        },\n        \"labelSpecification\": {\n            \"imageType\": \"PDF\",\n            \"labelStockType\": \"PAPER_85X11_TOP_HALF_LABEL\"\n        },\n        \"requestedPackageLineItems\": [\n            {\n                \"groupPackageCount\": 1,\n                \"itemDescriptionForClearance\": \"description\",\n                \"declaredValue\": {\n                    \"amount\": 100,\n                    \"currency\": \"NMP\"\n                },\n                \"weight\": {\n                    \"units\": \"KG\",\n                    \"value\": 10\n                }\n            }\n        ]\n    },\n    \"accountNumber\": {\n        \"value\": \"740561073\"\n    }\n}"
 								},
 								"url": "https://apis-sandbox.fedex.com/ship/v1/shipments"
 							},
@@ -3819,7 +3744,7 @@
 									}
 								}
 							],
-							"_postman_id": "56bf6d2d-a07a-45fb-9edd-ec2259728e0e",
+							"id": "56bf6d2d-a07a-45fb-9edd-ec2259728e0e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3845,10 +3770,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"labelResponseOptions\": \"URL_ONLY\",\n    \"requestedShipment\": {\n        \"shipper\": {\n            \"contact\": {\n                \"personName\": \"{{SHIPPER_NAME}}\",\n                \"phoneNumber\": \"{{PHONE}}\",\n                \"companyName\": \"{{Shipper_Company_Name}}\"\n            },\n            \"address\": {\n                \"streetLines\": [\n                    \"{{SHIPPER_STREET_LINE_1}}\",\n                    \"{{SHIPPER_STREET_LINE_2}}\"\n                ],\n                \"city\": \"CIUDAD DE MEXICO\",\n                \"stateOrProvinceCode\": \"DF\",\n                \"postalCode\": 15520,\n                \"countryCode\": \"MX\"\n            }\n        },\n        \"recipients\": [\n            {\n                \"contact\": {\n                    \"personName\": \"{{RECIPIENT_NAME}}\",\n                    \"phoneNumber\": \"{{RECIPIENT_PHONE}}\",\n                    \"companyName\": \"{{Recipient_Company_Name}}\"\n                },\n                \"address\": {\n                    \"streetLines\": [\n                        \"{{RECIPIENT_STREET_LINE_1}}\",\n                        \"{{RECIPIENT_STREET_LINE_2}}\"\n                    ],\n                    \"city\": \"CIUDAD DE MEXICO\",\n                    \"stateOrProvinceCode\": \"DF\",\n                    \"postalCode\": \"04230\",\n                    \"countryCode\": \"MX\"\n                }\n            }\n        ],\n        \"shipDatestamp\": \"2022-09-05\",\n        \"serviceType\": \"FEDEX_EXPRESS_SAVER\",\n        \"packagingType\": \"YOUR_PACKAGING\",\n        \"pickupType\": \"USE_SCHEDULED_PICKUP\",\n        \"blockInsightVisibility\": false,\n        \"shippingChargesPayment\": {\n            \"paymentType\": \"SENDER\"\n        },\n        \"labelSpecification\": {\n            \"imageType\": \"PDF\",\n            \"labelStockType\": \"PAPER_85X11_TOP_HALF_LABEL\"\n        },\n        \"requestedPackageLineItems\": [\n            {\n                \"groupPackageCount\": \"{{PACKAGES}}\",\n                \"itemDescriptionForClearance\": \"{{DESCRIPTION}}\",\n                \"declaredValue\": {\n                    \"amount\": \"{{DECLARED_VALUE}}\",\n                    \"currency\": \"NMP\"\n                },\n                \"weight\": {\n                    \"units\": \"KG\",\n                    \"value\": \"{{DECLARED_WEIGHT}}\"\n                }\n            }\n        ]\n    },\n    \"accountNumber\": {\n        \"value\": \"740561073\"\n    }\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n    \"labelResponseOptions\": \"URL_ONLY\",\n    \"requestedShipment\": {\n        \"shipper\": {\n            \"contact\": {\n                \"personName\": \"{{SHIPPER_NAME}}\",\n                \"phoneNumber\": \"{{PHONE}}\",\n                \"companyName\": \"{{Shipper_Company_Name}}\"\n            },\n            \"address\": {\n                \"streetLines\": [\n                    \"{{SHIPPER_STREET_LINE_1}}\",\n                    \"{{SHIPPER_STREET_LINE_2}}\"\n                ],\n                \"city\": \"CIUDAD DE MEXICO\",\n                \"stateOrProvinceCode\": \"DF\",\n                \"postalCode\": 15520,\n                \"countryCode\": \"MX\"\n            }\n        },\n        \"recipients\": [\n            {\n                \"contact\": {\n                    \"personName\": \"{{RECIPIENT_NAME}}\",\n                    \"phoneNumber\": \"{{RECIPIENT_PHONE}}\",\n                    \"companyName\": \"{{Recipient_Company_Name}}\"\n                },\n                \"address\": {\n                    \"streetLines\": [\n                        \"{{RECIPIENT_STREET_LINE_1}}\",\n                        \"{{RECIPIENT_STREET_LINE_2}}\"\n                    ],\n                    \"city\": \"CIUDAD DE MEXICO\",\n                    \"stateOrProvinceCode\": \"DF\",\n                    \"postalCode\": \"04230\",\n                    \"countryCode\": \"MX\"\n                }\n            }\n        ],\n        \"shipDatestamp\": \"2022-09-05\",\n        \"serviceType\": \"FEDEX_EXPRESS_SAVER\",\n        \"packagingType\": \"YOUR_PACKAGING\",\n        \"pickupType\": \"USE_SCHEDULED_PICKUP\",\n        \"blockInsightVisibility\": false,\n        \"shippingChargesPayment\": {\n            \"paymentType\": \"SENDER\"\n        },\n        \"labelSpecification\": {\n            \"imageType\": \"PDF\",\n            \"labelStockType\": \"PAPER_85X11_TOP_HALF_LABEL\"\n        },\n        \"requestedPackageLineItems\": [\n            {\n                \"groupPackageCount\": \"{{PACKAGES}}\",\n                \"itemDescriptionForClearance\": \"{{DESCRIPTION}}\",\n                \"declaredValue\": {\n                    \"amount\": \"{{DECLARED_VALUE}}\",\n                    \"currency\": \"NMP\"\n                },\n                \"weight\": {\n                    \"units\": \"KG\",\n                    \"value\": \"{{DECLARED_WEIGHT}}\"\n                }\n            }\n        ]\n    },\n    \"accountNumber\": {\n        \"value\": \"740561073\"\n    }\n}"
 								},
 								"url": "https://apis-sandbox.fedex.com/ship/v1/shipments"
 							},
@@ -3856,7 +3778,7 @@
 						},
 						{
 							"name": "Access Token",
-							"_postman_id": "e4585e60-9bf1-435b-97eb-5ddc6c4c9bd5",
+							"id": "e4585e60-9bf1-435b-97eb-5ddc6c4c9bd5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3902,10 +3824,7 @@
 											"value": "EnviagoMX2022",
 											"disabled": true
 										}
-									],
-									"options": {
-										"urlencoded": {}
-									}
+									]
 								},
 								"url": "https://apis.fedex.com/oauth/token"
 							},
@@ -3913,7 +3832,7 @@
 						},
 						{
 							"name": "Cancelar envío",
-							"_postman_id": "b7b503ff-9638-47e9-bd62-d4f0158b8ed9",
+							"id": "b7b503ff-9638-47e9-bd62-d4f0158b8ed9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3941,7 +3860,7 @@
 						},
 						{
 							"name": "Crear Retiro",
-							"_postman_id": "f37d0ea9-26a7-4705-9ace-d4b89de215be",
+							"id": "f37d0ea9-26a7-4705-9ace-d4b89de215be",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -3975,7 +3894,7 @@
 						},
 						{
 							"name": "Cancelar Retiro",
-							"_postman_id": "1681e4ff-7c66-4541-b096-a1ae0f0916b9",
+							"id": "1681e4ff-7c66-4541-b096-a1ae0f0916b9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4003,7 +3922,7 @@
 						},
 						{
 							"name": "Check Disponibilidad por código postal",
-							"_postman_id": "6b31ab6e-e9ba-4a97-a6d1-acf69f3f7624",
+							"id": "6b31ab6e-e9ba-4a97-a6d1-acf69f3f7624",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4031,7 +3950,7 @@
 						},
 						{
 							"name": "Validate CP",
-							"_postman_id": "a36decd2-7dcd-45ea-939f-85a413493b5d",
+							"id": "a36decd2-7dcd-45ea-939f-85a413493b5d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4059,7 +3978,7 @@
 						},
 						{
 							"name": "Access Token 2 (otra forma)",
-							"_postman_id": "c32a556b-e42a-4566-afde-bd4e405961bf",
+							"id": "c32a556b-e42a-4566-afde-bd4e405961bf",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4097,18 +4016,14 @@
 								],
 								"body": {
 									"mode": "urlencoded",
-									"urlencoded": [],
-									"options": {
-										"urlencoded": {}
-									}
+									"urlencoded": []
 								},
 								"url": "https://apis-sandbox.fedex.com/oauth/token"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "2406abc5-47e1-48ae-93bb-19345ebf556e",
-					"_postman_isSubFolder": true
+					"id": "2406abc5-47e1-48ae-93bb-19345ebf556e"
 				},
 				{
 					"name": "SEGMAIL",
@@ -4118,7 +4033,7 @@
 							"item": [
 								{
 									"name": "Create quote PROD",
-									"_postman_id": "14ee5dbf-f728-46ed-963d-09cbc3147500",
+									"id": "14ee5dbf-f728-46ed-963d-09cbc3147500",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -4152,7 +4067,7 @@
 								},
 								{
 									"name": "confirm quote Copy",
-									"_postman_id": "5725ef80-e5ad-4ebd-aee7-699cf3d85955",
+									"id": "5725ef80-e5ad-4ebd-aee7-699cf3d85955",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -4180,7 +4095,7 @@
 								},
 								{
 									"name": "Tracking ultimo estado Copy",
-									"_postman_id": "616bd442-57c1-4e99-b043-b5b50361e8aa",
+									"id": "616bd442-57c1-4e99-b043-b5b50361e8aa",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -4217,24 +4132,22 @@
 								},
 								{
 									"name": "Pickup Copy",
-									"_postman_id": "b44689b5-af13-47cc-8a5d-ebf77767200f",
+									"id": "b44689b5-af13-47cc-8a5d-ebf77767200f",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
 									"request": {
 										"method": "POST",
-										"header": [],
-										"url": null
+										"header": []
 									},
 									"response": []
 								}
 							],
-							"_postman_id": "a3d50122-5a0f-4e81-962f-d4bf33d04bbe",
-							"_postman_isSubFolder": true
+							"id": "a3d50122-5a0f-4e81-962f-d4bf33d04bbe"
 						},
 						{
 							"name": "Create quote",
-							"_postman_id": "263c0810-9a05-4da9-b6a4-aeaf925ee7d4",
+							"id": "263c0810-9a05-4da9-b6a4-aeaf925ee7d4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4268,7 +4181,7 @@
 						},
 						{
 							"name": "confirm quote",
-							"_postman_id": "d1fedbdd-3e2f-4acb-a23d-63f5295f374b",
+							"id": "d1fedbdd-3e2f-4acb-a23d-63f5295f374b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4296,7 +4209,7 @@
 						},
 						{
 							"name": "Tracking ultimo estado",
-							"_postman_id": "f3f77fe5-b969-43b2-bebd-1b56d37d83eb",
+							"id": "f3f77fe5-b969-43b2-bebd-1b56d37d83eb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4333,23 +4246,21 @@
 						},
 						{
 							"name": "Pickup",
-							"_postman_id": "c8c4b686-bc97-46cd-a177-656537f2b393",
+							"id": "c8c4b686-bc97-46cd-a177-656537f2b393",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
 								"method": "POST",
-								"header": [],
-								"url": null
+								"header": []
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "28d52faa-cfd9-4396-ae48-c7ba6fb568a1",
-					"_postman_isSubFolder": true
+					"id": "28d52faa-cfd9-4396-ae48-c7ba6fb568a1"
 				}
 			],
-			"_postman_id": "982b78c6-b467-4c68-a90b-5fb0a41c8608"
+			"id": "982b78c6-b467-4c68-a90b-5fb0a41c8608"
 		},
 		{
 			"name": "PERU",
@@ -4359,7 +4270,7 @@
 					"item": [
 						{
 							"name": "Crear Envio",
-							"_postman_id": "ae930d04-6609-4788-b2b4-920fdab27e42",
+							"id": "ae930d04-6609-4788-b2b4-920fdab27e42",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4377,10 +4288,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"clients\": [\n        {\n            \"address\": \"Calle rio ramis Mz T1 Lt 9\",\n            \"reference\": \"Detras del parque\",\n            \"city\": \"Lima\",\n            \"county\": null,\n            \"country\": \"Peru\",\n            \"lat\": null,\n            \"lng\": null,\n            \"name\": \"Empresa seller\",\n            \"address_type\": \"COMERCIAL\",\n            \"contact_name\": \"Empresa seller\",\n            \"contact_phone\": 123999123,\n            \"contact_email\": \"prueba@prueba.com\",\n            \"priority\": 0,\n            \"time_windows\": [\n                {\n                    \"start\": \"09:00\",\n                    \"end\": \"21:00\"\n                }\n            ],\n            \"tags\": null,\n            \"orders\": [\n                {\n                    \"code\": \"9060711602\",\n                    \"alt_code\": \"21768233902\",\n                    \"description\": \"Artculo de prueba\",\n                    \"units_1\": 187,\n                    \"delivery_date\": \"28/09/2022\",\n                    \"billing_date\": 0,\n                    \"custom_1\": null,\n                    \"custom_2\": null,\n                    \"custom_3\": null,\n                    \"items\": [\n                        {\n                            \"code\": \"\",\n                            \"description\": \"es un envio de prueba\",\n                            \"units\": 1,\n                            \"units_1\": 0\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n    \"clients\": [\n        {\n            \"address\": \"Calle rio ramis Mz T1 Lt 9\",\n            \"reference\": \"Detras del parque\",\n            \"city\": \"Lima\",\n            \"county\": null,\n            \"country\": \"Peru\",\n            \"lat\": null,\n            \"lng\": null,\n            \"name\": \"Empresa seller\",\n            \"address_type\": \"COMERCIAL\",\n            \"contact_name\": \"Empresa seller\",\n            \"contact_phone\": 123999123,\n            \"contact_email\": \"prueba@prueba.com\",\n            \"priority\": 0,\n            \"time_windows\": [\n                {\n                    \"start\": \"09:00\",\n                    \"end\": \"21:00\"\n                }\n            ],\n            \"tags\": null,\n            \"orders\": [\n                {\n                    \"code\": \"9060711602\",\n                    \"alt_code\": \"21768233902\",\n                    \"description\": \"Artculo de prueba\",\n                    \"units_1\": 187,\n                    \"delivery_date\": \"28/09/2022\",\n                    \"billing_date\": 0,\n                    \"custom_1\": null,\n                    \"custom_2\": null,\n                    \"custom_3\": null,\n                    \"items\": [\n                        {\n                            \"code\": \"\",\n                            \"description\": \"es un envio de prueba\",\n                            \"units\": 1,\n                            \"units_1\": 0\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}"
 								},
 								"url": {
 									"raw": "http://external.driv.in/api/external/v2/orders?schema_code=test",
@@ -4408,7 +4316,7 @@
 						},
 						{
 							"name": "Crear Esquemas",
-							"_postman_id": "28f725d2-d297-4bac-ba04-3ca842adf617",
+							"id": "28f725d2-d297-4bac-ba04-3ca842adf617",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4426,10 +4334,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"schemas\": [\n    {\n      \"code\": \"test\",\n      \"name\": \"enviame test\",\n      \"return_trip\": true,\n      \"multiple_trips\": false,\n      \"reload_time\": 60,\n      \"service_time\": 10,\n      \"exclusive\": false,\n      \"max_speed\": 100,\n      \"optimization_type\": 1,\n\t  \"fleet\": null,\n\t  \"start_time\": \"09:00\",\n\t  \"end_time\": \"21:00\",\n\t  \"active\": true,\n      \"deposit\": {\n        \"name\": \"Deposito 1\",\n        \"code\": \"D1\",\n        \"lat\": 33,\n        \"lng\": 70,\n        \"address_1\": \"Calle de prueba\",\n        \"city\": \"Lima\",\n        \"state\": \"Lima\",\n        \"county\": null,\n        \"country\": \"Peru\"\n      }\n    }\n  ]\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n  \"schemas\": [\n    {\n      \"code\": \"test\",\n      \"name\": \"enviame test\",\n      \"return_trip\": true,\n      \"multiple_trips\": false,\n      \"reload_time\": 60,\n      \"service_time\": 10,\n      \"exclusive\": false,\n      \"max_speed\": 100,\n      \"optimization_type\": 1,\n\t  \"fleet\": null,\n\t  \"start_time\": \"09:00\",\n\t  \"end_time\": \"21:00\",\n\t  \"active\": true,\n      \"deposit\": {\n        \"name\": \"Deposito 1\",\n        \"code\": \"D1\",\n        \"lat\": 33,\n        \"lng\": 70,\n        \"address_1\": \"Calle de prueba\",\n        \"city\": \"Lima\",\n        \"state\": \"Lima\",\n        \"county\": null,\n        \"country\": \"Peru\"\n      }\n    }\n  ]\n}"
 								},
 								"url": "http://external.driv.in/api/external/v2/schemas"
 							},
@@ -4437,7 +4342,7 @@
 						},
 						{
 							"name": "Get Envios",
-							"_postman_id": "95764961-4601-4fec-b2d8-9adbd987c53e",
+							"id": "95764961-4601-4fec-b2d8-9adbd987c53e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4475,7 +4380,7 @@
 						},
 						{
 							"name": "Cancelar Envío",
-							"_postman_id": "18ee1fa9-aeb7-4119-9d88-8490af1d61c3",
+							"id": "18ee1fa9-aeb7-4119-9d88-8490af1d61c3",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4517,15 +4422,14 @@
 							"response": []
 						}
 					],
-					"_postman_id": "2a1a42b5-6d23-484d-bd6f-e99e7d1ddd82",
-					"_postman_isSubFolder": true
+					"id": "2a1a42b5-6d23-484d-bd6f-e99e7d1ddd82"
 				},
 				{
 					"name": "PE - OLVA",
 					"item": [
 						{
 							"name": "Crear envio",
-							"_postman_id": "368f4ed6-f7a2-4923-be07-32d58a4802e1",
+							"id": "368f4ed6-f7a2-4923-be07-32d58a4802e1",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4543,25 +4447,21 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"consignado\": \"Claudia Rosales Arana\",\n  \"nroDocConsignado\": 20602257127,\n  \"direccion\": \"Parque Francisco Grana 302 604\",\n  \"codUbigeo\": \"150120\",\n  \"codExterno\": \"1166281369922-01\",\n  \"observacion\": \"3220799000013|3223099000011|3220439000120\",\n  \"codigoArea\": \"1\",\n  \"codArticulo\": \"PAQ\",\n  \"codContenedor\": \"CAJ\",\n  \"montoArticulo\": \"0.00\",\n  \"telefono\": \"+51949798970\",\n  \"codServicio\": \"REC\",\n  \"dimensionPaqueteAlto\": 1,\n  \"dimensionPaqueteAncho\": 1,\n  \"dimensionPaqueteLargo\": 1,\n  \"pesoReal\": \"233338.250\",\n  \"numeroPieza\": 2\n}",
-									"options": {
-										"raw": {}
-									}
+									"raw": "{\n  \"consignado\": \"Claudia Rosales Arana\",\n  \"nroDocConsignado\": 20602257127,\n  \"direccion\": \"Parque Francisco Grana 302 604\",\n  \"codUbigeo\": \"150120\",\n  \"codExterno\": \"1166281369922-01\",\n  \"observacion\": \"3220799000013|3223099000011|3220439000120\",\n  \"codigoArea\": \"1\",\n  \"codArticulo\": \"PAQ\",\n  \"codContenedor\": \"CAJ\",\n  \"montoArticulo\": \"0.00\",\n  \"telefono\": \"+51949798970\",\n  \"codServicio\": \"REC\",\n  \"dimensionPaqueteAlto\": 1,\n  \"dimensionPaqueteAncho\": 1,\n  \"dimensionPaqueteLargo\": 1,\n  \"pesoReal\": \"233338.250\",\n  \"numeroPieza\": 2\n}"
 								},
 								"url": "https://olvacourier.com:8081/v1.5/api/envios"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "4fe99ef4-fe5c-434c-8853-ee769ca739fe",
-					"_postman_isSubFolder": true
+					"id": "4fe99ef4-fe5c-434c-8853-ee769ca739fe"
 				},
 				{
 					"name": "PE - Urbano",
 					"item": [
 						{
 							"name": "Crear Envio Logistica Inversa",
-							"_postman_id": "58e73a62-1546-4f49-a512-b4029b55ee18",
+							"id": "58e73a62-1546-4f49-a512-b4029b55ee18",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4594,7 +4494,7 @@
 						},
 						{
 							"name": "Log Inversa Prod",
-							"_postman_id": "9f0298af-835e-4574-9728-b976f27fdad2",
+							"id": "9f0298af-835e-4574-9728-b976f27fdad2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4627,7 +4527,7 @@
 						},
 						{
 							"name": "Test",
-							"_postman_id": "38f479fa-65ba-46fa-b641-3345b050ae15",
+							"id": "38f479fa-65ba-46fa-b641-3345b050ae15",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4655,7 +4555,7 @@
 						},
 						{
 							"name": "Tracking",
-							"_postman_id": "33f1f446-b809-43bc-a7e0-7c7dd45df212",
+							"id": "33f1f446-b809-43bc-a7e0-7c7dd45df212",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4694,7 +4594,7 @@
 						},
 						{
 							"name": "Cancelar envio normal",
-							"_postman_id": "8ec1e5ba-da7f-447b-b417-473e1ae2eb01",
+							"id": "8ec1e5ba-da7f-447b-b417-473e1ae2eb01",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4725,25 +4625,21 @@
 											"value": "{\"vp_linea\":\"3\",\"guia\": \"WYB156614793\"}",
 											"type": "text"
 										}
-									],
-									"options": {
-										"formdata": {}
-									}
+									]
 								},
 								"url": "https://api.urbanoexpress.com.pe/pyp//ws/ue/cancela_ge"
 							},
 							"response": []
 						}
 					],
-					"_postman_id": "b24ff2b7-ac68-46e5-8d4b-16d54e182464",
-					"_postman_isSubFolder": true
+					"id": "b24ff2b7-ac68-46e5-8d4b-16d54e182464"
 				},
 				{
 					"name": "PE - Llamafood",
 					"item": [
 						{
 							"name": "GET Order ID",
-							"_postman_id": "6e1740db-4d48-4a93-a726-1b7be39c4d07",
+							"id": "6e1740db-4d48-4a93-a726-1b7be39c4d07",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4777,7 +4673,7 @@
 						},
 						{
 							"name": "Crear Envio",
-							"_postman_id": "70de0e51-0d08-42bc-94f2-daf611af492a",
+							"id": "70de0e51-0d08-42bc-94f2-daf611af492a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4831,7 +4727,7 @@
 						},
 						{
 							"name": "Crear Envio Test",
-							"_postman_id": "812aad37-936a-45b6-827c-9c04cddd57d2",
+							"id": "812aad37-936a-45b6-827c-9c04cddd57d2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4885,7 +4781,7 @@
 						},
 						{
 							"name": "Cancelar Envio",
-							"_postman_id": "6bdeb2b5-b128-4d14-8b4a-041015ad13bc",
+							"id": "6bdeb2b5-b128-4d14-8b4a-041015ad13bc",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -4941,15 +4837,19 @@
 							"response": []
 						}
 					],
-					"_postman_id": "00b7d5f6-dab4-4f39-b2b8-b550ff1e8899",
-					"_postman_isSubFolder": true
+					"id": "00b7d5f6-dab4-4f39-b2b8-b550ff1e8899"
 				}
 			],
-			"_postman_id": "da14d4a5-ed56-4717-a62a-7fc13100b2f1"
+			"id": "da14d4a5-ed56-4717-a62a-7fc13100b2f1"
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "90f0abe7-5426-432d-ba0e-66f003e4de5b"
 		},
 		{
 			"name": "Rapiboy Tracking",
-			"_postman_id": "78ae6b39-b7a8-4f74-ae49-4f2ab8f73d61",
+			"id": "78ae6b39-b7a8-4f74-ae49-4f2ab8f73d61",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -4967,10 +4867,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"IdPedido\" : \"\",\n  \"ReferenciaExterna\" : \"EN100476922\",\n  \"TrackingId\" : \"\"\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n  \"IdPedido\" : \"\",\n  \"ReferenciaExterna\" : \"EN100476922\",\n  \"TrackingId\" : \"\"\n}"
 				},
 				"url": "https://rapiboy.com/v1/NextDaySmart/Get"
 			},
@@ -4978,7 +4875,7 @@
 		},
 		{
 			"name": "Rapiboy Tracking 2",
-			"_postman_id": "ed8dddd9-7c7c-48f9-bde3-a60d38b12dad",
+			"id": "ed8dddd9-7c7c-48f9-bde3-a60d38b12dad",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5006,7 +4903,7 @@
 		},
 		{
 			"name": "Geocode google api",
-			"_postman_id": "529d3f0c-4e32-46ce-9762-ee978a79d0a0",
+			"id": "529d3f0c-4e32-46ce-9762-ee978a79d0a0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5043,7 +4940,7 @@
 		},
 		{
 			"name": "99 minutos CO Traking prod",
-			"_postman_id": "73acff42-eac1-4c1e-9c7a-9c0e62fd0101",
+			"id": "73acff42-eac1-4c1e-9c7a-9c0e62fd0101",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5082,7 +4979,7 @@
 		},
 		{
 			"name": "Tracking Yango PE Prod",
-			"_postman_id": "88e9ab15-0d99-46ac-bd95-d5666d8e2166",
+			"id": "88e9ab15-0d99-46ac-bd95-d5666d8e2166",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5130,7 +5027,7 @@
 		},
 		{
 			"name": "PE - Urbaner Cancelacion",
-			"_postman_id": "4ce7364f-53de-4415-aae6-3035a2be23d8",
+			"id": "4ce7364f-53de-4415-aae6-3035a2be23d8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5148,10 +5045,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"cancellation_reason\": \"Anula compra\"\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n    \"cancellation_reason\": \"Anula compra\"\n}"
 				},
 				"url": "https://middleware.urbaner.com/api/cli/client/orders/993647/cancel/"
 			},
@@ -5159,7 +5053,7 @@
 		},
 		{
 			"name": "tracking nirex",
-			"_postman_id": "ca0fcb72-efd0-439a-9e8b-8623032eb85f",
+			"id": "ca0fcb72-efd0-439a-9e8b-8623032eb85f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5177,7 +5071,7 @@
 		},
 		{
 			"name": "ChileExpress cancelar envio",
-			"_postman_id": "beca0696-0cca-471d-a1ed-40c10e788330",
+			"id": "beca0696-0cca-471d-a1ed-40c10e788330",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5205,7 +5099,7 @@
 		},
 		{
 			"name": "Chileexpress tracking",
-			"_postman_id": "7d896131-ab97-4e32-b5b5-6780ffbb35be",
+			"id": "7d896131-ab97-4e32-b5b5-6780ffbb35be",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5238,7 +5132,7 @@
 		},
 		{
 			"name": "Cargui CancelarServicio",
-			"_postman_id": "4bc07a9a-65c0-4e48-b2a4-a7ad551e8efc",
+			"id": "4bc07a9a-65c0-4e48-b2a4-a7ad551e8efc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5260,7 +5154,7 @@
 		},
 		{
 			"name": "Yango MX creacion de envio",
-			"_postman_id": "ea1ecc30-8feb-4cbe-a54f-4fe611c74246",
+			"id": "ea1ecc30-8feb-4cbe-a54f-4fe611c74246",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -5315,7 +5209,7 @@
 		},
 		{
 			"name": "ITR Crear envio id 17",
-			"_postman_id": "1fd00dc0-6bb2-413e-b81a-577d98906c1f",
+			"id": "1fd00dc0-6bb2-413e-b81a-577d98906c1f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
