@@ -4261,7 +4261,180 @@
 				},
 				{
 					"name": "krri-Karri",
-					"item": [],
+					"item": [
+						{
+							"name": "Crear envio DEV",
+							"id": "82d09e09-0a35-4f18-9323-e208ed720d8a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"order_reference_id\": \"SELLERSORDERREFERENCE001\",\n    \"service_order_id\" : \"SELLERSORDERREFERENCE001\",\n    \"location_id\": 28001,\n    \"contract\": 2101,\n    \"pickup_date\": \"2022-12-08\",\n    \"service_type\": \"same_day\",\n    \"last_mile\": 1,\n    \"products\": [\n        {\n            \"product_reference_id\": \"BOXCODE001\",\n            \"identifier\": \"BOXCODE001\"\n        }\n    ],\n    \"receiver\": {\n        \"receiver_name\": \"Fabian Paredes\",\n        \"receiver_phone_number\": \"987654321\",\n        \"receiver_email\": \"fabian+transvip@symlab.io\"\n    },\n    \"dropoff\": {\n        \"drop_address\": \"Estudios Azteca MB Lt 23\",\n        \"drop_address_line_2\": \"No.14\",\n        \"drop_comuna\": \"Jardines Tecma\",\n        \"drop_observations\": \"Tocar la puerta\",\n        \"drop_date\": \"2022-08-03\",\n        \"drop_province\" : \"Ciudad de México\",\n        \"drop_zipcode\" : \"08920\"\n    },\n    \"pickup\": {\n        \"pickup_address\" : \"Calle Miguel Hidalgo 342\",\n        \"pickup_comuna\" : \"Iztapalapa\",\n        \"pickup_province\" : \"Ciudad de México\",\n        \"pickup_zipcode\" : \"09570\",\n        \"pickup_observations\": \"Tocar la puerta\",\n        \"pickup_address_line_2\" : \"Puerta azul\"\n    }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://carga-api-mx-gateway-9lj9juo1.uk.gateway.dev/order/reference?key=AIzaSyA-2akaQ9S0Y3ADSIRC-wxmM4kyn7RBqxI&tag=zpl",
+									"protocol": "https",
+									"host": [
+										"carga-api-mx-gateway-9lj9juo1",
+										"uk",
+										"gateway",
+										"dev"
+									],
+									"path": [
+										"order",
+										"reference"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "AIzaSyA-2akaQ9S0Y3ADSIRC-wxmM4kyn7RBqxI"
+										},
+										{
+											"key": "tag",
+											"value": "zpl"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Crear envio PROD",
+							"id": "6e2a0f3b-1533-4f2e-a2a2-b6bda5648f8e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"order_reference_id\": \"enviame001\",\n    \"service_order_id\": \"enviame001\",\n    \"location_id\": 28001,\n    \"client_id\": 2,\n    \"contract\": 10098,\n    \"pickup_date\": \"2023-01-04\",\n    \"last_mile\": 1,\n    \"products\": [\n        {\n            \"product_reference_id\": \"env001\",\n            \"identifier\": \"env001\"\n        }\n    ],\n    \"receiver\": {\n        \"receiver_name\": \"Pamela Campos\",\n        \"receiver_phone_number\": \"5637193035\",\n        \"receiver_email\": \"pamela.campos@enviame.io\"\n    },\n    \"dropoff\": {\n        \"drop_address\": \"Col leyes de Reforma 2a secc\",\n        \"drop_address_line_2\": \"Col leyes de Reforma 2a secc\",\n        \"drop_comuna\": \"Leyes de Reforma 2A Seccion\",\n        \"drop_zipcode\": \"09310\",\n        \"drop_province\": \"Ciudad de Mexico\",\n        \"drop_observations\": \"Sur 23 mz 42 Int 431\",\n        \"drop_date\": \"2023-01-04\"\n    },\n    \"pickup\": {\n        \"pickup_address\": \"Cirrus 301, 76246 Qro., Mexico\",\n        \"pickup_address_line_2\": \"Real Solare\",\n        \"pickup_comuna\": \"Real Solare\",\n        \"pickup_province\": \"Queretaro\",\n        \"pickup_zipcode\": \"76246\",\n        \"pickup_observations\": \"numero 35\"\n    },\n    \"api_key\": \"AIzaSyDtNw1FyxO3V62LL2yBIXaW7RTaIt-z8RI\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://carga-api-mx-gateway-5g8g1c06.uk.gateway.dev/order/reference?key=AIzaSyDtNw1FyxO3V62LL2yBIXaW7RTaIt-z8RI&tag=zpl",
+									"protocol": "https",
+									"host": [
+										"carga-api-mx-gateway-5g8g1c06",
+										"uk",
+										"gateway",
+										"dev"
+									],
+									"path": [
+										"order",
+										"reference"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "AIzaSyDtNw1FyxO3V62LL2yBIXaW7RTaIt-z8RI"
+										},
+										{
+											"key": "tag",
+											"value": "zpl"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getProductStatusByReference",
+							"id": "115e8503-dc3e-4e43-b539-1f2803522e3a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://carga-api-mx-gateway-9lj9juo1.uk.gateway.dev/order/status/reference/:reference?key=AIzaSyA-2akaQ9S0Y3ADSIRC-wxmM4kyn7RBqxI",
+									"protocol": "https",
+									"host": [
+										"carga-api-mx-gateway-9lj9juo1",
+										"uk",
+										"gateway",
+										"dev"
+									],
+									"path": [
+										"order",
+										"status",
+										"reference",
+										":reference"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "AIzaSyA-2akaQ9S0Y3ADSIRC-wxmM4kyn7RBqxI"
+										}
+									],
+									"variable": [
+										{
+											"id": "b006469e-8b7e-4eff-9e61-1f1744cee608",
+											"key": "reference",
+											"value": "SELLERSORDERREFERENCE001"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ReferencedProductCancellation",
+							"id": "e6047d2b-c49b-4a7a-8ebd-940f74cfe958",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "https://carga-api-mx-gateway-5g8g1c06.uk.gateway.dev/order/cancel/reference/:reference?key=AIzaSyDtNw1FyxO3V62LL2yBIXaW7RTaIt-z8RI",
+									"protocol": "https",
+									"host": [
+										"carga-api-mx-gateway-5g8g1c06",
+										"uk",
+										"gateway",
+										"dev"
+									],
+									"path": [
+										"order",
+										"cancel",
+										"reference",
+										":reference"
+									],
+									"query": [
+										{
+											"key": "key",
+											"value": "AIzaSyDtNw1FyxO3V62LL2yBIXaW7RTaIt-z8RI"
+										}
+									],
+									"variable": [
+										{
+											"id": "437e23ab-1734-4c79-b87f-ce182f4e8239",
+											"key": "reference",
+											"value": "103406908"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "6b1974aa-b7ea-410a-83f3-b107260870f2"
 				}
 			],
@@ -5277,6 +5450,55 @@
 					}
 				},
 				"url": "https://www3.interrapidisimo.com/ApiVentaCredito/api/Admision/InsertarAdmision/"
+			},
+			"response": []
+		},
+		{
+			"name": "yango accept",
+			"id": "97c5b66c-34c8-4048-92dc-a2cb707b1136",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer y0_AgAAAABkWI_kAAVM1QAAAADX91ITQzsIhuB4Qc6EtgAlg1gYt4qL88Y"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en"
+					},
+					{
+						"key": "Cookie",
+						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+					}
+				],
+				"url": {
+					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=145d07db785e430786dcadc7a7a6600a",
+					"protocol": "https",
+					"host": [
+						"b2b",
+						"taxi",
+						"yandex",
+						"net"
+					],
+					"path": [
+						"b2b",
+						"cargo",
+						"integration",
+						"v2",
+						"claims",
+						"info"
+					],
+					"query": [
+						{
+							"key": "claim_id",
+							"value": "145d07db785e430786dcadc7a7a6600a"
+						}
+					]
+				}
 			},
 			"response": []
 		}
