@@ -5501,6 +5501,55 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "yango accept",
+			"id": "145a872b-fb76-4496-b845-ec7801a69e4e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer y0_AgAAAABkWI_kAAVM1QAAAADX91ITQzsIhuB4Qc6EtgAlg1gYt4qL88Y"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en"
+					},
+					{
+						"key": "Cookie",
+						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+					}
+				],
+				"url": {
+					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=145d07db785e430786dcadc7a7a6600a",
+					"protocol": "https",
+					"host": [
+						"b2b",
+						"taxi",
+						"yandex",
+						"net"
+					],
+					"path": [
+						"b2b",
+						"cargo",
+						"integration",
+						"v2",
+						"claims",
+						"info"
+					],
+					"query": [
+						{
+							"key": "claim_id",
+							"value": "145d07db785e430786dcadc7a7a6600a"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
