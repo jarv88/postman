@@ -5550,7 +5550,7 @@
 			"response": []
 		},
 		{
-			"name": "yanco cancel",
+			"name": "yango cancel",
 			"id": "39a47028-c7db-4d3e-ae9f-c73ee1816816",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
