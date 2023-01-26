@@ -5235,10 +5235,11 @@
 				"header": [
 					{
 						"key": "key",
-						"value": "99d43b97-b7c2-4993-ad54-a09932092533"
+						"value": "99d43b97-b7c2-4993-ad54-a09932092533",
+						"type": "text"
 					}
 				],
-				"url": "https://api.nirex.pe/api/orders/52180"
+				"url": "https://api.nirex.pe/api/orders/56314"
 			},
 			"response": []
 		},
