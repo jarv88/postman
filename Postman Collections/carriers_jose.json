@@ -5521,6 +5521,24 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "yango delivery proof",
+			"id": "203215a6-7bbf-47bb-9f7b-5bfc098d901a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-functions-key",
+						"value": "qVoJC5cdsUm0OLTA8toKDS8ksfLW2zpG-oydUrMmh9t2AzFu7R4eVQ=="
+					}
+				],
+				"url": "https://yango-api.azurewebsites.net/api/clients/3FA1E1BD-12A7-452D-AD9D-154B1505483D/orders/103845471/photo"
+			},
+			"response": []
 		}
 	]
 }
