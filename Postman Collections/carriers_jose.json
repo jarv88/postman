@@ -5548,6 +5548,63 @@
 				"url": "https://yango-api.azurewebsites.net/api/clients/3FA1E1BD-12A7-452D-AD9D-154B1505483D/orders/103845471/photo"
 			},
 			"response": []
+		},
+		{
+			"name": "yanco cancel",
+			"id": "39a47028-c7db-4d3e-ae9f-c73ee1816816",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer y0_AgAAAABkWI_kAAVM1QAAAADX91ITQzsIhuB4Qc6EtgAlg1gYt4qL88Y"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"cancel_state\": \"free\",\n  \"version\": 1\n}"
+				},
+				"url": {
+					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/cancel?claim_id=7dc7120610e443d4ab808eda5f6349d5",
+					"protocol": "https",
+					"host": [
+						"b2b",
+						"taxi",
+						"yandex",
+						"net"
+					],
+					"path": [
+						"b2b",
+						"cargo",
+						"integration",
+						"v2",
+						"claims",
+						"cancel"
+					],
+					"query": [
+						{
+							"key": "claim_id",
+							"value": "7dc7120610e443d4ab808eda5f6349d5"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
