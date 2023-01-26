@@ -5495,8 +5495,17 @@
 						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"version\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=145d07db785e430786dcadc7a7a6600a",
+					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/accept?claim_id=145d07db785e430786dcadc7a7a6600a",
 					"protocol": "https",
 					"host": [
 						"b2b",
@@ -5510,7 +5519,7 @@
 						"integration",
 						"v2",
 						"claims",
-						"info"
+						"accept"
 					],
 					"query": [
 						{
