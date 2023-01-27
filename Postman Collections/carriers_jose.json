@@ -4517,14 +4517,14 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"clientDetail\": {\r\n    \"accountName\": \"andrea.armijo@enviame.io\",\r\n    \"apiKey\": \"AGKyjuaPzaPibvSzWPFrMXYcIC3y8IK8\"\r\n  },\r\n  \"trackingNumbers\": [\r\n    10009719\r\n  ]\r\n}",
+									"raw": "{\r\n  \"clientDetail\": {\r\n    \"accountName\": \"andrea.armijo@enviame.io\",\r\n    \"apiKey\": \"AGKyjuaPzaPibvSzWPFrMXYcIC3y8IK8\"\r\n  },\r\n  \"shipment\": {\r\n    \"trackingNumber\": 10009719\r\n  }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "https://test.quiken.mx/track"
+								"url": "https://test.quiken.mx/cancel"
 							},
 							"response": []
 						}
