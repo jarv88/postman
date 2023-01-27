@@ -4505,6 +4505,28 @@
 								"url": "https://test.quiken.mx/track"
 							},
 							"response": []
+						},
+						{
+							"name": "cancel",
+							"id": "2448ba1d-6bed-4f65-b1fd-24476f094d22",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"clientDetail\": {\r\n    \"accountName\": \"andrea.armijo@enviame.io\",\r\n    \"apiKey\": \"AGKyjuaPzaPibvSzWPFrMXYcIC3y8IK8\"\r\n  },\r\n  \"trackingNumbers\": [\r\n    10009719\r\n  ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://test.quiken.mx/track"
+							},
+							"response": []
 						}
 					],
 					"id": "a761443f-82d5-486e-bd2c-b0cced0c297e"
