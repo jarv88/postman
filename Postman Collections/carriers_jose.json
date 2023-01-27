@@ -4439,7 +4439,20 @@
 				},
 				{
 					"name": "Quiken",
-					"item": [],
+					"item": [
+						{
+							"name": "New Request",
+							"id": "97b9e523-4add-4d5c-8fed-0690a43031f9",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "a761443f-82d5-486e-bd2c-b0cced0c297e"
 				}
 			],
