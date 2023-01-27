@@ -4441,7 +4441,7 @@
 					"name": "Quiken",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "rates",
 							"id": "97b9e523-4add-4d5c-8fed-0690a43031f9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
