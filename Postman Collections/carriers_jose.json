@@ -4447,8 +4447,18 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"clientDetail\": {\r\n    \"accountName\": \"andrea.armijo@enviame.io\",\r\n    \"apiKey\": \"AGKyjuaPzaPibvSzWPFrMXYcIC3y8IK8\"\r\n  },\r\n  \"origin\": {\r\n    \"name\": \"David\",\r\n    \"company\": \"Quiken\",\r\n    \"email\": \"david@quiken.mx\",\r\n    \"phone\": \"8119999788\",\r\n    \"country\": \"MX\",\r\n    \"postalCode\": \"64989\"\r\n  },\r\n  \"destination\": {\r\n    \"name\": \"David\",\r\n    \"company\": \"Quiken\",\r\n    \"email\": \"david@quiken.mx\",\r\n    \"phone\": \"8119999788\",\r\n    \"country\": \"MX\",\r\n    \"postalCode\": \"64989\"\r\n  },\r\n  \"package\": {\r\n    \"content\": \"ropa\",\r\n    \"type\": 1,\r\n    \"dimensions\": {\r\n      \"length\": 30,\r\n      \"width\": 30,\r\n      \"height\": 35\r\n    },\r\n    \"weight\": 1\r\n  }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://test.quiken.mx/rate"
 							},
 							"response": []
 						}
