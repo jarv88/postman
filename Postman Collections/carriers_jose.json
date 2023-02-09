@@ -2011,7 +2011,116 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "e18f4562-a34f-4b07-a5b1-cdb94f5fc6f4",
+									"name": "Crear Envio Prod",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "accept",
+												"value": "application/json"
+											},
+											{
+												"key": "Authorization",
+												"value": "6cd0649c9d3f171a32f761ad9eda16885df95afb"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"scheduledDate\": \"2023-02-10 15:00:00\",\r\n    \"type\": \"regular\",\r\n    \"flow\": \"manual\",\r\n    \"from\": {\r\n        \"googlePlaceId\": \"\",\r\n        \"addressDescription\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\",\r\n        \"street\": \"Cra. 11B #99-25\",\r\n        \"number\": \"2678\",\r\n        \"floor\": \"6to\",\r\n        \"apartment\": \"C\",\r\n        \"city\": \"Bogota\",\r\n        \"state\": \"Bogota\",\r\n        \"postalCode\": \"\",\r\n        \"country\": \"COL\",\r\n        \"address\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\",\r\n        \"instructions\": \"No funciona el timbre. Llamar antes\",\r\n        \"contact\": {\r\n            \"firstName\": \"Juan\",\r\n            \"lastName\": \"Perez\",\r\n            \"email\": \"\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"to\": {\r\n        \"googlePlaceId\": \"\",\r\n        \"addressDescription\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\",\r\n        \"street\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75\",\r\n        \"number\": \"2678\",\r\n        \"floor\": \"6to\",\r\n        \"apartment\": \"C\",\r\n        \"city\": \"Bogota\",\r\n        \"state\": \"Bogota\",\r\n        \"postalCode\": \"1425\",\r\n        \"country\": \"COL\",\r\n        \"address\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\",\r\n        \"instructions\": \"No funciona el timbre. Llamar antes\",\r\n        \"contact\": {\r\n            \"firstName\": \"Juan\",\r\n            \"lastName\": \"Perez\",\r\n            \"email\": \"\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"internalCode\": \"\",\r\n    \"description\": \"\",\r\n    \"label\": \"\",\r\n    \"extra\": {},\r\n    \"settings\": [],\r\n    \"returnSettings\": [],\r\n    \"conf\": {\r\n        \"assurance\": false\r\n    },\r\n    \"items\": [\r\n        {\r\n            \"description\": \"T-Shirt\",\r\n            \"reference_code\": \"AB-1222\",\r\n            \"weight\": 1500,\r\n            \"length\": 40,\r\n            \"width\": 30,\r\n            \"height\": 50,\r\n            \"price\": 2350.99,\r\n            \"currency\": \"COP\",\r\n            \"quantity\": 1\r\n        }\r\n    ],\r\n    \"services\":[\"cash_on_delivery\"],\r\n    \"chargeAmount\":500\r\n}"
+										},
+										"url": {
+											"raw": "https://api-prod.moova.io/b2b/shippings?appId=e04a2a20-5546-11ed-b565-63415bcc3276",
+											"protocol": "https",
+											"host": [
+												"api-prod",
+												"moova",
+												"io"
+											],
+											"path": [
+												"b2b",
+												"shippings"
+											],
+											"query": [
+												{
+													"key": "appId",
+													"value": "e04a2a20-5546-11ed-b565-63415bcc3276"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 09 Feb 2023 19:06:11 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "nginx/1.22.1"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Access-Control-Allow-Methods",
+											"value": "GET, POST, PATCH, PUT, DELETE, OPTIONS"
+										},
+										{
+											"key": "Access-Control-Allow-Headers",
+											"value": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-moova-ecosystem-id"
+										},
+										{
+											"key": "X-Cache",
+											"value": "Miss from cloudfront"
+										},
+										{
+											"key": "Via",
+											"value": "1.1 aeb4230d4287e12c8862574307ac71a2.cloudfront.net (CloudFront)"
+										},
+										{
+											"key": "X-Amz-Cf-Pop",
+											"value": "MIA3-C2"
+										},
+										{
+											"key": "Alt-Svc",
+											"value": "h3=\":443\"; ma=86400"
+										},
+										{
+											"key": "X-Amz-Cf-Id",
+											"value": "m8B9zkR-6EFUvClfyJIZS_NnTkWKqQIVtSigzeINegocGCWlwfmGfQ=="
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": \"d14f1be0-a8ac-11ed-b4a5-253c808b7f6f\",\n    \"scheduledDate\": \"2023-02-10 15:00:00\",\n    \"type\": \"regular\",\n    \"priceFormatted\": \"$ 14.300,00\",\n    \"price\": \"14300.00\",\n    \"currency\": \"COP\",\n    \"from\": {\n        \"placeId\": 3188438,\n        \"googlePlaceId\": \"ChIJq6o2_ZaaP44RkZcweoSHGt4\",\n        \"address\": \"Cra. 11B #99 25 Edf, Bogotá, Colombia\",\n        \"addressExtra\": \"6to C\",\n        \"contact\": \"Juan Perez\",\n        \"email\": \"\",\n        \"phone\": \"\",\n        \"instructions\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\\nNo funciona el timbre. Llamar antes\",\n        \"coords\": {\n            \"lat\": 4.6828473,\n            \"lng\": -74.044815\n        }\n    },\n    \"to\": {\n        \"placeId\": 3188439,\n        \"googlePlaceId\": \"ChIJ6XP5nGabP44RxZhAXhaKYnY\",\n        \"address\": \"Cra. 86 #55a-75, Bogotá, Colombia\",\n        \"addressExtra\": \"6to C\",\n        \"contact\": \"Juan Perez\",\n        \"email\": \"\",\n        \"phone\": \"\",\n        \"instructions\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\\nNo funciona el timbre. Llamar antes\",\n        \"coords\": {\n            \"lat\": 4.6827956,\n            \"lng\": -74.1160932\n        }\n    },\n    \"status\": \"DRAFT\",\n    \"secretCode\": \"6347\",\n    \"internalCode\": \"\",\n    \"internalOrderId\": null,\n    \"description\": \"\",\n    \"hash\": \"11779bf18ea4d11d7effe5a3b29629e352274c9a919d3560f8200e214721c6a3\",\n    \"message\": \"\",\n    \"extra\": null,\n    \"conf\": {\n        \"assurance\": false\n    },\n    \"deliveryInfo\": {\n        \"courier\": null,\n        \"lat\": null,\n        \"lng\": null,\n        \"receiver\": {\n            \"firstName\": \"\",\n            \"lastName\": \"\",\n            \"scannedInfo\": null\n        }\n    },\n    \"statusHistory\": [\n        {\n            \"status\": \"DRAFT\",\n            \"details\": null,\n            \"createdAt\": \"2023-02-09 19:06:11\"\n        }\n    ],\n    \"activeSettings\": [\n        {\n            \"id\": 3,\n            \"name\": \"SignaturePhoto\",\n            \"apply_to_all\": 1,\n            \"description\": \"Instead of ask for a signature, take a picture of the package.\",\n            \"message\": \"Debido al coronavirus, en vez de solicitar la firma, por favor sacale una foto a la puerta del domicilio donde estás haciendo la entrega.\",\n            \"created_at\": \"2020-03-17 11:33:16\",\n            \"updated_at\": \"2020-03-17 11:33:16\",\n            \"deleted_at\": null,\n            \"laravel_through_key\": \"d14f1be0-a8ac-11ed-b4a5-253c808b7f6f\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"DeliveryUserIdentification\",\n            \"apply_to_all\": 1,\n            \"description\": \"Request user identification when shipping is delivered\",\n            \"message\": \"Documento de identidad\",\n            \"created_at\": \"2020-08-12 12:28:45\",\n            \"updated_at\": \"2020-08-12 12:28:45\",\n            \"deleted_at\": null,\n            \"laravel_through_key\": \"d14f1be0-a8ac-11ed-b4a5-253c808b7f6f\"\n        }\n    ],\n    \"services\": [\n        {\n            \"id\": 1,\n            \"name\": \"cash_on_delivery\",\n            \"description\": \"Courier will charge for the items at delivery time\",\n            \"created_at\": \"2022-12-27 03:09:52\",\n            \"updated_at\": \"2022-12-27 03:09:52\",\n            \"laravel_through_key\": \"d14f1be0-a8ac-11ed-b4a5-253c808b7f6f\"\n        }\n    ],\n    \"relatedShippings\": {\n        \"previous\": null,\n        \"next\": null\n    },\n    \"items\": [\n        {\n            \"description\": \"T-Shirt\",\n            \"referenceCode\": \"AB-1222\",\n            \"serialNumber\": null,\n            \"weight\": 1500,\n            \"length\": 40,\n            \"width\": 30,\n            \"height\": 50,\n            \"quantity\": 1,\n            \"meta\": null\n        }\n    ],\n    \"createdAt\": \"2023-02-09 19:06:11\",\n    \"addressErrors\": {\n        \"to\": {\n            \"suggestions\": [\n                {\n                    \"area_id\": 184,\n                    \"place_id\": 3188439,\n                    \"main_text\": \"Cra. 86 #55a-75, Bogotá, Colombia\",\n                    \"secondary_text\": null,\n                    \"google_place_id\": \"ChIJ6XP5nGabP44RxZhAXhaKYnY\"\n                },\n                {\n                    \"area_id\": 184,\n                    \"place_id\": 3189018,\n                    \"main_text\": \"Av. Carrera 86 # 55A - 75 Engativá, Bogotá Bogotá Cudinamarca, Bogotá, Colombia\",\n                    \"secondary_text\": null,\n                    \"google_place_id\": \"ChIJwcMml2abP44RDey3lf9uo9c\"\n                }\n            ]\n        }\n    }\n}"
+								}
+							]
 						},
 						{
 							"name": "Cancelar Prod",
