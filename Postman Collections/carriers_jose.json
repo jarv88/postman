@@ -1182,6 +1182,24 @@
 								"url": "https://sandbox.phero.app/api/load-providers/create-load"
 							},
 							"response": []
+						},
+						{
+							"name": "Tracking",
+							"id": "7ca9e661-8218-4d25-9e5a-510521146ac7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "accept",
+										"value": "application/json"
+									}
+								],
+								"url": "https://sandbox.phero.app/api/packages/63e3e01282c7cc40fa9defb5"
+							},
+							"response": []
 						}
 					],
 					"id": "d8e2ff7a-4778-478c-b4b2-789948824c76"
