@@ -1486,7 +1486,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://wfc-ecommerce-api.transytec.com/external/v1/tracking?keyWFC=kc6u5g3v-f45z-0uzp-nere-56e1oars9qg6&identifier=77022220000019&typeid=1",
+									"raw": "https://wfc-ecommerce-api.transytec.com/external/v1/tracking?keyWFC=kc6u5g3v-f45z-0uzp-nere-56e1oars9qg6&identifier=77029230000034&typeid=1",
 									"protocol": "https",
 									"host": [
 										"wfc-ecommerce-api",
@@ -1505,7 +1505,7 @@
 										},
 										{
 											"key": "identifier",
-											"value": "77022220000019"
+											"value": "77029230000034"
 										},
 										{
 											"key": "typeid",
