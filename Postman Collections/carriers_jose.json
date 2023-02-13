@@ -2155,7 +2155,7 @@
 									]
 								},
 								"url": {
-									"raw": "https://api-prod.moova.io/b2b/shippings/28f224f0-6434-11ed-a217-43090d3a74f6/CANCEL?appId=e04a2a20-5546-11ed-b565-63415bcc3276",
+									"raw": "https://api-prod.moova.io/b2b/shippings/61a48350-a8ad-11ed-832f-8baaf8fdb0ed/CANCEL?appId=e04a2a20-5546-11ed-b565-63415bcc3276",
 									"protocol": "https",
 									"host": [
 										"api-prod",
@@ -2165,7 +2165,7 @@
 									"path": [
 										"b2b",
 										"shippings",
-										"28f224f0-6434-11ed-a217-43090d3a74f6",
+										"61a48350-a8ad-11ed-832f-8baaf8fdb0ed",
 										"CANCEL"
 									],
 									"query": [
