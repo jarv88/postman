@@ -1202,7 +1202,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "Cancelar envio por estado",
 							"id": "33f95f76-fdd4-4dcd-a2c8-a676139dd998",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
