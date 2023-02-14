@@ -5358,6 +5358,19 @@
 								"url": "http://18.216.52.78:82/api/guia/guiaReport/1515"
 							},
 							"response": []
+						},
+						{
+							"name": "Motivo de novedad 1 - antes de la ruta 2 - en ruta (????)",
+							"id": "9f2ca842-ab87-4e2b-b3ac-626dde8a06d1",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://18.216.52.78:82/api/MotivoCancelacion/1"
+							},
+							"response": []
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
