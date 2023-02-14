@@ -5301,7 +5301,30 @@
 				},
 				{
 					"name": "Tiui",
-					"item": [],
+					"item": [
+						{
+							"name": "Crear Guia",
+							"id": "41bc3f92-587f-4107-bda7-1330a88147c9",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"guiaId\": 0,\n  \"folio\": \"\",\n  \"esPagoContraEntrega\": true,\n  \"importeContraEntrega\": 0,\n  \"tieneSeguroMercancia\": true,\n  \"importeSeguroMercancia\": 0,\n  \"importeCalculoSeguro\": 0,\n  \"importePaqueteria\": 0,\n  \"costoOperativo\": 0,\n  \"subTotal\": 0,\n  \"iva\": 0,\n  \"total\": 0,\n  //Normalmente los del tiui amigo\n  \"remitente\": {\n    \"nombre\": \"string\",\n    \"empresa\": \"string\",\n    \"telefono\": \"string\",\n    \"correoElectronico\": \"string\",\n    \"calle\": \"string\",\n    \"cruzamiento\": \"string\",\n    \"numero\": \"string\",\n    \"colonia\": \"string\",\n    \"codigoPostal\": \"string\",\n    \"ciudad\": \"string\", //consultar ciudad texto campo n.\n    \"estado\": \"string\", //consultar estado\n    \"pais\": \"string\", //consultar pais\n    \"referencias\": \"string\",\n    \"municipioId\": 0,\n    \"tiuiAmigoId\": 65\n  },\n  \"destinatario\": {\n    \"nombre\": \"string\",\n    \"empresa\": \"string\",\n    \"telefono\": \"string\",\n    \"correoElectronico\": \"string\",\n    \"calle\": \"string\",\n    \"cruzamiento\": \"string\",\n    \"numero\": \"string\",\n    \"colonia\": \"string\",\n    \"codigoPostal\": \"string\",\n    \"ciudad\": \"string\",\n    \"estado\": \"string\",\n    \"pais\": \"string\",\n    \"referencias\": \"string\",\n    \"municipioId\": 0,\n    \"tiuiAmigoId\": 0\n  },\n  \"paquete\": {\n    \"paqueteId\": 0,\n    \"largo\": 0,\n    \"alto\": 0,\n    \"ancho\": 0,\n    \"pesoFisico\": 0,\n    \"pesoCotizado\": 0\n  },\n  \"tiuiAmigoId\": 0,\n  \"paqueteriaId\": 0,\n  \"registrarRemitente\": true,\n  \"registrarDestinatario\": true,\n  \"registrarConfiguracionPaquete\": true,\n  \"cobroContraEntrega\": 0,\n  \"cantidadPaquetes\": 0,\n  \"nombreProducto\": \"string\"\n}"
+								},
+								"url": "http://18.216.52.78:82/api/guia"
+							},
+							"response": []
+						}
+					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
 				}
 			],
