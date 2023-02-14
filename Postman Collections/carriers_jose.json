@@ -5323,6 +5323,28 @@
 								"url": "http://18.216.52.78:82/api/guia"
 							},
 							"response": []
+						},
+						{
+							"name": "Consulta tracking",
+							"id": "7803c559-39e4-43e9-ab6c-8329d7c7e46a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"page\": 0,\n    \"pageSize\": 0,\n    \"folio\": \"\",\n    \"tiuiAmigoId\":65,\n    \"estatusId\": 0,\n    \"fechaRegistroInicio\": null,\n    \"fechaRegistroFin\": null\n}"
+								},
+								"url": "http://18.216.52.78:82/api/guia/guias-traking"
+							},
+							"response": []
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
