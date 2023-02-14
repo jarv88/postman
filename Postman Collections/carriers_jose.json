@@ -5345,6 +5345,19 @@
 								"url": "http://18.216.52.78:82/api/guia/guias-traking"
 							},
 							"response": []
+						},
+						{
+							"name": "Guia Impresion",
+							"id": "6dff8d5b-bb02-426f-bf6c-f3d3597babe0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://18.216.52.78:82/api/guia/guiaReport/1515"
+							},
+							"response": []
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
