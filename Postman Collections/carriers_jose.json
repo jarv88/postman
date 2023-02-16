@@ -5383,6 +5383,28 @@
 								"url": "http://18.216.52.78:82/api/MotivoCancelacion/1"
 							},
 							"response": []
+						},
+						{
+							"name": "Login",
+							"id": "a27c921a-c2fe-4005-857a-aab746864cc1",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"userName\": \"andrea.armijo@enviame.io\",\r\n  \"password\": \"Enviame1234$\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://18.216.52.78:82/api/AccountTiuiAmigo/login"
+							},
+							"response": []
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
