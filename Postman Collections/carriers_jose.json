@@ -5476,6 +5476,24 @@
 									"body": "[\n    {\n        \"estadoId\": 1,\n        \"nombre\": \"Aguascalientes\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 2,\n        \"nombre\": \"Baja California\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 3,\n        \"nombre\": \"Baja California Sur\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 4,\n        \"nombre\": \"Campeche\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 5,\n        \"nombre\": \"Chiapas\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 6,\n        \"nombre\": \"Chihuahua\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 7,\n        \"nombre\": \"Ciudad de México\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 8,\n        \"nombre\": \"Coahuila de Zaragoza\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 9,\n        \"nombre\": \"Colima\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 10,\n        \"nombre\": \"Durango\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 11,\n        \"nombre\": \"Guanajuato\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 12,\n        \"nombre\": \"Guerrero\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 13,\n        \"nombre\": \"Hidalgo\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 14,\n        \"nombre\": \"Jalisco\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 15,\n        \"nombre\": \"México\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 16,\n        \"nombre\": \"Michoacán de Ocampo\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 17,\n        \"nombre\": \"Morelos\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 18,\n        \"nombre\": \"Nayarit\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 19,\n        \"nombre\": \"Nuevo León\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 20,\n        \"nombre\": \"Oaxaca\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 21,\n        \"nombre\": \"Puebla\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 22,\n        \"nombre\": \"Querétaro\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 23,\n        \"nombre\": \"Quintana Roo\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 24,\n        \"nombre\": \"San Luis Potosí\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 25,\n        \"nombre\": \"Sinaloa\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 26,\n        \"nombre\": \"Sonora\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 27,\n        \"nombre\": \"Tabasco\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 28,\n        \"nombre\": \"Tamaulipas\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 29,\n        \"nombre\": \"Tlaxcala\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 30,\n        \"nombre\": \"Veracruz de Ignacio de la Llave\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 31,\n        \"nombre\": \"Yucatán\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 32,\n        \"nombre\": \"Zacatecas\",\n        \"pais\": null,\n        \"paisId\": 1\n    }\n]"
 								}
 							]
+						},
+						{
+							"name": "Municipio",
+							"id": "2a9768b8-08cf-4a8e-a1fc-263544999ce3",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "accept",
+										"value": "text/plain"
+									}
+								],
+								"url": "http://18.216.52.78:82/api/Municipio/7"
+							},
+							"response": []
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
