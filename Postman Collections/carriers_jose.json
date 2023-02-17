@@ -5427,7 +5427,55 @@
 								],
 								"url": "http://18.216.52.78:82/api/Estado"
 							},
-							"response": []
+							"response": [
+								{
+									"id": "719cddfe-e2ad-4a39-b6cc-26dff16ef53a",
+									"name": "Estado",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "accept",
+												"value": "text/plain"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRW52aWFtZSBQcnVlYmFzIiwic3ViIjoiRW52aWFtZSBQcnVlYmFzIiwiZW1haWwiOiJhbmRyZWEuYXJtaWpvQGVudmlhbWUuaW8iLCJqdGkiOiI3OWYwYTIyZC0zZWMyLTQ3NjctYTc4YS01YTVlYjc0MThmYzUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjY1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQU1JR09USVVJIiwibmJmIjoxNjc2NjM5MTExLCJleHAiOjE2NzY2NDI3MTEsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTAwMyIsImF1ZCI6ImxvY2FsaG9zdDo1MDAzIn0.ZSLbQ3yZR2-bsD2gJLsvmYVsCvD9zB13Wmb5phfeYb8",
+												"type": "text"
+											}
+										],
+										"url": "http://18.216.52.78:82/api/Estado"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Server",
+											"value": "Microsoft-IIS/10.0"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "ASP.NET"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 17 Feb 2023 13:19:50 GMT"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "[\n    {\n        \"estadoId\": 1,\n        \"nombre\": \"Aguascalientes\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 2,\n        \"nombre\": \"Baja California\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 3,\n        \"nombre\": \"Baja California Sur\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 4,\n        \"nombre\": \"Campeche\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 5,\n        \"nombre\": \"Chiapas\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 6,\n        \"nombre\": \"Chihuahua\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 7,\n        \"nombre\": \"Ciudad de México\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 8,\n        \"nombre\": \"Coahuila de Zaragoza\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 9,\n        \"nombre\": \"Colima\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 10,\n        \"nombre\": \"Durango\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 11,\n        \"nombre\": \"Guanajuato\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 12,\n        \"nombre\": \"Guerrero\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 13,\n        \"nombre\": \"Hidalgo\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 14,\n        \"nombre\": \"Jalisco\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 15,\n        \"nombre\": \"México\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 16,\n        \"nombre\": \"Michoacán de Ocampo\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 17,\n        \"nombre\": \"Morelos\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 18,\n        \"nombre\": \"Nayarit\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 19,\n        \"nombre\": \"Nuevo León\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 20,\n        \"nombre\": \"Oaxaca\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 21,\n        \"nombre\": \"Puebla\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 22,\n        \"nombre\": \"Querétaro\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 23,\n        \"nombre\": \"Quintana Roo\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 24,\n        \"nombre\": \"San Luis Potosí\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 25,\n        \"nombre\": \"Sinaloa\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 26,\n        \"nombre\": \"Sonora\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 27,\n        \"nombre\": \"Tabasco\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 28,\n        \"nombre\": \"Tamaulipas\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 29,\n        \"nombre\": \"Tlaxcala\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 30,\n        \"nombre\": \"Veracruz de Ignacio de la Llave\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 31,\n        \"nombre\": \"Yucatán\",\n        \"pais\": null,\n        \"paisId\": 1\n    },\n    {\n        \"estadoId\": 32,\n        \"nombre\": \"Zacatecas\",\n        \"pais\": null,\n        \"paisId\": 1\n    }\n]"
+								}
+							]
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
