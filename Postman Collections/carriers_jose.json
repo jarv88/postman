@@ -5334,7 +5334,59 @@
 								},
 								"url": "http://18.216.52.78:82/api/guia"
 							},
-							"response": []
+							"response": [
+								{
+									"id": "bb0e2850-1c58-4995-8c48-f23a117b1671",
+									"name": "Crear Guia",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRW52aWFtZSBQcnVlYmFzIiwic3ViIjoiRW52aWFtZSBQcnVlYmFzIiwiZW1haWwiOiJhbmRyZWEuYXJtaWpvQGVudmlhbWUuaW8iLCJqdGkiOiJmNDNmYmFjZS0zYjNmLTRjMGUtODhhNy01MmUxMzIwYzdiMWIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjY1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQU1JR09USVVJIiwibmJmIjoxNjc2OTI1Nzc2LCJleHAiOjE2NzY5MjkzNzYsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTAwMyIsImF1ZCI6ImxvY2FsaG9zdDo1MDAzIn0.Zl8GkesYKe6xjrk5tJgBvI5qf3jeTjAZR4AoJ3dpS7A",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"guiaId\": 123,\n  \"folio\": \"env123\",\n  \"esPagoContraEntrega\": true,\n  \"importeContraEntrega\": 1000,\n  \"tieneSeguroMercancia\": true,\n  \"importeSeguroMercancia\": 0,\n  \"importeCalculoSeguro\": 0,\n  \"importePaqueteria\": 0,\n  \"costoOperativo\": 0,\n  \"subTotal\": 1000,\n  \"iva\": 0,\n  \"total\": 1000,\n  \"remitente\": {\n    \"nombre\": \"jose\",\n    \"empresa\": \"rojas\",\n    \"telefono\": \"957731400\",\n    \"correoElectronico\": \"joseangel038@gmail.com\",\n    \"calle\": \"Toltecas 166\",\n    \"cruzamiento\": \"string\",\n    \"numero\": \"string\",\n    \"colonia\": \"carola\",\n    \"codigoPostal\": \"01180\",\n    \"ciudad\": \"Ciudad de México\",\n    \"estado\": \"México\", \n    \"pais\": \"México\",\n    \"referencias\": \"\",\n    \"municipioId\": 218,\n    \"tiuiAmigoId\": 62\n  },\n  \"destinatario\": {\n    \"nombre\": \"angel  \",\n    \"empresa\": \"enviame\",\n    \"telefono\": \"999555666\",\n    \"correoElectronico\": \"jose.rojas@enviame.io\",\n    \"calle\": \"Toltecas 168\",\n    \"cruzamiento\": \"\",\n    \"numero\": \"\",\n    \"colonia\": \"carola\",\n    \"codigoPostal\": \"01180\",\n    \"ciudad\": \"Ciudad de México\",\n    \"estado\": \"México\",\n    \"pais\": \"México\",\n    \"referencias\": \"\",\n    \"municipioId\": 218,\n    \"tiuiAmigoId\": 0\n  },\n  \"paquete\": {\n    \"paqueteId\": 123,\n    \"largo\": 10,\n    \"alto\": 10,\n    \"ancho\": 10,\n    \"pesoFisico\": 1,\n    \"pesoCotizado\": 2\n  },\n  \"tiuiAmigoId\": 62,\n  \"paqueteriaId\": 1,\n  \"registrarRemitente\": true,\n  \"registrarDestinatario\": false,\n  \"registrarConfiguracionPaquete\": false,\n  \"cobroContraEntrega\": 0,\n  \"cantidadPaquetes\": 1,\n  \"nombreProducto\": \"producto\"\n}"
+										},
+										"url": "http://18.216.52.78:82/api/guia"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Server",
+											"value": "Microsoft-IIS/10.0"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "ASP.NET"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 20 Feb 2023 20:43:11 GMT"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"entity\": {\n        \"guiaId\": 1708,\n        \"folio\": \"62-12-0001\",\n        \"esPagoContraEntrega\": true,\n        \"importeContraEntrega\": 1000,\n        \"tieneSeguroMercancia\": true,\n        \"importeSeguroMercancia\": 0,\n        \"importeCalculoSeguro\": 0,\n        \"importePaqueteria\": 0,\n        \"costoOperativo\": 0,\n        \"subTotal\": 1000,\n        \"iva\": 0,\n        \"total\": 1000,\n        \"remitente\": {\n            \"nombre\": \"jose\",\n            \"empresa\": \"rojas\",\n            \"telefono\": \"957731400\",\n            \"correoElectronico\": \"joseangel038@gmail.com\",\n            \"calle\": \"Toltecas 166\",\n            \"cruzamiento\": \"string\",\n            \"numero\": \"string\",\n            \"colonia\": \"carola\",\n            \"codigoPostal\": \"01180\",\n            \"ciudad\": \"Ciudad de México\",\n            \"estado\": \"México\",\n            \"pais\": \"México\",\n            \"referencias\": \"\",\n            \"municipioId\": null,\n            \"tiuiAmigoId\": null\n        },\n        \"destinatario\": {\n            \"nombre\": \"angel  \",\n            \"empresa\": \"enviame\",\n            \"telefono\": \"999555666\",\n            \"correoElectronico\": \"jose.rojas@enviame.io\",\n            \"calle\": \"Toltecas 168\",\n            \"cruzamiento\": \"\",\n            \"numero\": \"\",\n            \"colonia\": \"carola\",\n            \"codigoPostal\": \"01180\",\n            \"ciudad\": \"Ciudad de México\",\n            \"estado\": \"México\",\n            \"pais\": \"México\",\n            \"referencias\": \"\",\n            \"municipioId\": null,\n            \"tiuiAmigoId\": null\n        },\n        \"paquete\": {\n            \"paqueteId\": 1712,\n            \"largo\": 10,\n            \"alto\": 10,\n            \"ancho\": 10,\n            \"pesoFisico\": 1,\n            \"pesoCotizado\": 2\n        },\n        \"tiuiAmigoId\": 62,\n        \"paqueteriaId\": 1,\n        \"registrarRemitente\": false,\n        \"registrarDestinatario\": false,\n        \"registrarConfiguracionPaquete\": false,\n        \"cobroContraEntrega\": 0,\n        \"cantidadPaquetes\": 1,\n        \"nombreProducto\": \"producto\"\n    },\n    \"success\": true,\n    \"status\": \"200\",\n    \"message\": \"Registro exitoso\"\n}"
+								}
+							]
 						},
 						{
 							"name": "Consulta tracking",
