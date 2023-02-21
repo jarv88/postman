@@ -6544,62 +6544,6 @@
 			"response": []
 		},
 		{
-			"name": "Yango MX creacion de envio Copy",
-			"id": "33692129-f019-457b-8e60-7fa21357a2dd",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept-Language",
-						"value": "en",
-						"type": "text"
-					},
-					{
-						"key": "Authorization",
-						"value": "Bearer y0_AgAAAABkWI_kAAVM1QAAAADX91ITQzsIhuB4Qc6EtgAlg1gYt4qL88Y",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"callback_properties\": {\r\n        \"callback_url\": \"https://www.example.com\"\r\n    },\r\n    \"comment\": \"new order\",\r\n    \"same_day_data\": {\r\n        \"delivery_interval\": {\r\n            \"from\": \"2023-01-24T12:15:00-06:00\",\r\n            \"to\": \"2023-01-24T21:00:00-06:00\"\r\n            }\r\n    },\r\n    \"emergency_contact\": {\r\n        \"name\": \"Jose Rojas\",\r\n        \"phone\": \"+5257731400\"\r\n    },\r\n    \"items\": [\r\n        {\r\n            \"cost_currency\": \"MEX\",\r\n            \"cost_value\": \"2\",\r\n            \"droppof_point\": 2,\r\n            \"extra_id\": \"BP-208\",\r\n            \"pickup_point\": 1,\r\n            \"quantity\": 1,\r\n            \"size\": {\r\n                \"height\": 0.1,\r\n                \"length\": 0.1,\r\n                \"width\": 0.1\r\n            },\r\n            \"title\": \"prod test\",\r\n            \"weight\": 1\r\n        }\r\n    ],\r\n    \"optional_return\": false,\r\n    \"route_points\": [\r\n        {\r\n            \"address\": {\r\n                \"coordinates\": [\r\n                    -99.1939051,\r\n                    19.3846648\r\n                ],\r\n                \"building\": \"\",\r\n                \"city\": \"8 de Agosto\",\r\n                \"comment\": \"\",\r\n                \"country\": \"Mexico\",\r\n                \"description\": \"Av. San Antonio 455, Carola\",\r\n                \"door_code\": \"\",\r\n                \"flat\": 1,\r\n                \"floor\": 1,\r\n                \"fullname\": \"Av. San Antonio 455, Carola\",\r\n                \"porch\": \"\",\r\n                \"sflat\": \"1\",\r\n                \"sfloor\": \"1\",\r\n                \"shortname\": \"Av. San Antonio 455, Carola\",\r\n                \"street\": \"Av. San Antonio 455, Carola\",\r\n                \"uri\": \"\"\r\n            },\r\n            \"contact\": {\r\n                \"email\": \"usuario@gmail.com\",\r\n                \"name\": \"Prueba\",\r\n                \"phone\": \"+5693493420\"\r\n            },\r\n            \"external_order_id\": \"103305504\",\r\n            \"pickup_code\": \"123456\",\r\n            \"point_id\": 1,\r\n            \"skip_confirmation\": false,\r\n            \"type\": \"source\",\r\n            \"visit_order\": 1\r\n        },\r\n        {\r\n            \"address\": {\r\n                \"coordinates\": [\r\n                    -99.1972603,\r\n                    19.3839796\r\n                ],\r\n                \"building\": \"\",\r\n                \"city\": \"Carola\",\r\n                \"comment\": \"\",\r\n                \"country\": \"Mexico\",\r\n                \"description\": \"Demet San Antonio, Torres de San Antonio, Nellie Campobello 129 Edificio Cholula\",\r\n                \"door_code\": \"\",\r\n                \"flat\": 1,\r\n                \"floor\": 1,\r\n                \"fullname\": \"Demet San Antonio, Torres de San Antonio, Nellie Campobello 129 Edificio Cholula, \",\r\n                \"porch\": \"\",\r\n                \"sflat\": \"1\",\r\n                \"sfloor\": \"1\",\r\n                \"shortname\": \"Demet San Antonio, Torres de San Antonio, Nellie Campobello 129 Edificio Cholula\",\r\n                \"street\": \"Demet San Antonio, Torres de San Antonio, Nellie Campobello 129 Edificio Cholula\",\r\n                \"uri\": \"\"\r\n            },\r\n            \"contact\": {\r\n                \"email\": \"jose.rojas@enviame.io\",\r\n                \"name\": \"Jose Rojas\",\r\n                \"phone\": \"+5257731400\"\r\n            },\r\n            \"external_order_id\": \"103305504\",\r\n            \"point_id\": 2,\r\n            \"skip_confirmation\": true,\r\n            \"type\": \"destination\",\r\n            \"visit_order\": 2\r\n        }\r\n    ],\r\n    \"skip_act\": false,\r\n    \"skip_client_notify\": false,\r\n    \"skip_door_to_door\": false,\r\n    \"skip_emergency_notify\": false,\r\n    \"request_id\": 103305599\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/create?request_id=ENV001",
-					"protocol": "https",
-					"host": [
-						"b2b",
-						"taxi",
-						"yandex",
-						"net"
-					],
-					"path": [
-						"b2b",
-						"cargo",
-						"integration",
-						"v2",
-						"claims",
-						"create"
-					],
-					"query": [
-						{
-							"key": "request_id",
-							"value": "ENV001"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "ITR Crear envio id 17",
 			"id": "1fd00dc0-6bb2-413e-b81a-577d98906c1f",
 			"protocolProfileBehavior": {
