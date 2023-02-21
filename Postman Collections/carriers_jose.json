@@ -5594,6 +5594,24 @@
 									"body": "[\n    {\n        \"municipioId\": 218,\n        \"nombre\": \"Álvaro Obregón\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 219,\n        \"nombre\": \"Azcapotzalco\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 220,\n        \"nombre\": \"Benito Juárez\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 221,\n        \"nombre\": \"Coyoacán\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 222,\n        \"nombre\": \"Cuajimalpa de Morelos\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 223,\n        \"nombre\": \"Cuauhtémoc\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 224,\n        \"nombre\": \"Gustavo A. Madero\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 225,\n        \"nombre\": \"Iztacalco\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 226,\n        \"nombre\": \"Iztapalapa\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 227,\n        \"nombre\": \"La Magdalena Contreras\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 228,\n        \"nombre\": \"Miguel Hidalgo\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 229,\n        \"nombre\": \"Milpa Alta\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 230,\n        \"nombre\": \"Tláhuac\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 231,\n        \"nombre\": \"Tlalpan\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 232,\n        \"nombre\": \"Venustiano Carranza\",\n        \"estado\": null,\n        \"estadoId\": 7\n    },\n    {\n        \"municipioId\": 233,\n        \"nombre\": \"Xochimilco\",\n        \"estado\": null,\n        \"estadoId\": 7\n    }\n]"
 								}
 							]
+						},
+						{
+							"name": "Get Guias",
+							"id": "9146ab05-4aa6-4250-a408-bc4c7cd30cf0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "accept",
+										"value": "text/plain"
+									}
+								],
+								"url": "http://18.216.52.78:82/api/Guia/1708"
+							},
+							"response": []
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
@@ -6589,6 +6607,55 @@
 		{
 			"name": "yango tracking",
 			"id": "97c5b66c-34c8-4048-92dc-a2cb707b1136",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en"
+					},
+					{
+						"key": "Cookie",
+						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+					}
+				],
+				"url": {
+					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=4a7f3f313e544566a261b26e45e20162",
+					"protocol": "https",
+					"host": [
+						"b2b",
+						"taxi",
+						"yandex",
+						"net"
+					],
+					"path": [
+						"b2b",
+						"cargo",
+						"integration",
+						"v2",
+						"claims",
+						"info"
+					],
+					"query": [
+						{
+							"key": "claim_id",
+							"value": "4a7f3f313e544566a261b26e45e20162"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "yango tracking Copy",
+			"id": "ae2ffe9f-4f80-43ea-8239-4ed9e1d68f9b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
