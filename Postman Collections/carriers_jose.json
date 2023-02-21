@@ -6653,7 +6653,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer y0_AgAAAABkWI_kAAVM1QAAAADX91ITQzsIhuB4Qc6EtgAlg1gYt4qL88Y"
+						"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
 					},
 					{
 						"key": "Accept-Language",
@@ -6665,7 +6665,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=145d07db785e430786dcadc7a7a6600a",
+					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=4a7f3f313e544566a261b26e45e20162",
 					"protocol": "https",
 					"host": [
 						"b2b",
@@ -6684,7 +6684,7 @@
 					"query": [
 						{
 							"key": "claim_id",
-							"value": "145d07db785e430786dcadc7a7a6600a"
+							"value": "4a7f3f313e544566a261b26e45e20162"
 						}
 					]
 				}
