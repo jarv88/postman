@@ -5611,7 +5611,55 @@
 								],
 								"url": "http://18.216.52.78:82/api/Guia/1708"
 							},
-							"response": []
+							"response": [
+								{
+									"id": "f51810c8-736e-4b12-8cc2-a338096a14d9",
+									"name": "Get Guias",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "accept",
+												"value": "text/plain"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRW52aWFtZSBQcnVlYmFzIiwic3ViIjoiRW52aWFtZSBQcnVlYmFzIiwiZW1haWwiOiJhbmRyZWEuYXJtaWpvQGVudmlhbWUuaW8iLCJqdGkiOiIzMDIyMDdjOC1kOWY0LTRiNGItYTcyYi01OTIxN2JkNDM1MGIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjY1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQU1JR09USVVJIiwibmJmIjoxNjc3MDA4Njc3LCJleHAiOjE2NzcwMTIyNzcsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTAwMyIsImF1ZCI6ImxvY2FsaG9zdDo1MDAzIn0.23RoG4NkbllQKCVDHhvRFntkZ-Zo2llCMGeGrJrX_BA",
+												"type": "text"
+											}
+										],
+										"url": "http://18.216.52.78:82/api/Guia/62-12-0001"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Server",
+											"value": "Microsoft-IIS/10.0"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "ASP.NET"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 21 Feb 2023 19:47:40 GMT"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"guiaId\": 1708,\n    \"folio\": \"62-12-0001\",\n    \"nombreRemitente\": \"jose\",\n    \"ciudadOrigen\": \"Ciudad de México\",\n    \"ciudadDestino\": \"Ciudad de México\",\n    \"empresa\": \"rojas\",\n    \"estatusId\": 16,\n    \"fechaEstimadaEntrega\": \"2023-02-22T14:43:10.939687\",\n    \"notificacionCliente\": null,\n    \"movimientos\": [\n        {\n            \"estatus\": \"Envío documentado recolección\",\n            \"fechaRegistro\": \"2023-02-20T14:43:11.68696\",\n            \"proceso\": \"Preparando\"\n        }\n    ],\n    \"procesos\": [\n        \"Preparando\"\n    ]\n}"
+								}
+							]
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
