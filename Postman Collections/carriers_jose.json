@@ -5418,8 +5418,14 @@
 							},
 							"request": {
 								"method": "GET",
-								"header": [],
-								"url": "http://18.216.52.78:82/api/guia/guiaReport/1515"
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRW52aWFtZSBQcnVlYmFzIiwic3ViIjoiRW52aWFtZSBQcnVlYmFzIiwiZW1haWwiOiJhbmRyZWEuYXJtaWpvQGVudmlhbWUuaW8iLCJqdGkiOiJhYTI5OGJlMS01MjYwLTQxZGUtODQ1NS04OTgzOWU3YjMwMWYiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjY1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQU1JR09USVVJIiwibmJmIjoxNjc2OTg3MzM4LCJleHAiOjE2NzY5OTA5MzgsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTAwMyIsImF1ZCI6ImxvY2FsaG9zdDo1MDAzIn0.3lHK7yBhdxyBnwjYSJ5Fo0sl6eeAR4zenwg_c2Rw6nk",
+										"type": "text"
+									}
+								],
+								"url": "http://18.216.52.78:82/api/guia/guiaReport/1708"
 							},
 							"response": []
 						},
