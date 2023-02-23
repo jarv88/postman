@@ -6675,7 +6675,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=4a7f3f313e544566a261b26e45e20162",
+					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=5605dd6305ef4c15ba7d0b305c1aaff0",
 					"protocol": "https",
 					"host": [
 						"b2b",
@@ -6694,7 +6694,7 @@
 					"query": [
 						{
 							"key": "claim_id",
-							"value": "4a7f3f313e544566a261b26e45e20162"
+							"value": "5605dd6305ef4c15ba7d0b305c1aaff0"
 						}
 					]
 				}
