@@ -5746,6 +5746,37 @@
 									"body": "{\n    \"guiaId\": 1708,\n    \"folio\": \"62-12-0001\",\n    \"nombreRemitente\": \"jose\",\n    \"ciudadOrigen\": \"Ciudad de México\",\n    \"ciudadDestino\": \"Ciudad de México\",\n    \"empresa\": \"rojas\",\n    \"estatusId\": 16,\n    \"fechaEstimadaEntrega\": \"2023-02-22T14:43:10.939687\",\n    \"notificacionCliente\": null,\n    \"movimientos\": [\n        {\n            \"estatus\": \"Envío documentado recolección\",\n            \"fechaRegistro\": \"2023-02-20T14:43:11.68696\",\n            \"proceso\": \"Preparando\"\n        }\n    ],\n    \"procesos\": [\n        \"Preparando\"\n    ]\n}"
 								}
 							]
+						},
+						{
+							"name": "Put Guia",
+							"id": "3478aefa-1bc3-4a77-81b4-fdad6924cb42",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "accept",
+										"value": "text/plain"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRW52aWFtZSBQcnVlYmFzIiwic3ViIjoiRW52aWFtZSBQcnVlYmFzIiwiZW1haWwiOiJhbmRyZWEuYXJtaWpvQGVudmlhbWUuaW8iLCJqdGkiOiJhM2EzY2U4OC01ZjE3LTRlNjYtYjk2OS1hNzY1YWY4OTJhMmIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjY1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQU1JR09USVVJIiwibmJmIjoxNjc3MjU3MTk4LCJleHAiOjE2NzcyNjA3OTgsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTAwMyIsImF1ZCI6ImxvY2FsaG9zdDo1MDAzIn0.lHz1QFNEbpPFur1pvNdKmxtvAGpYbcSGKuTPUm73nAA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"guiaId\": 0,\n  \"motivoCancelacionId\": 0,\n  \"fechaReagendado\": \"2023-02-24T16:47:08.210Z\",\n  \"fechaConciliacion\": \"2023-02-24T16:47:08.210Z\",\n  \"nuevoEstatus\": 1\n}"
+								},
+								"url": "http://18.216.52.78:82/api/Guia"
+							},
+							"response": []
 						}
 					],
 					"id": "07d6ee9d-f697-410a-8b8e-9cb88797c1a3"
