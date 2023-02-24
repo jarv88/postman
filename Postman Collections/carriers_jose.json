@@ -1696,7 +1696,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n \"shipping\" : [\r\n {\r\n \"id\": \"2001210000889\",\r\n \"qty\": 8\r\n },\r\n {\r\n \"id\": \"2001210000890\",\r\n \"qty\": 6\r\n }\r\n ]\r\n}\r\n",
+									"raw": "{\r\n \"shipping\" : [\r\n {\r\n \"id\": \"2001210000889\",\r\n \"qty\": 5\r\n },\r\n {\r\n \"id\": \"2001210000890\",\r\n \"qty\": 4\r\n }\r\n ]\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
