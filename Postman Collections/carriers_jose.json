@@ -2956,6 +2956,28 @@
 						"url": "https://ws.coordinadora.com/ags/1.5/server.php"
 					},
 					"response": []
+				},
+				{
+					"name": "COO - Crear envios",
+					"id": "79c7cc5d-9294-4cc7-873d-ac6d230e924b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/html"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\"?>\n<soapenv:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"http://guias.coordinadora.com/ws/guias/1.6/server.php\" xmlns:soap-enc=\"http://ñschemas.xmlsoap.org/soap/encoding/\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <ser:Guias_generarGuia soapenv:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">\n         <p\n\t\txsi:type=\"ser:Agw_typeGenerarGuiaIn\">\n\t\t<codigo_remision xsi:type=\"xsd:string\" />\n\t\t<fecha xsi:type=\"xsd:string\" />\n\t\t<id_cliente xsi:type=\"xsd:int\">36538</id_cliente>\n\t\t<id_remitente xsi:type=\"xsd:int\" />\n\t\t<nit_remitente xsi:type=\"xsd:string\" />\n\t\t<nombre_remitente xsi:type=\"xsd:string\">ENVIAME</nombre_remitente>\n\t\t<direccion_remitente xsi:type=\"xsd:string\">Avenida 19 No. 98-03</direccion_remitente>\n\t\t<telefono_remitente xsi:type=\"xsd:string\">999999999</telefono_remitente>\n\t\t<ciudad_remitente xsi:type=\"xsd:string\">11001000</ciudad_remitente>\n\t\t<nit_destinatario xsi:type=\"xsd:string\">1</nit_destinatario>\n\t\t<div_destinatario xsi:type=\"xsd:string\">1</div_destinatario>\n\t\t<nombre_destinatario xsi:type=\"xsd:string\">J. Doe</nombre_destinatario>\n\t\t<direccion_destinatario xsi:type=\"xsd:string\">Calle 26 # 27 16 Apto 301 Edificio El Portal del Parque\n\t\t</direccion_destinatario>\n\t\t<ciudad_destinatario xsi:type=\"xsd:string\">11001000</ciudad_destinatario>\n\t\t<telefono_destinatario xsi:type=\"xsd:string\">123456789</telefono_destinatario>\n\t\t<valor_declarado xsi:type=\"xsd:float\">1</valor_declarado>\n\t\t<codigo_cuenta xsi:type=\"xsd:int\">2</codigo_cuenta>\n\t\t<codigo_producto xsi:type=\"xsd:int\">13</codigo_producto>\n\t\t<nivel_servicio xsi:type=\"xsd:int\">1</nivel_servicio>\n\t\t<linea xsi:type=\"xsd:string\" />\n\t\t<contenido xsi:type=\"xsd:string\">TEST</contenido>\n\t\t<referencia xsi:type=\"xsd:string\">20102106032</referencia>\n\t\t<observaciones xsi:type=\"xsd:string\">prueba</observaciones>\n\t\t<estado xsi:type=\"xsd:string\">IMPRESO</estado>\n\t\t<detalle SOAP-ENC:arrayType=\"ns1:Agw_typeGuiaDetalle[1]\" xsi:type=\"ns1:ArrayOfAgw_typeGuiaDetalle\">\n\t\t\t<item xsi:type=\"ns1:Agw_typeGuiaDetalle\">\n\t\t\t\t<ubl xsi:type=\"xsd:int\">13</ubl>\n\t\t\t\t<alto xsi:type=\"xsd:float\">1</alto>\n\t\t\t\t<ancho xsi:type=\"xsd:float\">50</ancho>\n\t\t\t\t<largo xsi:type=\"xsd:float\">50</largo>\n\t\t<peso xsi:type=\"xsd:float\">1</peso>\n\t\t\t\t<unidades xsi:type=\"xsd:int\">1</unidades>\n\t\t\t\t<referencia xsi:type=\"xsd:string\" />\n\t\t\t\t<nombre_empaque xsi:type=\"xsd:string\" />\n\t\t\t</item>\n\t\t</detalle>\n\t\t<cuenta_contable xsi:type=\"xsd:string\" />\n\t\t<centro_costos xsi:type=\"xsd:string\" />\n\t\t<recaudos xsi:type=\"ser:ArrayOfAgw_typeGuiaDetalleRecaudo\"\n\t\t\tsoapenc:arrayType=\"ser:Agw_typeGuiaDetalleRecaudo[]\" />\n\t\t<margen_izquierdo xsi:type=\"xsd:float\" />\n\t\t<margen_superior xsi:type=\"xsd:float\" />\n\t\t<usuario_vmi xsi:type=\"xsd:string\" />\n\t\t<formato_impresion xsi:type=\"xsd:string\" />\n\t\t<atributo1_nombre xsi:type=\"xsd:string\" />\n\t\t<atributo1_valor xsi:type=\"xsd:string\" />\n\t\t<notificaciones xsi:type=\"ser:ArrayOfAgw_typeNotificaciones\"\n\t\t\tsoapenc:arrayType=\"ser:Agw_typeNotificaciones[]\" />\n\t\t<atributos_retorno xsi:type=\"ser:Agw_typeAtributosRetorno\">\n\t\t\t<nit xsi:type=\"xsd:string\">901507043</nit>\n\t\t\t<div xsi:type=\"xsd:string\">1</div>\n\t\t\t<nombre xsi:type=\"xsd:string\">ENVIAME</nombre>\n\t\t\t<direccion xsi:type=\"xsd:string\">Avenida 19 No. 98-03</direccion>\n\t\t\t<codigo_ciudad xsi:type=\"xsd:string\">11001000</codigo_ciudad>\n\t\t\t<telefono xsi:type=\"xsd:string\">999999999</telefono>\n\t\t</atributos_retorno>\n\t\t<nro_doc_radicados xsi:type=\"xsd:string\">1</nro_doc_radicados>\n\t\t<nro_sobre xsi:type=\"xsd:string\">1</nro_sobre>\n\t\t<codigo_vendedor xsi:type=\"xsd:int\" />\n\t\t<usuario xsi:type=\"xsd:string\">enviame.ws</usuario>\n\t\t<clave xsi:type=\"xsd:string\">01f278fb32344e1c4508ed3ec4f6135ff3b83affeaa895f1703aa5abd34da266</clave>\n\t\t</p>\n      </ser:Guias_generarGuia>\n   </soapenv:Body>\n</soapenv:Envelope>"
+						},
+						"url": "https://guias.coordinadora.com/ws/guias/1.6/server.php"
+					},
+					"response": []
 				}
 			],
 			"id": "76533bb7-c436-4d0d-a36c-cc74ecb79f5e"
