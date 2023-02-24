@@ -5080,7 +5080,23 @@
 							},
 							"request": {
 								"method": "POST",
-								"header": []
+								"header": [
+									{
+										"key": "api-key",
+										"value": "eship_test_6926638e082d7f6ab6749",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "               \r\n{\r\n    \"courier\":\"Segmail\",\r\n    \"weight\":\"5\",\r\n    \"mass_unit\":\"kg\",\r\n    \"quantity\":\"2\",\r\n    \"date\":\"2022-12-26\",\r\n    \"time\":\"10:00\",\r\n    \"closetime\":\"16:00\",\r\n    \"street1\":\"Paseo de los Tamarindos 90\",\r\n    \"street2\":\"Bosques de las Lomas\",\r\n    \"zip\":\"05120\",\r\n    \"city\":\"CDMX\",\r\n    \"state\":\"CDMX\",\r\n    \"country\":\"MX\",\r\n    \"name\":\"Alan Sanchez\",\r\n    \"company\":\"Segmail\",\r\n    \"phone\":\"5591350245\",\r\n    \"notes\":\"En sotano 1, zona de proveedores\"\r\n}   \r\n                ",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://apiqa.myeship.co/rest/pickup"
 							},
 							"response": []
 						}
