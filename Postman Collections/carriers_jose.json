@@ -6443,7 +6443,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://deliveryproxy.azurewebsites.net/b2b/cargo/integration/v2/claims/info?claim_id=z_pwx4fP",
+					"raw": "https://deliveryproxy.azurewebsites.net/b2b/cargo/integration/v2/claims/info?claim_id=KV6mxzzT",
 					"protocol": "https",
 					"host": [
 						"deliveryproxy",
@@ -6461,7 +6461,7 @@
 					"query": [
 						{
 							"key": "claim_id",
-							"value": "z_pwx4fP"
+							"value": "KV6mxzzT"
 						}
 					]
 				}
