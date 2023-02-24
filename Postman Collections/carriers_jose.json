@@ -590,7 +590,7 @@
 									}
 								],
 								"url": {
-									"raw": "https://tzl.loginsa.com/API_Integracion_um_v1/api/public/Etiquetas?CodigoCliente=ENV0401&CodigoPedido=109103396",
+									"raw": "https://tzl.loginsa.com/API_Integracion_um_v1/api/public/Etiquetas?CodigoCliente=ENV0401&CodigoPedido=109103398",
 									"protocol": "https",
 									"host": [
 										"tzl",
@@ -610,7 +610,7 @@
 										},
 										{
 											"key": "CodigoPedido",
-											"value": "109103396"
+											"value": "109103398"
 										}
 									]
 								}
