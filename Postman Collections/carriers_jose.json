@@ -1750,7 +1750,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n \"label\" : [\r\n {\r\n \"id\": \"2001210000889\"\r\n },\r\n {\r\n \"id\": \"2001210000890\"\r\n }\r\n ]\r\n}\r\n",
+									"raw": "{\r\n \"label\" : [\r\n {\r\n \"id\": \"2001210000889\"\r\n }\r\n ]\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "text"
