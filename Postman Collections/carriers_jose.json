@@ -492,7 +492,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"OrdenNumero\": \"test001\",\r\n    \"RutEntrega\": \"18123456-7\",\r\n    \"Contacto\": \"NOMBRE TEST REGIONES\",\r\n    \"Correo\": \"TEST@loginsa.com\",\r\n    \"Telefono\": \"965103322\",\r\n    \"Courier\": \"22\",\r\n    \"Calle\": \"Foresta Ote. 11845\",\r\n    \"Unidad\": \"758\",\r\n    \"Comuna\": \"Las Condes\",\r\n    \"Ciudad\": \"Santiago\",\r\n    \"ControlDoc\" : true,\r\n    \"Seguro\" : true,\r\n    \"Bultos\": [\r\n        {\r\n            \"LPN\": \"1931167440\",\r\n            \"PESO\": \"0\",\r\n            \"VOLUMEN\": \"0\",\r\n            \"ZPL_Cliente\": null\r\n        },\r\n        {\r\n            \"LPN\": \"1931167441\",\r\n            \"PESO\": \"0\",\r\n            \"VOLUMEN\": \"0\",\r\n            \"ZPL_Cliente\": null\r\n        }\r\n    ]\r\n}",
+									"raw": "{\r\n    \"OrdenNumero\": \"test002\",\r\n    \"RutEntrega\": \"18123456-7\",\r\n    \"Contacto\": \"NOMBRE TEST\",\r\n    \"Correo\": \"TEST@loginsa.com\",\r\n    \"Telefono\": \"965103322\",\r\n    \"Courier\": \"22\",\r\n    \"Calle\": \"Foresta Ote. 11845\",\r\n    \"Unidad\": \"758\",\r\n    \"Comuna\": \"Las Condes\",\r\n    \"Ciudad\": \"Santiago\",\r\n    \"ControlDoc\" : true,\r\n    \"Seguro\" : true,\r\n    \"Bultos\": [\r\n        {\r\n            \"LPN\": \"1931167440\",\r\n            \"PESO\": \"0\",\r\n            \"VOLUMEN\": \"0\",\r\n            \"ZPL_Cliente\": null\r\n        },\r\n        {\r\n            \"LPN\": \"1931167441\",\r\n            \"PESO\": \"0\",\r\n            \"VOLUMEN\": \"0\",\r\n            \"ZPL_Cliente\": null\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
