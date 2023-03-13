@@ -1270,10 +1270,9 @@
 								"method": "POST",
 								"header": [
 									{
-										"key": "token",
-										"value": "ac5b877d21fe148392929498aca39074",
-										"type": "text",
-										"disabled": true
+										"key": "Authorization",
+										"value": "3b489598b98369b5db3448ea5dbe90ae",
+										"type": "text"
 									}
 								],
 								"body": {
@@ -1335,14 +1334,13 @@
 											"type": "text"
 										},
 										{
-											"key": "qr",
-											"value": "",
-											"type": "text",
-											"disabled": true
+											"key": "hijos",
+											"value": "0",
+											"type": "text"
 										}
 									]
 								},
-								"url": "https://mytrackpath.com/demo/api/add_orden.php"
+								"url": "https://mytrackpath.com/empresa_spress/api/add_orden.php"
 							},
 							"response": []
 						},
