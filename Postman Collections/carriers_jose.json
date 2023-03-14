@@ -6730,7 +6730,7 @@
 			"response": []
 		},
 		{
-			"name": "Estafeta oauth prod test",
+			"name": "Estafeta oauth test",
 			"id": "3a562a34-8baa-42dc-8006-51c7fd9bbf4f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
