@@ -7130,6 +7130,39 @@
 				"url": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/journal"
 			},
 			"response": []
+		},
+		{
+			"name": "Estafeta Tracking prod",
+			"id": "3bf509e7-a708-4da0-8377-bce15a72b9f0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apiKey",
+						"value": "l75eefdbd0ecc9463cafd554433b7b4d07",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 5cfbbabe-8134-424d-987e-b528c70d7448",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n                    \"suscriberId\": \"500\",\r\n                    \"login\": \"WSCTrakingUser_pro\",\r\n                    \"password\": \"y6xoXlLjl8BeizUIRBFH\",\r\n                    \"searchType\": {\r\n                        \"type\": \"L\",\r\n                        \"waybillList\": {\r\n                            \"waybillType\": \"G\",\r\n                            \"waybills\": {\r\n                                \"string\": [\r\n                                    8015900199630603163230\r\n                                ]\r\n                            }\r\n                        },\r\n                        \"waybillRange\": {\r\n                            \"initialWaybill\": 8015900199630603163230,\r\n                            \"finalWaybill\": 8015900199630603163230\r\n                        }\r\n                    },\r\n                    \"searchConfiguration\": {\r\n                        \"filterType\": {\r\n                            \"filterInformation\": false,\r\n                            \"filterType\": \"DELIVERED\"\r\n                        },\r\n                        \"historyConfiguration\": {\r\n                            \"historyType\": \"ALL\",\r\n                            \"includeHistory\": true\r\n                        },\r\n                        \"includeCustomerInfo\": true,\r\n                        \"includeDimensions\": true,\r\n                        \"includeInternationalData\": true,\r\n                        \"includeMultipleServiceData\": true,\r\n                        \"includeReturnDocumentData\": true,\r\n                        \"includeSignature\": true,\r\n                        \"includeWaybillReplaceData\": true\r\n                    }\r\n            }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://csrest.estafeta.com/v2/CustShipmentTracking/ExecuteQuery"
+			},
+			"response": []
 		}
 	]
 }
