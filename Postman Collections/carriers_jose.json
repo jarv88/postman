@@ -6730,6 +6730,44 @@
 			"response": []
 		},
 		{
+			"name": "Estafeta oauth prod test",
+			"id": "3a562a34-8baa-42dc-8006-51c7fd9bbf4f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "execute",
+							"type": "text"
+						},
+						{
+							"key": "client_Id",
+							"value": "l7b5360d5d94354482ab109faae7571c60",
+							"type": "text"
+						},
+						{
+							"key": "client_Secret",
+							"value": "1c7d42ffdb84446982251d914a54251b",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://apiqa.estafeta.com:8443/auth/oauth/v2/token"
+			},
+			"response": []
+		},
+		{
 			"name": "Yango MX creacion de envio",
 			"id": "ea1ecc30-8feb-4cbe-a54f-4fe611c74246",
 			"protocolProfileBehavior": {
