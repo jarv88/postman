@@ -7020,6 +7020,40 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Yango MX tracking journal",
+			"id": "f60cca81-83b4-4b03-a661-eebdd2d3941c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "_yasc=HDoWSn/xHWXy0J54P0ZYetGPz+vO1Gea5fjsAy6gbVZGS1JzUo7kNYMjEhM="
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"claim_id\": \"d3f6ff6e4dec4c98aa16556211301b11\"\n}"
+				},
+				"url": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/journal"
+			},
+			"response": []
 		}
 	]
 }
