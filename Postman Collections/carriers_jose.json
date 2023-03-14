@@ -5315,14 +5315,14 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"clientDetail\": {\r\n    \"accountName\": \"andrea.armijo@enviame.io\",\r\n    \"apiKey\": \"AGKyjuaPzaPibvSzWPFrMXYcIC3y8IK8\"\r\n  },\r\n  \"origin\": {\r\n    \"name\": \"jose\",\r\n    \"company\": \"enivame\",\r\n    \"email\": \"jose.rojas@enviame.io\",\r\n    \"phone\": \"8118888788\",\r\n    \"street\": \"paseo de sanmarino\",\r\n    \"ext_number\": \"320\",\r\n    \"district\": \"las torres\",\r\n    \"city\": \"monterrey\",\r\n    \"state\": \"NL\",\r\n    \"country\": \"MX\",\r\n    \"postalCode\": \"64930\"\r\n  },\r\n  \"destination\": {\r\n    \"name\": \"oscar\",\r\n    \"company\": \"Envios\",\r\n    \"email\": \"david@quiken.mx\",\r\n    \"phone\": \"8118888788\",\r\n    \"street\": \"paseo de sanmarino\",\r\n    \"ext_number\": \"320\",\r\n    \"district\": \"las torres\",\r\n    \"city\": \"monterrey\",\r\n    \"state\": \"NL\",\r\n    \"country\": \"MX\",\r\n    \"postalCode\": \"64930\"\r\n  },\r\n  \"package\": {\r\n    \"content\": \"ropa\",\r\n    \"type\": 1,\r\n    \"dimensions\": {\r\n      \"length\": 30,\r\n      \"width\": 25,\r\n      \"height\": 35\r\n    },\r\n    \"weight\": 1\r\n  },\r\n  \"shipment\": {\r\n    \"service\": \"local_express\"\r\n  },\r\n  \"settings\": {\r\n    \"labelFormat\": \"pdf\"\r\n  },\r\n    \"customPayment\": {\r\n    \"amount\": 0,\r\n    \"comments\": \"optional comment\"\r\n  }\r\n}",
+									"raw": "{\r\n    \"clientDetail\": {\r\n        \"accountName\": \"andrea.armijo@enviame.io\",\r\n        \"apiKey\": \"Z4HPMkCgJK54RmE6B0XLxHAyikPDZFQt\"\r\n    },\r\n    \"origin\": {\r\n        \"name\": \"ximena\",\r\n        \"company\": \"ROCKETFY MEXICO\",\r\n        \"email\": \"ximena.lozano@sqasa.com\",\r\n        \"phone\": \"9876543210\",\r\n        \"street\": \"Calle rosada, 1, 2, San Juan de Aragon\",\r\n        \"ext_number\": \"Calle rosada, 1\",\r\n        \"district\": \"San Juan de Aragon\",\r\n        \"city\": \"Ciudad de Mexico\",\r\n        \"state\": \"DF\",\r\n        \"country\": \"MX\",\r\n        \"postalCode\": \"07950\"\r\n    },\r\n    \"destination\": {\r\n        \"name\": \"juan\",\r\n        \"company\": \"enviame\",\r\n        \"email\": \"test@test.co\",\r\n        \"phone\": \"2222222222\",\r\n        \"street\": \"20, 20, 20, Calvillo Centro\",\r\n        \"ext_number\": \"20, 20, 20, Cal\",\r\n        \"district\": \"Calvillo Centro\",\r\n        \"city\": \"Calvillo\",\r\n        \"state\": \"DF\",\r\n        \"country\": \"MX\",\r\n        \"postalCode\": \"01180\"\r\n    },\r\n    \"package\": {\r\n        \"content\": \"Producto propio\",\r\n        \"type\": 1,\r\n        \"dimensions\": {\r\n            \"length\": 1,\r\n            \"width\": 1,\r\n            \"height\": 1\r\n        },\r\n        \"weight\": 1\r\n    },\r\n    \"shipment\": {\r\n        \"service\": \"local_guaranteed\"\r\n    },\r\n    \"settings\": {\r\n        \"labelFormat\": \"pdf\"\r\n    },\r\n    \"customPayment\": {\r\n        \"amount\": 658,\r\n        \"comments\": \"20\"\r\n    }\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "https://test.quiken.mx/generate"
+								"url": "https://api.quiken.mx/generate"
 							},
 							"response": []
 						},
