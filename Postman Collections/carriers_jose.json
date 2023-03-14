@@ -6730,6 +6730,44 @@
 			"response": []
 		},
 		{
+			"name": "Estafeta oauth prod",
+			"id": "d53b6bc6-78d4-4aec-ad94-406753df63f2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "execute",
+							"type": "text"
+						},
+						{
+							"key": "client_Id",
+							"value": "l7c68205793b5b4a56b6aab9df109de42d",
+							"type": "text"
+						},
+						{
+							"key": "client_Secret",
+							"value": "ab07707ef03941208c9c8eeebfa4f78d",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://api.estafeta.com/auth/oauth/v2/token"
+			},
+			"response": []
+		},
+		{
 			"name": "Estafeta oauth prod test",
 			"id": "3a562a34-8baa-42dc-8006-51c7fd9bbf4f",
 			"protocolProfileBehavior": {
