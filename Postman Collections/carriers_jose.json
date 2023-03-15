@@ -6384,7 +6384,504 @@
 				},
 				{
 					"name": "PedidosYa",
-					"item": [],
+					"item": [
+						{
+							"name": "OAuth Copy",
+							"id": "c43093da-57cf-40ae-9dc0-d30323890c7a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"password\": \"jLaSHukQ|2021\",\r\n    \"username\": \"295070-CM8DR@courierapi.com\",\r\n    \"client_id\": \"courier_295070_pe\",\r\n    \"grant_type\": \"password\",\r\n    \"access_token\": \"2434-112222-22db8a5f-32db-4b71-495b-cd6807f14a03\",\r\n    \"client_secret\": \"1636375185\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://auth-api.pedidosya.com/v1/token",
+								"description": "All endpoints require an authorization header with a token value.\r\nThe content of the header should look like the following: 'Authorization: <token>'\r\n\r\nTo obtain the token value you need to make a POST request to https://auth-api.pedidosya.com/v1/token with the following body:\r\n{\r\n    \"client_id\":\"your_client_id\",\r\n    \"client_secret\":\"your_client_secret\",\r\n    \"grant_type\":\"password\",\r\n    \"password\":\"your_password\",\r\n    \"username\":\"your_email\"\r\n}\r\nYou will obtain the token in the body response like this:\r\n{\r\n    \"access_token\": \"734-271253-4ab061c0-bf80-4f46-66aa-exampleb87a3\"\r\n}"
+							},
+							"response": [
+								{
+									"id": "95997310-fa6f-4b28-a5ce-9ea5b7dd5551",
+									"name": "OAuth",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"password\": \"EnviameCL$2021\",\r\n    \"username\": \"courierapi@enviame.io\",\r\n    \"client_id\": \"courier_enviame_cl\",\r\n    \"grant_type\": \"password\",\r\n    \"access_token\": \"881-162209-21e80f40-39a8-408c-6734-40a15d0b25cd\",\r\n    \"client_secret\": \"x5br%6q2!Y\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "https://auth-api.pedidosya.com/v1/token"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 13 Aug 2021 16:58:33 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "67e37d20dd432871-SCL"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "br"
+										},
+										{
+											"key": "alt-svc",
+											"value": "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"access_token\": \"881-131658-196ff79b-0eb1-4290-40e6-b8b5daf3ad47\"\n}"
+								},
+								{
+									"id": "925a9134-8459-4df9-8768-6d317eaa7952",
+									"name": "OAuth Copy",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"password\": \"EnviameCL$2021\",\r\n    \"username\": \"courierapi@enviame.io\",\r\n    \"client_id\": \"courier_enviame_cl\",\r\n    \"grant_type\": \"password\",\r\n    \"access_token\": \"881-162209-21e80f40-39a8-408c-6734-40a15d0b25cd\",\r\n    \"client_secret\": \"x5br%6q2!Y\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{mock_url}}/v1/token"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 13 Aug 2021 16:58:33 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "67e37d20dd432871-SCL"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "br"
+										},
+										{
+											"key": "alt-svc",
+											"value": "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"access_token\": \"token-2\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Create Shipping Order Copy",
+							"id": "ce602eaf-4d08-42b5-9aa7-7da8d87a7b7c",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "785-081237-f81801ac-d1e9-45b2-5af3-126a9f147bbd",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"referenceId\": \"356\",\r\n    \"isTest\": true,\r\n    \"deliveryTime\": \"2021-02-09T16:43:45Z\",\r\n    \"volume\": 1,\r\n    \"weight\": \"1\",\r\n    \"items\": [\r\n        {\r\n            \"categoryId\": \"37200397\",\r\n            \"value\": 7206,\r\n            \"description\": \"Orden 356\",\r\n            \"quantity\": 1,\r\n            \"volume\": 1,\r\n            \"weight\": \"1\"\r\n        }\r\n    ],\r\n    \"waypoints\": [\r\n        {\r\n            \"type\": \"PICK_UP\",\r\n            \"addressStreet\": \"AV LARRAIN 5862,  LOCAL 2072\",\r\n            \"addressAdditional\": \"\",\r\n            \"city\": \"La Reina\",\r\n            \"latitude\": -33.4135803,\r\n            \"longitude\": -70.5861262,\r\n            \"phone\": 111111111,\r\n            \"name\": \"Opaline\",\r\n            \"instructions\": \"\",\r\n            \"order\": 1\r\n        },\r\n        {\r\n            \"type\": \"DROP_OFF\",\r\n            \"addressStreet\": \"El Trovador 4315\",\r\n            \"addressAdditional\": \"Casa/Depto 408, Piso 4\",\r\n            \"city\": \"Las Condes\",\r\n            \"latitude\": -33.4135803,\r\n            \"longitude\": -70.5861262,\r\n            \"phone\": \"993546852\",\r\n            \"name\": \"Fabian Soares\",\r\n            \"instructions\": \"Casa/Depto 408, Piso 4\",\r\n            \"order\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://courier-api.pedidosya.com/v1/shippings",
+								"description": "Create Shipping order. deliveryTime: Desired datetime for order to be delivered at first shipping destination (drop off) point. referenceId: Some text or number that could be used from your side. This value will be used by the rider to identify the shipping order in pickup point.\r\n\r\nWaypoints latitude & longitude are optional. When not setted we use addressStreet to get a geolocation value.\r\n\r\nAfter order is created, it will remain in \"PREORDER\" status until confirmed. You'll have 15 minutes to confirm a preorder. Expiration time is returned on \"expiresAt\" field. You can create shipping orders from now up to 5 days from today."
+							},
+							"response": [
+								{
+									"id": "0e79cf04-86d6-43cb-a6a1-eb966839a7c2",
+									"name": "Create Shipping Order",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "785-081237-f81801ac-d1e9-45b2-5af3-126a9f147bbd",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"referenceId\": \"205924110\",\r\n    \"isTest\": true,\r\n    \"deliveryTime\": \"2021-02-09T18:42:29Z\",\r\n    \"volume\": 0.20000000000000001,\r\n    \"weight\": 2,\r\n    \"items\": [\r\n        {\r\n            \"categoryId\": \"28334385\",\r\n            \"value\": 100,\r\n            \"description\": \"es falso\",\r\n            \"quantity\": 1,\r\n            \"volume\": 0.20000000000000001,\r\n            \"weight\": 2\r\n        }\r\n    ],\r\n    \"waypoints\": [\r\n        {\r\n            \"type\": \"PICK_UP\",\r\n            \"addressStreet\": \"Vicente Zegers 1101, Iquique, Tarapacá\",\r\n            \"addressAdditional\": \"\",\r\n            \"city\": \"Iquique\",\r\n            \"latitude\": \"\",\r\n            \"longitude\": \"\",\r\n            \"phone\": \"12546897865\",\r\n            \"name\": \"Development\",\r\n            \"instructions\": \"\",\r\n            \"order\": 1\r\n        },\r\n        {\r\n            \"type\": \"DROP_OFF\",\r\n            \"addressStreet\": \"Av. Arturo Prat Chacón, sitio 8\",\r\n            \"addressAdditional\": \"\",\r\n            \"city\": \"Iquique\",\r\n            \"latitude\": \"\",\r\n            \"longitude\": \"\",\r\n            \"phone\": 111111111,\r\n            \"name\": \"TEST\",\r\n            \"instructions\": \"\",\r\n            \"order\": 2\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "https://courier-api.pedidosya.com/v1/shippings"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 08 Feb 2021 12:38:51 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application-json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "631"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "X-Newrelic-App-Data",
+											"value": "PxQGUlZaAQMTV1JSAAEOU1YEFB9AMQYAZBBZDEtZV0ZaClc9HjdWEBBOa046TE4CbEsSCl5BRw8KVkUTSjYsMWRLGk4IFgQeA0sBUQRQA1JTGgZRXlIUEQQBAFIDBlVRVwdXAlYEBQESTl4DVEtRbw=="
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "cf-request-id",
+											"value": "08233feae80000288104b0c000000001"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "61e568f1798c2881-SCL"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"createdAt\": \"2021-02-08T12:38:51Z\",\n    \"deliveryTime\": \"2021-02-09T18:42:29Z\",\n    \"expiresAt\": \"2021-02-08T12:53:51Z\",\n    \"id\": \"7852102081238511882241\",\n    \"isTest\": true,\n    \"items\": [\n        {\n            \"categoryId\": 28334385,\n            \"description\": \"es falso\",\n            \"quantity\": 1,\n            \"value\": 100,\n            \"volume\": 0.2,\n            \"weight\": 2\n        }\n    ],\n    \"lastUpdated\": \"2021-02-08T12:38:51Z\",\n    \"price\": {\n        \"currency\": \"CLP\",\n        \"distance\": 3142,\n        \"subtotal\": 0,\n        \"taxes\": 0,\n        \"total\": 0\n    },\n    \"proofOfDelivery\": false,\n    \"referenceId\": \"205924110\",\n    \"shareLocationUrl\": \"https://envios.pedidosya.cl/tracking/Nzg1MjEwMjA4MTIzODUxMTg4MjI0MSNBUEkjNzg1\",\n    \"status\": \"PREORDER\",\n    \"volume\": 0.2,\n    \"waypoints\": [\n        {\n            \"addressAdditional\": \"\",\n            \"addressStreet\": \"Vicente Zegers 1101, Iquique, Tarapacá\",\n            \"area\": null,\n            \"city\": \"Iquique\",\n            \"instructions\": \"\",\n            \"latitude\": -20.2178602,\n            \"longitude\": -70.1442447,\n            \"name\": \"Development\",\n            \"order\": 1,\n            \"phone\": \"+12546897865\",\n            \"type\": \"PICK_UP\"\n        },\n        {\n            \"addressAdditional\": \"\",\n            \"addressStreet\": \"Av. Arturo Prat Chacón, sitio 8\",\n            \"area\": null,\n            \"city\": \"Iquique\",\n            \"instructions\": \"\",\n            \"latitude\": -20.2402172,\n            \"longitude\": -70.14509579999999,\n            \"name\": \"TEST\",\n            \"order\": 2,\n            \"phone\": \"+111111111\",\n            \"type\": \"DROP_OFF\"\n        }\n    ],\n    \"weight\": 2\n}"
+								},
+								{
+									"id": "3a08ef5a-07f3-4bdc-8a8a-16cbcf8e8f95",
+									"name": "Create Shipping Order mock",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "785-081237-f81801ac-d1e9-45b2-5af3-126a9f147bbd",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"referenceId\": \"205924110\",\r\n    \"isTest\": true,\r\n    \"deliveryTime\": \"2021-02-09T18:42:29Z\",\r\n    \"volume\": 0.20000000000000001,\r\n    \"weight\": 2,\r\n    \"items\": [\r\n        {\r\n            \"categoryId\": \"28334385\",\r\n            \"value\": 100,\r\n            \"description\": \"es falso\",\r\n            \"quantity\": 1,\r\n            \"volume\": 0.20000000000000001,\r\n            \"weight\": 2\r\n        }\r\n    ],\r\n    \"waypoints\": [\r\n        {\r\n            \"type\": \"PICK_UP\",\r\n            \"addressStreet\": \"Vicente Zegers 1101, Iquique, Tarapacá\",\r\n            \"addressAdditional\": \"\",\r\n            \"city\": \"Iquique\",\r\n            \"latitude\": \"\",\r\n            \"longitude\": \"\",\r\n            \"phone\": \"12546897865\",\r\n            \"name\": \"Development\",\r\n            \"instructions\": \"\",\r\n            \"order\": 1\r\n        },\r\n        {\r\n            \"type\": \"DROP_OFF\",\r\n            \"addressStreet\": \"Av. Arturo Prat Chacón, sitio 8\",\r\n            \"addressAdditional\": \"\",\r\n            \"city\": \"Iquique\",\r\n            \"latitude\": \"\",\r\n            \"longitude\": \"\",\r\n            \"phone\": 111111111,\r\n            \"name\": \"TEST\",\r\n            \"instructions\": \"\",\r\n            \"order\": 2\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "https://b39a3a14-d7ad-4f03-b62b-68b26a0f1efd.mock.pstmn.io/pedidosya/create"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 08 Feb 2021 12:38:51 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application-json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "631"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "X-Newrelic-App-Data",
+											"value": "PxQGUlZaAQMTV1JSAAEOU1YEFB9AMQYAZBBZDEtZV0ZaClc9HjdWEBBOa046TE4CbEsSCl5BRw8KVkUTSjYsMWRLGk4IFgQeA0sBUQRQA1JTGgZRXlIUEQQBAFIDBlVRVwdXAlYEBQESTl4DVEtRbw=="
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "cf-request-id",
+											"value": "08233feae80000288104b0c000000001"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "61e568f1798c2881-SCL"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"createdAt\": \"2021-02-08T12:38:51Z\",\n    \"deliveryTime\": \"2021-02-09T18:42:29Z\",\n    \"expiresAt\": \"2021-02-08T12:53:51Z\",\n    \"id\": \"7852102081238511882241\",\n    \"isTest\": true,\n    \"items\": [\n        {\n            \"categoryId\": 28334385,\n            \"description\": \"es falso\",\n            \"quantity\": 1,\n            \"value\": 100,\n            \"volume\": 0.2,\n            \"weight\": 2\n        }\n    ],\n    \"lastUpdated\": \"2021-02-08T12:38:51Z\",\n    \"price\": {\n        \"currency\": \"CLP\",\n        \"distance\": 3142,\n        \"subtotal\": 0,\n        \"taxes\": 0,\n        \"total\": 0\n    },\n    \"proofOfDelivery\": false,\n    \"referenceId\": \"205924110\",\n    \"shareLocationUrl\": \"https://envios.pedidosya.cl/tracking/Nzg1MjEwMjA4MTIzODUxMTg4MjI0MSNBUEkjNzg1\",\n    \"status\": \"PREORDER\",\n    \"volume\": 0.2,\n    \"waypoints\": [\n        {\n            \"addressAdditional\": \"\",\n            \"addressStreet\": \"Vicente Zegers 1101, Iquique, Tarapacá\",\n            \"area\": null,\n            \"city\": \"Iquique\",\n            \"instructions\": \"\",\n            \"latitude\": -20.2178602,\n            \"longitude\": -70.1442447,\n            \"name\": \"Development\",\n            \"order\": 1,\n            \"phone\": \"+12546897865\",\n            \"type\": \"PICK_UP\"\n        },\n        {\n            \"addressAdditional\": \"\",\n            \"addressStreet\": \"Av. Arturo Prat Chacón, sitio 8\",\n            \"area\": null,\n            \"city\": \"Iquique\",\n            \"instructions\": \"\",\n            \"latitude\": -20.2402172,\n            \"longitude\": -70.14509579999999,\n            \"name\": \"TEST\",\n            \"order\": 2,\n            \"phone\": \"+111111111\",\n            \"type\": \"DROP_OFF\"\n        }\n    ],\n    \"weight\": 2\n}"
+								},
+								{
+									"id": "7f6c99ad-1335-41b0-bfa4-d8b6c4680231",
+									"name": "Create Shipping Order proxy response",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "785-081237-f81801ac-d1e9-45b2-5af3-126a9f147bbd",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"referenceId\": \"356\",\r\n    \"isTest\": true,\r\n    \"deliveryTime\": \"2021-02-09T16:43:45Z\",\r\n    \"volume\": 1,\r\n    \"weight\": \"1\",\r\n    \"items\": [\r\n        {\r\n            \"categoryId\": \"37200397\",\r\n            \"value\": 7206,\r\n            \"description\": \"Orden 356\",\r\n            \"quantity\": 1,\r\n            \"volume\": 1,\r\n            \"weight\": \"1\"\r\n        }\r\n    ],\r\n    \"waypoints\": [\r\n        {\r\n            \"type\": \"PICK_UP\",\r\n            \"addressStreet\": \"AV LARRAIN 5862,  LOCAL 2072\",\r\n            \"addressAdditional\": \"\",\r\n            \"city\": \"La Reina\",\r\n            \"latitude\": -33.4135803,\r\n            \"longitude\": -70.5861262,\r\n            \"phone\": 111111111,\r\n            \"name\": \"Opaline\",\r\n            \"instructions\": \"\",\r\n            \"order\": 1\r\n        },\r\n        {\r\n            \"type\": \"DROP_OFF\",\r\n            \"addressStreet\": \"El Trovador 4315\",\r\n            \"addressAdditional\": \"Casa/Depto 408, Piso 4\",\r\n            \"city\": \"Las Condes\",\r\n            \"latitude\": -33.4135803,\r\n            \"longitude\": -70.5861262,\r\n            \"phone\": \"993546852\",\r\n            \"name\": \"Fabian Soares\",\r\n            \"instructions\": \"Casa/Depto 408, Piso 4\",\r\n            \"order\": 2\r\n        }\r\n    ]\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "https://b39a3a14-d7ad-4f03-b62b-68b26a0f1efd.mock.pstmn.io/pedidosya/proxy"
+									},
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"confirmationCode\": \"445789822\",\n    \"createdAt\": \"2021-11-04T22:49:32Z\",\n    \"deliveryTime\": \"2021-11-04T23:19:29Z\",\n    \"id\": \"8812111042249328511337\",\n    \"isTest\": false,\n    \"items\": [\n        {\n            \"categoryId\": 37200397,\n            \"description\": \"COSMETICOS\",\n            \"quantity\": 1,\n            \"value\": 9990,\n            \"volume\": 1,\n            \"weight\": 0.625\n        }\n    ],\n    \"lastUpdated\": \"2021-11-04T22:49:33Z\",\n    \"notificationMail\": \"cecy.sepulveda.g@gmail.com\",\n    \"onlineSupportUrl\": \"https://care-center.pedidosya.com/activity/8e2d495d-b3b9-461a-a296-8734a3eb09fb?key=RSwZF7dQfxhDoqKVyNT%2FDovcIQfkfvuKTPsRWHac5s64k2%2BGcht1dbv4DdlTlMLzgcJZLZrPtF4sIo%2FDIDY%2BRGusvKNUQaGsFHZ8hC4zr71Q2cQ8d8Nv%2BW6ASdznXm49\",\n    \"price\": {\n        \"currency\": \"CLP\",\n        \"distance\": 4998,\n        \"subtotal\": 3391,\n        \"taxes\": 0,\n        \"total\": 3391\n    },\n    \"proofOfDelivery\": false,\n    \"referenceId\": \"TCHM24876\",\n    \"shareLocationUrl\": \"https://envios.pedidosya.cl/tracking/ODgxMjExMTA0MjI0OTMyODUxMTMzNyNBUEkjODgx\",\n    \"status\": \"CONFIRMED\",\n    \"volume\": 1,\n    \"waypoints\": [\n        {\n            \"addressAdditional\": \"\",\n            \"addressStreet\": \"ROSA EGUIGUREN 813 OFIC 67\",\n            \"city\": \"Santiago\",\n            \"instructions\": \"ROSA EGUIGUREN 813 OFIC 67\",\n            \"latitude\": -33.4426389,\n            \"longitude\": -70.648042,\n            \"name\": \"JOSSELIN MENDEZ BARRETO SPA.\",\n            \"order\": 1,\n            \"phone\": \"+56982515074\",\n            \"type\": \"PICK_UP\"\n        },\n        {\n            \"addressAdditional\": \"Depto 508\",\n            \"addressStreet\": \"Bustos 2360\",\n            \"city\": \"Providencia\",\n            \"instructions\": \"Depto 508\",\n            \"latitude\": -33.439192,\n            \"longitude\": -70.6011843,\n            \"name\": \"Cecilia Sepulveda\",\n            \"order\": 2,\n            \"phone\": \"+56982664175\",\n            \"type\": \"DROP_OFF\"\n        }\n    ],\n    \"weight\": 0.625\n}"
+								}
+							]
+						},
+						{
+							"name": "Confirm Shipping Order Copy",
+							"id": "ffcd847c-e485-4bca-9bba-a34d1d06e162",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": "https://courier-api.pedidosya.com/v1/shippings/8812103091544166494619/confirm"
+							},
+							"response": [
+								{
+									"id": "d496e568-a8e3-462e-afd1-f946718e8fcf",
+									"name": "Confirm Shipping Order",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": "https://courier-api.pedidosya.com/v1/shippings/8812103091544166494619/confirm"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Tue, 09 Mar 2021 15:44:27 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application-json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "631"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "X-Newrelic-App-Data",
+											"value": "PxQGUlZaAQMTV1JSAAEOU1YEFB9AMQYAZBBZDEtZV0ZaClc9HjdWEBBOa046TE4CbEsSCl5BRw8KVkVvTVwQClkSSAtWX31Wb0paDl8HWhAJFh8xKTBsGhJIUUwHHQdIVAIPBlJSV1oDTglSDwkYEFVWXVNUVgRVVA8CVgAACwUSSAcDW0JSOw=="
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "cf-request-id",
+											"value": "08b94246d30000fdf56e234000000001"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "62d56cb7b8a6fdf5-SCL"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"confirmationCode\": \"9766388434\",\n    \"createdAt\": \"2021-03-09T15:44:16Z\",\n    \"deliveryTime\": \"2021-03-09T16:43:45Z\",\n    \"id\": \"8812103091544166494619\",\n    \"isTest\": true,\n    \"items\": [\n        {\n            \"categoryId\": 37200397,\n            \"description\": \"Orden 356\",\n            \"quantity\": 1,\n            \"value\": 7206,\n            \"volume\": 1,\n            \"weight\": 1\n        }\n    ],\n    \"lastUpdated\": \"2021-03-09T15:44:27Z\",\n    \"price\": {\n        \"currency\": \"CLP\",\n        \"distance\": 0,\n        \"subtotal\": 3391,\n        \"taxes\": 0,\n        \"total\": 3391\n    },\n    \"proofOfDelivery\": false,\n    \"referenceId\": \"356\",\n    \"shareLocationUrl\": \"https://envios.pedidosya.cl/tracking/ODgxMjEwMzA5MTU0NDE2NjQ5NDYxOSNBUEkjODgx\",\n    \"status\": \"CONFIRMED\",\n    \"volume\": 1,\n    \"waypoints\": [\n        {\n            \"addressAdditional\": \"\",\n            \"addressStreet\": \"AV LARRAIN 5862,  LOCAL 2072\",\n            \"city\": \"La Reina\",\n            \"instructions\": \"\",\n            \"latitude\": -33.4135803,\n            \"longitude\": -70.5861262,\n            \"name\": \"Opaline\",\n            \"order\": 1,\n            \"phone\": \"+111111111\",\n            \"type\": \"PICK_UP\"\n        },\n        {\n            \"addressAdditional\": \"Casa/Depto 408, Piso 4\",\n            \"addressStreet\": \"El Trovador 4315\",\n            \"city\": \"Las Condes\",\n            \"instructions\": \"Casa/Depto 408, Piso 4\",\n            \"latitude\": -33.4135803,\n            \"longitude\": -70.5861262,\n            \"name\": \"Fabian Soares\",\n            \"order\": 2,\n            \"phone\": \"+993546852\",\n            \"type\": \"DROP_OFF\"\n        }\n    ],\n    \"weight\": 1\n}"
+								}
+							]
+						},
+						{
+							"name": "cancel Copy",
+							"id": "8238d1a7-bed2-4df9-855c-26ee20de49a6",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"reasonText\": \"Reason explanation for cancellation request\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://courier-api.pedidosya.com/v1/shippings/24482111121505581681749/cancel"
+							},
+							"response": []
+						}
+					],
 					"id": "85981796-e03b-4b37-951a-565e326ac91f"
 				}
 			],
@@ -6663,7 +7160,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"reference\": \"\",\r\n    \"transportOrderNumber\": 712624169106,\r\n    \"rut\": 76669508,\r\n    \"showTrackingEvents\": 1\r\n}",
+					"raw": "{\r\n    \"reference\": \"\",\r\n    \"transportOrderNumber\": 712644944712,\r\n    \"rut\": 76669508,\r\n    \"showTrackingEvents\": 1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
