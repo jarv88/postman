@@ -6788,8 +6788,14 @@
 							},
 							"request": {
 								"method": "POST",
-								"header": [],
-								"url": "https://courier-api.pedidosya.com/v1/shippings/8812103091544166494619/confirm"
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "5874-151533-ab652f6b-32df-407c-756c-144b72669055",
+										"type": "text"
+									}
+								],
+								"url": "https://courier-api.pedidosya.com/v1/shippings/58742303151534267607245/confirm"
 							},
 							"response": [
 								{
