@@ -7265,7 +7265,7 @@
 						}
 					]
 				},
-				"url": "https://api.estafeta.com:8443/auth/oauth/v2/token"
+				"url": "https://apiqa.estafeta.com:8443/auth/oauth/v2/token"
 			},
 			"response": []
 		},
