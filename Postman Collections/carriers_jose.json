@@ -6399,7 +6399,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"password\": \"jLaSHukQ|2021\",\r\n    \"username\": \"295070-CM8DR@courierapi.com\",\r\n    \"client_id\": \"courier_295070_pe\",\r\n    \"grant_type\": \"password\",\r\n    \"access_token\": \"2434-112222-22db8a5f-32db-4b71-495b-cd6807f14a03\",\r\n    \"client_secret\": \"1636375185\"\r\n}",
+									"raw": "{\r\n    \"password\": \"szkw14j2023\",\r\n    \"username\": \"337544-621qv@courierapi.com\",\r\n    \"client_id\": \"courier_337544_pe\",\r\n    \"grant_type\": \"password\",\r\n    \"client_secret\": \"1678812258\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
