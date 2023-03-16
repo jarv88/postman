@@ -5478,6 +5478,33 @@
 							"response": []
 						},
 						{
+							"name": "Consulta tracking Prod",
+							"id": "75a50e36-03cf-4edd-b4d9-bc282e959122",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRW52aWFtZSBQcnVlYmFzIiwic3ViIjoiRW52aWFtZSBQcnVlYmFzIiwiZW1haWwiOiJhbmRyZWEuYXJtaWpvQGVudmlhbWUuaW8iLCJqdGkiOiJhM2EzY2U4OC01ZjE3LTRlNjYtYjk2OS1hNzY1YWY4OTJhMmIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjY1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQU1JR09USVVJIiwibmJmIjoxNjc3MjU3MTk4LCJleHAiOjE2NzcyNjA3OTgsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTAwMyIsImF1ZCI6ImxvY2FsaG9zdDo1MDAzIn0.lHz1QFNEbpPFur1pvNdKmxtvAGpYbcSGKuTPUm73nAA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"page\": 0,\n    \"pageSize\": 0,\n    \"folio\": \"62-12-0001\",\n    \"tiuiAmigoId\":65,\n    \"estatusId\": 1,\n    \"fechaRegistroInicio\": null,\n    \"fechaRegistroFin\": null\n}"
+								},
+								"url": "http://18.216.52.78:82/api/guia/guias-traking"
+							},
+							"response": []
+						},
+						{
 							"name": "Guia Impresion",
 							"id": "6dff8d5b-bb02-426f-bf6c-f3d3597babe0",
 							"protocolProfileBehavior": {
