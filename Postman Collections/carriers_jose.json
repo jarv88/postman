@@ -7834,6 +7834,28 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Pickit MX get label Prod",
+			"id": "9b95693c-2776-43ba-8b38-9db637cd487a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "Y8RQWK3Q53"
+					},
+					{
+						"key": "apiKey",
+						"value": "54XR9WZRB9"
+					}
+				],
+				"url": "https://api.pickit.com.mx/apiV2/transaction/3632352/label"
+			},
+			"response": []
 		}
 	]
 }
