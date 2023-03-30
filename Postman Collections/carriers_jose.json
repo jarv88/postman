@@ -4972,7 +4972,7 @@
 							"id": "a3d50122-5a0f-4e81-962f-d4bf33d04bbe"
 						},
 						{
-							"name": "Create quote",
+							"name": "Create quote test",
 							"id": "263c0810-9a05-4da9-b6a4-aeaf925ee7d4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
