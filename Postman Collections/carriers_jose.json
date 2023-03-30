@@ -2008,7 +2008,7 @@
 									},
 									{
 										"key": "Authorization",
-										"value": "6cd0649c9d3f171a32f761ad9eda16885df95afb"
+										"value": "cad1072f836451532a1349a23301aeb597cbfdac"
 									},
 									{
 										"key": "Content-Type",
@@ -2017,10 +2017,10 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"scheduledDate\": \"2023-02-10 15:00:00\",\r\n    \"type\": \"regular\",\r\n    \"flow\": \"manual\",\r\n    \"from\": {\r\n        \"googlePlaceId\": \"\",\r\n        \"addressDescription\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\",\r\n        \"street\": \"Cra. 11B #99-25\",\r\n        \"number\": \"2678\",\r\n        \"floor\": \"6to\",\r\n        \"apartment\": \"C\",\r\n        \"city\": \"Bogota\",\r\n        \"state\": \"Bogota\",\r\n        \"postalCode\": \"\",\r\n        \"country\": \"COL\",\r\n        \"address\": \"Cra. 11B #99-25, Localidad de Chapinero, Bogota, Colombia\",\r\n        \"instructions\": \"No funciona el timbre. Llamar antes\",\r\n        \"contact\": {\r\n            \"firstName\": \"Juan\",\r\n            \"lastName\": \"Perez\",\r\n            \"email\": \"\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"to\": {\r\n        \"googlePlaceId\": \"\",\r\n        \"addressDescription\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\",\r\n        \"street\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75\",\r\n        \"number\": \"2678\",\r\n        \"floor\": \"6to\",\r\n        \"apartment\": \"C\",\r\n        \"city\": \"Bogota\",\r\n        \"state\": \"Bogota\",\r\n        \"postalCode\": \"1425\",\r\n        \"country\": \"COL\",\r\n        \"address\": \"Centro Comercial Nuestro, Cra. 86 #55A - 75, Bogotá, Colombia\",\r\n        \"instructions\": \"No funciona el timbre. Llamar antes\",\r\n        \"contact\": {\r\n            \"firstName\": \"Juan\",\r\n            \"lastName\": \"Perez\",\r\n            \"email\": \"\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"internalCode\": \"\",\r\n    \"description\": \"\",\r\n    \"label\": \"\",\r\n    \"extra\": {},\r\n    \"settings\": [],\r\n    \"returnSettings\": [],\r\n    \"conf\": {\r\n        \"assurance\": false\r\n    },\r\n    \"items\": [\r\n        {\r\n            \"description\": \"T-Shirt\",\r\n            \"reference_code\": \"AB-1222\",\r\n            \"weight\": 1500,\r\n            \"length\": 40,\r\n            \"width\": 30,\r\n            \"height\": 50,\r\n            \"price\": 2350.99,\r\n            \"currency\": \"COP\",\r\n            \"quantity\": 1\r\n        }\r\n    ],\r\n    \"services\":[\"\"],\r\n    \"chargeAmount\":\"\"\r\n}"
+									"raw": "{\r\n    \"currency\": \"CLP\",\r\n    \"type\": \"regular\",\r\n    \"flow\": \"manual\",\r\n    \"from\": {\r\n        \"googlePlaceId\": \"ChIJWT03qIjOYpYRyxTeh3Xo65g\",\r\n        \"street\": \"Avenida Padre Hurtado Sur\",\r\n        \"number\": \"1621\",\r\n        \"floor\": \"\",\r\n        \"apartment\": \"\",\r\n        \"city\": \"Santiago\",\r\n        \"state\": \"Region Metropolitana\",\r\n        \"postalCode\": \"\",\r\n        \"country\": \"CL\",\r\n        \"instructions\": \"Avenida Padre Hurtado sur 1621\",\r\n        \"contact\": {\r\n            \"seller_name\": \"Menn\",\r\n            \"firstName\": \"Menn\",\r\n            \"lastName\": \"\",\r\n            \"email\": \"arnoldoshopylibre@gmail.com\",\r\n            \"phone\": \"959658100\"\r\n        }\r\n    },\r\n    \"to\": {\r\n        \"address\": \"AV Suecia 1777, Las Condes, Chile\",\r\n        \"floor\": \"\",\r\n        \"apartment\": \"\",\r\n        \"city\": \"Santiago\",\r\n        \"state\": \"Region Metropolitana\",\r\n        \"postalCode\": \"\",\r\n        \"country\": \"CL\",\r\n        \"instructions\": \"\",\r\n        \"contact\": {\r\n            \"firstName\": \"Prueba\",\r\n            \"lastName\": \"\",\r\n            \"email\": \"macarena.gonzalez@enviame.io\",\r\n            \"phone\": \"\"\r\n        },\r\n        \"message\": \"\"\r\n    },\r\n    \"internalCode\": \"Prueba1234\",\r\n    \"conf\": {\r\n        \"assurance\": \"\"\r\n    },\r\n    \"items\": [{\r\n        \"description\": \"Prueba\",\r\n        \"price\": 10000,\r\n        \"weight\": 1,\r\n        \"length\": 1,\r\n        \"width\": \"1\",\r\n        \"height\": \"1\"\r\n    }]\r\n}"
 								},
 								"url": {
-									"raw": "https://api-prod.moova.io/b2b/shippings?appId=e04a2a20-5546-11ed-b565-63415bcc3276",
+									"raw": "https://api-prod.moova.io/b2b/shippings?appId=36b18830-c58a-11ec-9bd2-bbb9b62ac07f",
 									"protocol": "https",
 									"host": [
 										"api-prod",
@@ -2034,7 +2034,7 @@
 									"query": [
 										{
 											"key": "appId",
-											"value": "e04a2a20-5546-11ed-b565-63415bcc3276"
+											"value": "36b18830-c58a-11ec-9bd2-bbb9b62ac07f"
 										}
 									]
 								}
