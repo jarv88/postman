@@ -6931,6 +6931,575 @@
 			"id": "da14d4a5-ed56-4717-a62a-7fc13100b2f1"
 		},
 		{
+			"name": "Yango Latam",
+			"item": [
+				{
+					"name": "MX",
+					"item": [
+						{
+							"name": "Yango MX creacion de envio",
+							"id": "ea1ecc30-8feb-4cbe-a54f-4fe611c74246",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"callback_properties\": {\r\n        \"callback_url\": \"https://www.example.com\"\r\n    },\r\n    \"comment\": \"tariff:1\",\r\n    \"same_day_data\": {\r\n        \"delivery_interval\": {\r\n            \"from\": \"2023-02-24T09:15:00-06:00\",\r\n            \"to\": \"2023-02-24T21:00:00-06:00\"\r\n        }\r\n    },\r\n    \"emergency_contact\": {\r\n        \"name\": \"Kirill\",\r\n        \"phone\": \"+5257731400\"\r\n    },\r\n    \"items\": [\r\n        {\r\n            \"cost_currency\": \"MEX\",\r\n            \"cost_value\": \"2\",\r\n            \"droppof_point\": 2,\r\n            \"extra_id\": \"BP-208\",\r\n            \"pickup_point\": 1,\r\n            \"quantity\": 1,\r\n            \"size\": {\r\n                \"height\": 0.5,\r\n                \"length\": 0.5,\r\n                \"width\": 0.5\r\n            },\r\n            \"title\": \"prueba origen\",\r\n            \"weight\": 1\r\n        }\r\n    ],\r\n    \"optional_return\": false,\r\n    \"route_points\": [\r\n        {\r\n            \"address\": {\r\n                \"coordinates\": [\r\n                    -99.1677139,\r\n                    19.4244499\r\n                ],\r\n                \"building\": \"\",\r\n                \"city\": \"Juarez\",\r\n                \"comment\": \"\",\r\n                \"country\": \"Mexico\",\r\n                \"description\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"door_code\": \"\",\r\n                \"flat\": 1,\r\n                \"floor\": 1,\r\n                \"fullname\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"porch\": \"\",\r\n                \"sflat\": \"1\",\r\n                \"sfloor\": \"1\",\r\n                \"shortname\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"street\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"uri\": \"\"\r\n            },\r\n            \"contact\": {\r\n                \"email\": \"andrea.armijo@enviame.io\",\r\n                \"name\": \"Kirill\",\r\n                \"phone\": \"+5693493420\"\r\n            },\r\n            \"external_order_id\": \"104399999\",\r\n            \"point_id\": 1,\r\n            \"skip_confirmation\": true,\r\n            \"type\": \"source\",\r\n            \"visit_order\": 1\r\n        },\r\n        {\r\n            \"address\": {\r\n                \"coordinates\": [\r\n                    -99.1937404,\r\n                    19.387034\r\n                ],\r\n                \"building\": \"\",\r\n                \"city\": \"Carola\",\r\n                \"comment\": \"\",\r\n                \"country\": \"Mexico\",\r\n                \"description\": \"los toltecas 166\",\r\n                \"door_code\": \"\",\r\n                \"flat\": 1,\r\n                \"floor\": 1,\r\n                \"fullname\": \"los toltecas 166, prueba\",\r\n                \"porch\": \"\",\r\n                \"sflat\": \"1\",\r\n                \"sfloor\": \"1\",\r\n                \"shortname\": \"los toltecas 166\",\r\n                \"street\": \"los toltecas 166\",\r\n                \"uri\": \"\"\r\n            },\r\n            \"contact\": {\r\n                \"email\": \"jose.rojas@enviame.io\",\r\n                \"name\": \"jose rojas\",\r\n                \"phone\": \"+5257731400\"\r\n            },\r\n            \"external_order_id\": \"104399191\",\r\n            \"point_id\": 2,\r\n            \"skip_confirmation\": true,\r\n            \"type\": \"destination\",\r\n            \"visit_order\": 2\r\n        }\r\n    ],\r\n    \"skip_act\": false,\r\n    \"skip_client_notify\": false,\r\n    \"skip_door_to_door\": false,\r\n    \"skip_emergency_notify\": false,\r\n    \"request_id\": 104399999\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/create?request_id=104399999",
+									"protocol": "https",
+									"host": [
+										"b2b",
+										"taxi",
+										"yandex",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"create"
+									],
+									"query": [
+										{
+											"key": "request_id",
+											"value": "104399999"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Yango MX tracking info",
+							"id": "97c5b66c-34c8-4048-92dc-a2cb707b1136",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+									}
+								],
+								"url": {
+									"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=ca0d0129c887471eb648bd9b9ff3baa4",
+									"protocol": "https",
+									"host": [
+										"b2b",
+										"taxi",
+										"yandex",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"info"
+									],
+									"query": [
+										{
+											"key": "claim_id",
+											"value": "ca0d0129c887471eb648bd9b9ff3baa4"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Yango MX tracking journal",
+							"id": "f60cca81-83b4-4b03-a661-eebdd2d3941c",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=HDoWSn/xHWXy0J54P0ZYetGPz+vO1Gea5fjsAy6gbVZGS1JzUo7kNYMjEhM="
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"claim_id\": \"d3f6ff6e4dec4c98aa16556211301b11\"\n}"
+								},
+								"url": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/journal"
+							},
+							"response": []
+						},
+						{
+							"name": "yango accept",
+							"id": "145a872b-fb76-4496-b845-ec7801a69e4e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"version\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/accept?claim_id=e3f651fd5d1947c6a8cc4248f2c50c28",
+									"protocol": "https",
+									"host": [
+										"b2b",
+										"taxi",
+										"yandex",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"accept"
+									],
+									"query": [
+										{
+											"key": "claim_id",
+											"value": "e3f651fd5d1947c6a8cc4248f2c50c28"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "yango cancel",
+							"id": "39a47028-c7db-4d3e-ae9f-c73ee1816816",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"cancel_state\": \"free\",\n  \"version\": 1\n}"
+								},
+								"url": {
+									"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/cancel?claim_id=7dc7120610e443d4ab808eda5f6349d5",
+									"protocol": "https",
+									"host": [
+										"b2b",
+										"taxi",
+										"yandex",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"cancel"
+									],
+									"query": [
+										{
+											"key": "claim_id",
+											"value": "7dc7120610e443d4ab808eda5f6349d5"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "364b5705-a442-4b87-9d15-ae2ee7f232e6"
+				},
+				{
+					"name": "CO",
+					"item": [
+						{
+							"name": "Yango CO creacion de envio Copy",
+							"id": "19f3f9a0-9817-4ad3-b352-95b880d6272e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"callback_properties\": {\r\n        \"callback_url\": \"https://www.example.com\"\r\n    },\r\n    \"comment\": \"tariff:1\",\r\n    \"same_day_data\": {\r\n        \"delivery_interval\": {\r\n            \"from\": \"2023-02-24T09:15:00-06:00\",\r\n            \"to\": \"2023-02-24T21:00:00-06:00\"\r\n        }\r\n    },\r\n    \"emergency_contact\": {\r\n        \"name\": \"Kirill\",\r\n        \"phone\": \"+5257731400\"\r\n    },\r\n    \"items\": [\r\n        {\r\n            \"cost_currency\": \"MEX\",\r\n            \"cost_value\": \"2\",\r\n            \"droppof_point\": 2,\r\n            \"extra_id\": \"BP-208\",\r\n            \"pickup_point\": 1,\r\n            \"quantity\": 1,\r\n            \"size\": {\r\n                \"height\": 0.5,\r\n                \"length\": 0.5,\r\n                \"width\": 0.5\r\n            },\r\n            \"title\": \"prueba origen\",\r\n            \"weight\": 1\r\n        }\r\n    ],\r\n    \"optional_return\": false,\r\n    \"route_points\": [\r\n        {\r\n            \"address\": {\r\n                \"coordinates\": [\r\n                    -99.1677139,\r\n                    19.4244499\r\n                ],\r\n                \"building\": \"\",\r\n                \"city\": \"Juarez\",\r\n                \"comment\": \"\",\r\n                \"country\": \"Mexico\",\r\n                \"description\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"door_code\": \"\",\r\n                \"flat\": 1,\r\n                \"floor\": 1,\r\n                \"fullname\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"porch\": \"\",\r\n                \"sflat\": \"1\",\r\n                \"sfloor\": \"1\",\r\n                \"shortname\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"street\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"uri\": \"\"\r\n            },\r\n            \"contact\": {\r\n                \"email\": \"andrea.armijo@enviame.io\",\r\n                \"name\": \"Kirill\",\r\n                \"phone\": \"+5693493420\"\r\n            },\r\n            \"external_order_id\": \"104399999\",\r\n            \"point_id\": 1,\r\n            \"skip_confirmation\": true,\r\n            \"type\": \"source\",\r\n            \"visit_order\": 1\r\n        },\r\n        {\r\n            \"address\": {\r\n                \"coordinates\": [\r\n                    -99.1937404,\r\n                    19.387034\r\n                ],\r\n                \"building\": \"\",\r\n                \"city\": \"Carola\",\r\n                \"comment\": \"\",\r\n                \"country\": \"Mexico\",\r\n                \"description\": \"los toltecas 166\",\r\n                \"door_code\": \"\",\r\n                \"flat\": 1,\r\n                \"floor\": 1,\r\n                \"fullname\": \"los toltecas 166, prueba\",\r\n                \"porch\": \"\",\r\n                \"sflat\": \"1\",\r\n                \"sfloor\": \"1\",\r\n                \"shortname\": \"los toltecas 166\",\r\n                \"street\": \"los toltecas 166\",\r\n                \"uri\": \"\"\r\n            },\r\n            \"contact\": {\r\n                \"email\": \"jose.rojas@enviame.io\",\r\n                \"name\": \"jose rojas\",\r\n                \"phone\": \"+5257731400\"\r\n            },\r\n            \"external_order_id\": \"104399191\",\r\n            \"point_id\": 2,\r\n            \"skip_confirmation\": true,\r\n            \"type\": \"destination\",\r\n            \"visit_order\": 2\r\n        }\r\n    ],\r\n    \"skip_act\": false,\r\n    \"skip_client_notify\": false,\r\n    \"skip_door_to_door\": false,\r\n    \"skip_emergency_notify\": false,\r\n    \"request_id\": 104399999\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/create?request_id=104399999",
+									"protocol": "https",
+									"host": [
+										"b2b",
+										"taxi",
+										"yandex",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"create"
+									],
+									"query": [
+										{
+											"key": "request_id",
+											"value": "104399999"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "yango accept Copy",
+							"id": "181bd984-2127-47ae-9f45-3844e3b0f035",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"version\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/accept?claim_id=e3f651fd5d1947c6a8cc4248f2c50c28",
+									"protocol": "https",
+									"host": [
+										"b2b",
+										"taxi",
+										"yandex",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"accept"
+									],
+									"query": [
+										{
+											"key": "claim_id",
+											"value": "e3f651fd5d1947c6a8cc4248f2c50c28"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "yango cancel Copy",
+							"id": "42e039ad-8ca3-41fd-b82b-4cc0bc78a4fa",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"cancel_state\": \"free\",\n  \"version\": 1\n}"
+								},
+								"url": {
+									"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/cancel?claim_id=7dc7120610e443d4ab808eda5f6349d5",
+									"protocol": "https",
+									"host": [
+										"b2b",
+										"taxi",
+										"yandex",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"cancel"
+									],
+									"query": [
+										{
+											"key": "claim_id",
+											"value": "7dc7120610e443d4ab808eda5f6349d5"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Yango CO tracking info Copy",
+							"id": "62b71d63-6b27-4780-90fc-07bbb01b0315",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+									}
+								],
+								"url": {
+									"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=ca0d0129c887471eb648bd9b9ff3baa4",
+									"protocol": "https",
+									"host": [
+										"b2b",
+										"taxi",
+										"yandex",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"info"
+									],
+									"query": [
+										{
+											"key": "claim_id",
+											"value": "ca0d0129c887471eb648bd9b9ff3baa4"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "33f85a41-02c2-4c8d-a0a6-d60647bd7d0d"
+				},
+				{
+					"name": "CL",
+					"item": [],
+					"id": "384a76fa-d28f-4cb8-b85c-bcfb3de66c64"
+				},
+				{
+					"name": "PE",
+					"item": [
+						{
+							"name": "Tracking Yango PE Prod",
+							"id": "88e9ab15-0d99-46ac-bd95-d5666d8e2166",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer AQAAAABh2uEfAAVM1dZhZYHjC07MiJGQthgiOzc"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+									}
+								],
+								"url": {
+									"raw": "https://deliveryproxy.azurewebsites.net/b2b/cargo/integration/v2/claims/info?claim_id=iRX6ovf1",
+									"protocol": "https",
+									"host": [
+										"deliveryproxy",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"info"
+									],
+									"query": [
+										{
+											"key": "claim_id",
+											"value": "iRX6ovf1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "yango delivery proof",
+							"id": "203215a6-7bbf-47bb-9f7b-5bfc098d901a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "x-functions-key",
+										"value": "qVoJC5cdsUm0OLTA8toKDS8ksfLW2zpG-oydUrMmh9t2AzFu7R4eVQ=="
+									}
+								],
+								"url": "https://yango-api.azurewebsites.net/api/clients/3E453788-0B47-4CD9-9F16-2B268D44C78A/orders/102087352/photo"
+							},
+							"response": []
+						}
+					],
+					"id": "0ff4078a-499a-4586-9a91-29758c2945ef"
+				}
+			],
+			"id": "907a9fec-3127-4edb-a9d3-d65e7a058557"
+		},
+		{
 			"name": "Rapiboy Tracking",
 			"id": "78ae6b39-b7a8-4f74-ae49-4f2ab8f73d61",
 			"protocolProfileBehavior": {
@@ -7061,54 +7630,6 @@
 			"response": []
 		},
 		{
-			"name": "Tracking Yango PE Prod",
-			"id": "88e9ab15-0d99-46ac-bd95-d5666d8e2166",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Bearer AQAAAABh2uEfAAVM1dZhZYHjC07MiJGQthgiOzc"
-					},
-					{
-						"key": "Accept-Language",
-						"value": "en"
-					},
-					{
-						"key": "Cookie",
-						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
-					}
-				],
-				"url": {
-					"raw": "https://deliveryproxy.azurewebsites.net/b2b/cargo/integration/v2/claims/info?claim_id=iRX6ovf1",
-					"protocol": "https",
-					"host": [
-						"deliveryproxy",
-						"azurewebsites",
-						"net"
-					],
-					"path": [
-						"b2b",
-						"cargo",
-						"integration",
-						"v2",
-						"claims",
-						"info"
-					],
-					"query": [
-						{
-							"key": "claim_id",
-							"value": "iRX6ovf1"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "PE - Urbaner Cancelacion",
 			"id": "4ce7364f-53de-4415-aae6-3035a2be23d8",
 			"protocolProfileBehavior": {
@@ -7203,7 +7724,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"reference\": \"\",\r\n    \"transportOrderNumber\": 712644944712,\r\n    \"rut\": 76669508,\r\n    \"showTrackingEvents\": 1\r\n}",
+					"raw": "{\r\n    \"reference\": \"\",\r\n    \"transportOrderNumber\": 712649761913,\r\n    \"rut\": 76669508,\r\n    \"showTrackingEvents\": 1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -7313,62 +7834,6 @@
 			"response": []
 		},
 		{
-			"name": "Yango MX creacion de envio",
-			"id": "ea1ecc30-8feb-4cbe-a54f-4fe611c74246",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept-Language",
-						"value": "en",
-						"type": "text"
-					},
-					{
-						"key": "Authorization",
-						"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"callback_properties\": {\r\n        \"callback_url\": \"https://www.example.com\"\r\n    },\r\n    \"comment\": \"tariff:1\",\r\n    \"same_day_data\": {\r\n        \"delivery_interval\": {\r\n            \"from\": \"2023-02-24T09:15:00-06:00\",\r\n            \"to\": \"2023-02-24T21:00:00-06:00\"\r\n        }\r\n    },\r\n    \"emergency_contact\": {\r\n        \"name\": \"Kirill\",\r\n        \"phone\": \"+5257731400\"\r\n    },\r\n    \"items\": [\r\n        {\r\n            \"cost_currency\": \"MEX\",\r\n            \"cost_value\": \"2\",\r\n            \"droppof_point\": 2,\r\n            \"extra_id\": \"BP-208\",\r\n            \"pickup_point\": 1,\r\n            \"quantity\": 1,\r\n            \"size\": {\r\n                \"height\": 0.5,\r\n                \"length\": 0.5,\r\n                \"width\": 0.5\r\n            },\r\n            \"title\": \"prueba origen\",\r\n            \"weight\": 1\r\n        }\r\n    ],\r\n    \"optional_return\": false,\r\n    \"route_points\": [\r\n        {\r\n            \"address\": {\r\n                \"coordinates\": [\r\n                    -99.1677139,\r\n                    19.4244499\r\n                ],\r\n                \"building\": \"\",\r\n                \"city\": \"Juarez\",\r\n                \"comment\": \"\",\r\n                \"country\": \"Mexico\",\r\n                \"description\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"door_code\": \"\",\r\n                \"flat\": 1,\r\n                \"floor\": 1,\r\n                \"fullname\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"porch\": \"\",\r\n                \"sflat\": \"1\",\r\n                \"sfloor\": \"1\",\r\n                \"shortname\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"street\": \"C. Varsovia 36, Juarez, Cuauhtemoc, 06600 Ciudad de Mexico, CDMX, Mexico\",\r\n                \"uri\": \"\"\r\n            },\r\n            \"contact\": {\r\n                \"email\": \"andrea.armijo@enviame.io\",\r\n                \"name\": \"Kirill\",\r\n                \"phone\": \"+5693493420\"\r\n            },\r\n            \"external_order_id\": \"104399999\",\r\n            \"point_id\": 1,\r\n            \"skip_confirmation\": true,\r\n            \"type\": \"source\",\r\n            \"visit_order\": 1\r\n        },\r\n        {\r\n            \"address\": {\r\n                \"coordinates\": [\r\n                    -99.1937404,\r\n                    19.387034\r\n                ],\r\n                \"building\": \"\",\r\n                \"city\": \"Carola\",\r\n                \"comment\": \"\",\r\n                \"country\": \"Mexico\",\r\n                \"description\": \"los toltecas 166\",\r\n                \"door_code\": \"\",\r\n                \"flat\": 1,\r\n                \"floor\": 1,\r\n                \"fullname\": \"los toltecas 166, prueba\",\r\n                \"porch\": \"\",\r\n                \"sflat\": \"1\",\r\n                \"sfloor\": \"1\",\r\n                \"shortname\": \"los toltecas 166\",\r\n                \"street\": \"los toltecas 166\",\r\n                \"uri\": \"\"\r\n            },\r\n            \"contact\": {\r\n                \"email\": \"jose.rojas@enviame.io\",\r\n                \"name\": \"jose rojas\",\r\n                \"phone\": \"+5257731400\"\r\n            },\r\n            \"external_order_id\": \"104399191\",\r\n            \"point_id\": 2,\r\n            \"skip_confirmation\": true,\r\n            \"type\": \"destination\",\r\n            \"visit_order\": 2\r\n        }\r\n    ],\r\n    \"skip_act\": false,\r\n    \"skip_client_notify\": false,\r\n    \"skip_door_to_door\": false,\r\n    \"skip_emergency_notify\": false,\r\n    \"request_id\": 104399999\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/create?request_id=104399999",
-					"protocol": "https",
-					"host": [
-						"b2b",
-						"taxi",
-						"yandex",
-						"net"
-					],
-					"path": [
-						"b2b",
-						"cargo",
-						"integration",
-						"v2",
-						"claims",
-						"create"
-					],
-					"query": [
-						{
-							"key": "request_id",
-							"value": "104399999"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "ITR Crear envio id 17",
 			"id": "1fd00dc0-6bb2-413e-b81a-577d98906c1f",
 			"protocolProfileBehavior": {
@@ -7408,55 +7873,6 @@
 					}
 				},
 				"url": "https://www3.interrapidisimo.com/ApiVentaCredito/api/Admision/InsertarAdmision/"
-			},
-			"response": []
-		},
-		{
-			"name": "Yango MX tracking info",
-			"id": "97c5b66c-34c8-4048-92dc-a2cb707b1136",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
-					},
-					{
-						"key": "Accept-Language",
-						"value": "en"
-					},
-					{
-						"key": "Cookie",
-						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
-					}
-				],
-				"url": {
-					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/info?claim_id=ca0d0129c887471eb648bd9b9ff3baa4",
-					"protocol": "https",
-					"host": [
-						"b2b",
-						"taxi",
-						"yandex",
-						"net"
-					],
-					"path": [
-						"b2b",
-						"cargo",
-						"integration",
-						"v2",
-						"claims",
-						"info"
-					],
-					"query": [
-						{
-							"key": "claim_id",
-							"value": "ca0d0129c887471eb648bd9b9ff3baa4"
-						}
-					]
-				}
 			},
 			"response": []
 		},
@@ -7506,173 +7922,6 @@
 						}
 					]
 				}
-			},
-			"response": []
-		},
-		{
-			"name": "yango accept",
-			"id": "145a872b-fb76-4496-b845-ec7801a69e4e",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
-					},
-					{
-						"key": "Accept-Language",
-						"value": "en"
-					},
-					{
-						"key": "Cookie",
-						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"version\": 1\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/accept?claim_id=e3f651fd5d1947c6a8cc4248f2c50c28",
-					"protocol": "https",
-					"host": [
-						"b2b",
-						"taxi",
-						"yandex",
-						"net"
-					],
-					"path": [
-						"b2b",
-						"cargo",
-						"integration",
-						"v2",
-						"claims",
-						"accept"
-					],
-					"query": [
-						{
-							"key": "claim_id",
-							"value": "e3f651fd5d1947c6a8cc4248f2c50c28"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "yango delivery proof",
-			"id": "203215a6-7bbf-47bb-9f7b-5bfc098d901a",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "x-functions-key",
-						"value": "qVoJC5cdsUm0OLTA8toKDS8ksfLW2zpG-oydUrMmh9t2AzFu7R4eVQ=="
-					}
-				],
-				"url": "https://yango-api.azurewebsites.net/api/clients/3E453788-0B47-4CD9-9F16-2B268D44C78A/orders/102087352/photo"
-			},
-			"response": []
-		},
-		{
-			"name": "yango cancel",
-			"id": "39a47028-c7db-4d3e-ae9f-c73ee1816816",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept-Language",
-						"value": "en"
-					},
-					{
-						"key": "Authorization",
-						"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					},
-					{
-						"key": "Cookie",
-						"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"cancel_state\": \"free\",\n  \"version\": 1\n}"
-				},
-				"url": {
-					"raw": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/cancel?claim_id=7dc7120610e443d4ab808eda5f6349d5",
-					"protocol": "https",
-					"host": [
-						"b2b",
-						"taxi",
-						"yandex",
-						"net"
-					],
-					"path": [
-						"b2b",
-						"cargo",
-						"integration",
-						"v2",
-						"claims",
-						"cancel"
-					],
-					"query": [
-						{
-							"key": "claim_id",
-							"value": "7dc7120610e443d4ab808eda5f6349d5"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Yango MX tracking journal",
-			"id": "f60cca81-83b4-4b03-a661-eebdd2d3941c",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept-Language",
-						"value": "en"
-					},
-					{
-						"key": "Authorization",
-						"value": "Bearer y0_AgAAAABoz0pNAAc6MQAAAADc1UefZ2-c1Os0QCmOKlvysLKffeo9szw"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					},
-					{
-						"key": "Cookie",
-						"value": "_yasc=HDoWSn/xHWXy0J54P0ZYetGPz+vO1Gea5fjsAy6gbVZGS1JzUo7kNYMjEhM="
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"claim_id\": \"d3f6ff6e4dec4c98aa16556211301b11\"\n}"
-				},
-				"url": "https://b2b.taxi.yandex.net/b2b/cargo/integration/v2/claims/journal"
 			},
 			"response": []
 		},
