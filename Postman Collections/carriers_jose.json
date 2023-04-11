@@ -7438,6 +7438,54 @@
 								"header": [
 									{
 										"key": "Authorization",
+										"value": "Bearer AQAAAABdEzT4AAVM1UnR4mJEKkO6pVvhLzjDVfc"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en"
+									},
+									{
+										"key": "Cookie",
+										"value": "_yasc=Wx5qeWuZoxH8MwnknLyE0RodBglMVifMlT3g26g16N0+DA=="
+									}
+								],
+								"url": {
+									"raw": "https://deliveryproxy.azurewebsites.net/b2b/cargo/integration/v2/claims/info?claim_id=rqfDlSgA",
+									"protocol": "https",
+									"host": [
+										"deliveryproxy",
+										"azurewebsites",
+										"net"
+									],
+									"path": [
+										"b2b",
+										"cargo",
+										"integration",
+										"v2",
+										"claims",
+										"info"
+									],
+									"query": [
+										{
+											"key": "claim_id",
+											"value": "rqfDlSgA"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Tracking Yango PE Prod Copy",
+							"id": "ca02cc0a-83a3-4fae-8926-4111d388bb41",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
 										"value": "Bearer AQAAAABh2uEfAAVM1dZhZYHjC07MiJGQthgiOzc"
 									},
 									{
