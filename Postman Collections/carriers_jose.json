@@ -7421,14 +7421,9 @@
 				},
 				{
 					"name": "CL",
-					"item": [],
-					"id": "384a76fa-d28f-4cb8-b85c-bcfb3de66c64"
-				},
-				{
-					"name": "PE",
 					"item": [
 						{
-							"name": "Tracking Yango PE Prod",
+							"name": "Tracking Yango CL Prod",
 							"id": "88e9ab15-0d99-46ac-bd95-d5666d8e2166",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -7474,7 +7469,13 @@
 								}
 							},
 							"response": []
-						},
+						}
+					],
+					"id": "384a76fa-d28f-4cb8-b85c-bcfb3de66c64"
+				},
+				{
+					"name": "PE",
+					"item": [
 						{
 							"name": "Tracking Yango PE Prod Copy",
 							"id": "ca02cc0a-83a3-4fae-8926-4111d388bb41",
