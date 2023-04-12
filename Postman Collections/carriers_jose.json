@@ -8154,6 +8154,49 @@
 				"url": "https://api.pickit.com.mx/apiV2/transaction/3632352/label"
 			},
 			"response": []
+		},
+		{
+			"name": "OLVA Proof delivery",
+			"id": "ac146468-dab0-401d-80be-6c0ceb7ee005",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "rTGoD8Fn0jfLCHizw7vnWCnZxIhl+fEQFRJqhL3XxX989IyeNjnz9g==",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://olvacourier.com:8081/v1.5/api/obtenerImagen/tracking?emision=22&remito=40999339",
+					"protocol": "https",
+					"host": [
+						"olvacourier",
+						"com"
+					],
+					"port": "8081",
+					"path": [
+						"v1.5",
+						"api",
+						"obtenerImagen",
+						"tracking"
+					],
+					"query": [
+						{
+							"key": "emision",
+							"value": "22"
+						},
+						{
+							"key": "remito",
+							"value": "40999339"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
