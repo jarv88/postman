@@ -2949,7 +2949,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"https://ws.coordinadora.com/ags/1.5/server.php\">\n\t   <soapenv:Header/>\n\t   <soapenv:Body>\n\t      <ser:Seguimiento_simple>\n\t         <p>\n\t            <!--You may enter the following 8 items in any order-->\n\t            <codigo_remision>79514015397</codigo_remision>\n\t            <nit></nit>\n\t            <div>01</div>\n\t            <referencia></referencia>\n\t            <imagen>1</imagen>\n\t            <anexo>1</anexo>\n\t            <apikey>5eb0a8ac-06bb-11ec-9a03-0242ac130003</apikey>\n\t            <clave>cG8lJ7tQ6rO5dB1c</clave>\n\t         </p>\n\t      </ser:Seguimiento_simple>\n\t   </soapenv:Body>\n\t</soapenv:Envelope>"
+							"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"https://ws.coordinadora.com/ags/1.5/server.php\">\n\t   <soapenv:Header/>\n\t   <soapenv:Body>\n\t      <ser:Seguimiento_simple>\n\t         <p>\n\t            <!--You may enter the following 8 items in any order-->\n\t            <codigo_remision>79514023937</codigo_remision>\n\t            <nit></nit>\n\t            <div>01</div>\n\t            <referencia></referencia>\n\t            <imagen>1</imagen>\n\t            <anexo>1</anexo>\n\t            <apikey>5eb0a8ac-06bb-11ec-9a03-0242ac130003</apikey>\n\t            <clave>cG8lJ7tQ6rO5dB1c</clave>\n\t         </p>\n\t      </ser:Seguimiento_simple>\n\t   </soapenv:Body>\n\t</soapenv:Envelope>"
 						},
 						"url": "https://ws.coordinadora.com/ags/1.5/server.php"
 					},
