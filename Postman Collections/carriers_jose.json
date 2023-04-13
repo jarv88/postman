@@ -1881,7 +1881,36 @@
 				},
 				{
 					"name": "Paquery",
-					"item": [],
+					"item": [
+						{
+							"name": "Create",
+							"id": "e907f996-a962-4b3b-ad01-64766a6c3319",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Basic RW52aWFtZVRlc3RTdG9yZTozTlYxQE0zVDM1VA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"caption\": \"prueba\",\r\n    \"package_type\": 2,\r\n    \"package_size\": 2,\r\n    \"shipping_method\": 1,\r\n    \"cost\": 2000,\r\n    \"external_code\": \"paquery001\",\r\n    \"schedule_destination\": {\r\n        \"name\": \"jose rojas\",\r\n        \"shipping_address\": \"calle falsa 123, Las Condes\",\r\n        \"comments\": \"prueba\",\r\n        \"address_comments\": \"prueba\",\r\n        \"phone\": \"957731400\"\r\n    },\r\n    \"schedule_origin\": {\r\n        \"name\": \"Development\",\r\n        \"destination_email\": \"enviame@enviame.io\",\r\n        \"shipping_address\": \"Av. Vitacura 2909, Las Condes, Region Metropolitana, Chile, Las Condes\",\r\n        \"comments\": \"\",\r\n        \"address_comments\": \"\",\r\n        \"phone\": \"998874912\"\r\n    },\r\n    \"client\": {\r\n        \"name\": \"jose rojas\",\r\n        \"last_name\": \"\",\r\n        \"mail\": \"jose.rojas@enviame.io\",\r\n        \"phone\": \"957731400\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://api.test.paquery.com/entry/integration/EnviameTestStore/package"
+							},
+							"response": []
+						}
+					],
 					"id": "944fd8dd-5ecb-41fa-a5b1-e1c744eb2532"
 				}
 			],
